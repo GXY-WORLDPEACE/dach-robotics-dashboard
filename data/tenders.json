@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T20:37:28.829058+00:00",
+  "updated_at": "2026-11-04T20:40:07.369030+00:00",
   "tenders": [
     {
       "id": "BKMS:25971154:1",
@@ -27,7 +27,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-09T09:00:00+01:00"
       ],
@@ -88,7 +88,7 @@
       "notice_version": "1",
       "procedure_id": "ae749e0d-9fa3-4b1d-8761-99de46962a73",
       "procurement_reference": "32/26",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-11T11:00:00+01:00"
       ],
@@ -149,7 +149,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-16T09:00:00+01:00"
       ],
@@ -210,7 +210,7 @@
       "notice_version": "01",
       "procedure_id": "21786200-c5da-49ed-bb3a-0c0a80d5e3dc",
       "procurement_reference": "DFG_2026_III-WGI_EU31",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-13T12:00:00+01:00"
       ],
@@ -274,7 +274,7 @@
       "notice_version": "01",
       "procedure_id": "f2a3896f-1908-4302-981c-c9e78ecf453e",
       "procurement_reference": "PR1313652-2720- W",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-26T11:00:00+01:00"
       ],
@@ -334,7 +334,7 @@
       "notice_version": "01",
       "procedure_id": "a0074e82-66c3-415c-b596-ec8a670fb5cf",
       "procurement_reference": "PR1307069",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-12-03T09:00:00+01:00"
       ],
@@ -396,7 +396,7 @@
       "notice_version": "01",
       "procedure_id": "0ca29c98-7ba9-4f85-95f6-357f63fcb6a8",
       "procurement_reference": "2026-RPTU-2163",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-23T09:00:00+01:00"
       ],
@@ -458,7 +458,7 @@
       "notice_version": "2",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-06T09:59:00+01:00"
       ],
@@ -516,7 +516,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "731988-2026",
       "procedure_id": "75f36b0b-6459-461f-902c-5b1bc4490a13",
       "procurement_reference": "PR1313982",
@@ -574,7 +574,7 @@
       "notice_version": "2",
       "procedure_id": "8e03c5e0-db71-4c04-a6fc-ba54d7c031cb",
       "procurement_reference": "HS-MS-035-2026",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-06T10:00:00+01:00"
       ],
@@ -633,7 +633,7 @@
       "notice_version": "01",
       "procedure_id": "e657864f-5346-4c3a-ac27-8d0dd5b0b453",
       "procurement_reference": "PR1297775-2180-B",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-10T11:00:00+01:00"
       ],
@@ -691,7 +691,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": "DFG_2026_III-WGI_67",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-11T12:00:00+01:00"
       ],
@@ -753,7 +753,7 @@
       "notice_version": "01",
       "procedure_id": "55399f9e-2d20-44e9-bd54-ab6ad7b28f12",
       "procurement_reference": "066/2026",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-16T09:00:00+01:00"
       ],
@@ -807,7 +807,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "716518-2026",
       "procedure_id": "b55c018e-1420-4f7e-b3e3-626c9cefa02a",
       "procurement_reference": "2026/09-51683",
@@ -863,7 +863,7 @@
       "notice_version": "01",
       "procedure_id": "c5d412b7-75db-40ce-928d-d353229d2716",
       "procurement_reference": "DFG_2026_III-WGI_EU40",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-19T09:00:00+01:00"
       ],
@@ -921,7 +921,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "738935-2026",
       "procedure_id": "37eaf015-68ec-4ebb-ac13-0f561cf42f11",
       "procurement_reference": "346/2026-Schwg",
@@ -977,7 +977,7 @@
       "notice_version": "01",
       "procedure_id": "6de70533-0b66-4baa-8881-0e1e2dd080d7",
       "procurement_reference": "PR1275392-3460-W",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-12-02T11:00:00+01:00"
       ],
@@ -1037,7 +1037,7 @@
       "notice_version": "01",
       "procedure_id": "a818601a-84df-41c6-b9d7-b6e1ee8fa120",
       "procurement_reference": "1005518 - Botulinumtoxin Typ A (ausschließlich Incobotulinum),(z) ATC M03AX21",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2028-10-05T12:00:00+02:00"
       ],
@@ -1096,7 +1096,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-06T12:00:00+01:00"
       ],
@@ -1154,7 +1154,7 @@
       "notice_version": "01",
       "procedure_id": "30780525-5e61-459b-910b-ff638ac26b58",
       "procurement_reference": "2026-07-28-Bu",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-11T10:00:00+01:00"
       ],
@@ -1208,7 +1208,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "681441-2026",
       "procedure_id": "f4173c55-5d5e-44d7-ae36-aff275b8f354",
       "procurement_reference": "P 795316 / 27D 65",
@@ -1264,7 +1264,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-17T08:30:00+01:00"
       ],
@@ -1322,7 +1322,7 @@
       "notice_version": "01",
       "procedure_id": "b1000000-c0de-4000-a000-00d463084429",
       "procurement_reference": "TOM-2026-DA",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-20T23:59:00+01:00"
       ],
@@ -1378,7 +1378,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-05T09:15:00+01:00"
       ],
@@ -1434,7 +1434,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-05T09:15:00+01:00"
       ],
@@ -1490,7 +1490,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-06T12:00:00+01:00"
       ],
@@ -1546,7 +1546,7 @@
       "notice_version": "01",
       "procedure_id": "f7ff2e94-1682-4fca-b068-72c2f1ee22ab",
       "procurement_reference": "26-006-O-EU",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-06T12:00:00+01:00"
       ],
@@ -1602,7 +1602,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-09T11:00:00+01:00"
       ],
@@ -1658,7 +1658,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-09T11:00:00+01:00"
       ],
@@ -1714,7 +1714,7 @@
       "notice_version": "01",
       "procedure_id": "fe881204-679a-4c7c-bc71-1b8fb084edbf",
       "procurement_reference": "2026/G3/0911",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-09T12:00:00+01:00"
       ],
@@ -1772,7 +1772,7 @@
       "notice_version": "01",
       "procedure_id": "ae9dc74e-d7fa-4d9f-98d8-513960fa6527",
       "procurement_reference": "UKSH-Föd-2026-0006",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-09T23:59:00+01:00"
       ],
@@ -1830,7 +1830,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-10T10:00:00+01:00"
       ],
@@ -1886,7 +1886,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-10T10:30:00+01:00"
       ],
@@ -1942,7 +1942,7 @@
       "notice_version": "01",
       "procedure_id": "63fa48db-a440-46d1-9d2c-ece848c78186",
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-10T11:00:00+01:00"
       ],
@@ -1998,7 +1998,7 @@
       "notice_version": "01",
       "procedure_id": "6fa8b9b6-bbfe-4040-885a-8b26a97dcf01",
       "procurement_reference": "510-26 (CXP4Y6JMWR2)",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-10T11:00:00+01:00"
       ],
@@ -2056,7 +2056,7 @@
       "notice_version": "01",
       "procedure_id": "4fba5414-6251-47e1-8f73-2b6dd8a83a38",
       "procurement_reference": "Vergabe 0009/2026",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-10T15:00:00+01:00"
       ],
@@ -2112,7 +2112,7 @@
       "notice_version": "02",
       "procedure_id": "9f436152-496e-46e2-a822-6ab8574a2c61",
       "procurement_reference": "111vb/032-0099#014",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-11T12:00:00+01:00"
       ],
@@ -2168,7 +2168,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-13T12:00:00+01:00"
       ],
@@ -2224,7 +2224,7 @@
       "notice_version": "01",
       "procedure_id": "b0ac3edd-ad96-4c81-a008-2c2cdafa8119",
       "procurement_reference": "4700",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-13T12:00:00+02:00"
       ],
@@ -2280,7 +2280,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-13T13:00:00+01:00"
       ],
@@ -2336,7 +2336,7 @@
       "notice_version": "01",
       "procedure_id": "7033135a-0ea3-4182-a455-8c7a48cdc9d7",
       "procurement_reference": "26FEF89350",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-16T10:00:00+01:00"
       ],
@@ -2392,7 +2392,7 @@
       "notice_version": "01",
       "procedure_id": "a4a15137-4edb-4de5-b623-ce6f67b8cc1a",
       "procurement_reference": "25-88MSR",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-16T10:00:00+01:00"
       ],
@@ -2448,7 +2448,7 @@
       "notice_version": "01",
       "procedure_id": "504456ed-89a3-446d-b352-e231a48991c6",
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-16T11:30:00+01:00",
         "2026-11-16T11:30:00+02:00"
@@ -2505,7 +2505,7 @@
       "notice_version": "01",
       "procedure_id": "e6fb171c-d6ac-46c4-8d00-b66df8606e68",
       "procurement_reference": "FE3-914-20261015 TNW Vermietung/Bewirtschaftung von Heißgetränkeautomaten",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-16T12:00:00+01:00"
       ],
@@ -2561,7 +2561,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-17T10:00:00+01:00"
       ],
@@ -2617,7 +2617,7 @@
       "notice_version": "2",
       "procedure_id": "0b4dfd0d-c42d-45c0-8cc1-007226e04143",
       "procurement_reference": "BA077-26",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-18T12:00:00+01:00"
       ],
@@ -2674,7 +2674,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-18T23:59:00+01:00"
       ],
@@ -2730,7 +2730,7 @@
       "notice_version": "01",
       "procedure_id": "d360d1f6-998a-4d12-8aa9-33eba5d5b276",
       "procurement_reference": "OBK_2026/10#239",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-19T09:00:00+01:00"
       ],
@@ -2786,7 +2786,7 @@
       "notice_version": "01",
       "procedure_id": "bb2a4072-3b01-43b4-9a2b-91ab89ea50c5",
       "procurement_reference": "10.4.0547.2026.06741",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-20T09:00:00+01:00"
       ],
@@ -2842,7 +2842,7 @@
       "notice_version": "01",
       "procedure_id": "cdb9c78e-e57d-42cc-a684-33ea466c53d8",
       "procurement_reference": "10/4.1-2026-0569",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-20T12:00:00+01:00"
       ],
@@ -2898,7 +2898,7 @@
       "notice_version": "01",
       "procedure_id": "395ad434-65df-4e8b-b493-292cfde4d4fc",
       "procurement_reference": "2026-064-App-O-EU",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-20T12:00:00+01:00"
       ],
@@ -2954,7 +2954,7 @@
       "notice_version": "01",
       "procedure_id": "778b153e-0c0c-44db-bc89-d19ede7f9a3b",
       "procurement_reference": "E21/2026/09",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-23T10:00:00+01:00"
       ],
@@ -3006,7 +3006,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "737366-2026",
       "procedure_id": "638e0aca-d9ed-41f9-8922-c8b65e6918b6",
       "procurement_reference": "TLS011-446-2026-11V-2-4",
@@ -3062,7 +3062,7 @@
       "notice_version": "01",
       "procedure_id": "0ea85c3d-aafd-4f2d-838a-f7dadc48f6ee",
       "procurement_reference": "Z-231-2026-L-00025",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-24T10:00:00+01:00"
       ],
@@ -3118,7 +3118,7 @@
       "notice_version": "01",
       "procedure_id": "121759a9-1703-4637-a68b-7da3c091d3dd",
       "procurement_reference": "EL 6/26",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-24T10:00:00+01:00"
       ],
@@ -3174,7 +3174,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-25T11:03:00+01:00"
       ],
@@ -3230,7 +3230,7 @@
       "notice_version": "1",
       "procedure_id": "14affd03-eeb4-4a54-8c4b-695df5f17546",
       "procurement_reference": "6003135319-BAPersBw I 1 5.2.3 Beschfg BFD ZAW",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-25T13:00:00+01:00"
       ],
@@ -3286,7 +3286,7 @@
       "notice_version": "01",
       "procedure_id": "c4c92e28-d8ff-44de-b039-098bd644a6b4",
       "procurement_reference": "2026 - ASG - FB5 - 17",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-27T12:00:00+01:00"
       ],
@@ -3338,7 +3338,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "737714-2026",
       "procedure_id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
       "procurement_reference": "2026-ZVH-81",
@@ -3392,7 +3392,7 @@
       "notice_version": "1",
       "procedure_id": "28f23dc6-e6cb-4b40-b038-c5bddc0f06cc",
       "procurement_reference": "VPB/2BB/DN023",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-30T13:00:00+01:00"
       ],
@@ -3448,7 +3448,7 @@
       "notice_version": "1",
       "procedure_id": "7e85bc35-b2b8-4ec0-a78f-db360732884c",
       "procurement_reference": "VPB/2BB/DN021",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-11-30T13:00:00+01:00"
       ],
@@ -3502,7 +3502,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "notice_id": "739804-2026",
       "procedure_id": "761da713-b93c-405d-9444-660e90566b21",
       "procurement_reference": "1135-26",
@@ -3556,7 +3556,7 @@
       "notice_version": "01",
       "procedure_id": "1ded3243-cfd5-4b19-ac45-e59b5e4507ec",
       "procurement_reference": "VV022-26",
-      "collected_at": "2026-11-04T20:37:28.829058+00:00",
+      "collected_at": "2026-11-04T20:40:07.369030+00:00",
       "deadlines": [
         "2026-12-01T13:00:00+01:00"
       ],
