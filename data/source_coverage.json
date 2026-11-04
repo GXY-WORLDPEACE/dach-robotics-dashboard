@@ -1,0 +1,760 @@
+{
+  "checked_at": "2026-11-04T21:18:16.759753+00:00",
+  "coverage_complete": false,
+  "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
+  "countries": [
+    {
+      "code": "DE",
+      "name": "德国",
+      "active_count": 65,
+      "education_active_count": 18,
+      "connected_sources": [
+        "DE_NRW",
+        "DE_RUHR",
+        "DE_BLB",
+        "DE_WESTFALEN",
+        "DE_KOELN",
+        "DE_AACHEN",
+        "TED",
+        "BKMS",
+        "DFG"
+      ],
+      "gaps": [
+        "未保证全部地方平台、全部历史或未公开采购覆盖"
+      ]
+    },
+    {
+      "code": "AT",
+      "name": "奥地利",
+      "active_count": 3,
+      "education_active_count": 1,
+      "connected_sources": [
+        "TED",
+        "USP"
+      ],
+      "gaps": [
+        "未保证全部地方平台、全部历史或未公开采购覆盖"
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "瑞士",
+      "active_count": 9,
+      "education_active_count": 0,
+      "connected_sources": [
+        "TED",
+        "SIMAP"
+      ],
+      "gaps": [
+        "未保证全部地方平台、全部历史或未公开采购覆盖"
+      ]
+    },
+    {
+      "code": "NL",
+      "name": "荷兰",
+      "active_count": 10,
+      "education_active_count": 1,
+      "connected_sources": [
+        "TED",
+        "TENDERNED"
+      ],
+      "gaps": [
+        "未保证全部地方平台、全部历史或未公开采购覆盖"
+      ]
+    },
+    {
+      "code": "BE",
+      "name": "比利时",
+      "active_count": 4,
+      "education_active_count": 0,
+      "connected_sources": [
+        "TED"
+      ],
+      "gaps": [
+        "未保证全部地方平台、全部历史或未公开采购覆盖",
+        "BOSA 本地接口暂未接入；当前仅 TED"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "DE_NRW",
+      "name": "NRW 州采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.evergabe.nrw.de/VMPSatellite/opendata?id=0bb4c8bc-514f-49bf-a490-d93103c377f0",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "connected",
+      "scanned_notices": 1202,
+      "accepted_notices": 21,
+      "unsupported_schema_notices": 0
+    },
+    {
+      "id": "DE_RUHR",
+      "name": "鲁尔区采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vergabe.metropoleruhr.de/VMPSatellite/opendata?id=4985b1a5-d2e8-4611-a4c6-20694a130bb3",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "connected",
+      "scanned_notices": 810,
+      "accepted_notices": 4,
+      "unsupported_schema_notices": 0
+    },
+    {
+      "id": "DE_RHEINLAND",
+      "name": "莱茵兰采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vmp-rheinland.de/VMPSatellite/opendata?id=35eb26cf-9d6c-4780-903a-89059f382b03",
+      "enabled": false,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "blocked",
+      "reason": "本次公开访问返回 HTTP 403，未使用凭证或绕过限制",
+      "note": "本次公开访问返回 HTTP 403，未使用凭证或绕过限制"
+    },
+    {
+      "id": "DE_BLB",
+      "name": "NRW BLB 采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://evergabe.blb.nrw.de/Vergabe/opendata?id=f33b7b4a-082d-4bbb-b176-d8b4ebf75a51",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "connected",
+      "scanned_notices": 541,
+      "accepted_notices": 0,
+      "unsupported_schema_notices": 0
+    },
+    {
+      "id": "DE_WESTFALEN",
+      "name": "威斯特法伦采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "connected",
+      "scanned_notices": 1022,
+      "accepted_notices": 3,
+      "unsupported_schema_notices": 0
+    },
+    {
+      "id": "DE_KOELN",
+      "name": "科隆市采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://vergabe.stadt-koeln.de/VMPSatellite/opendata?id=f8f65333-9078-451c-8628-09376a7fbfcb",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "connected",
+      "scanned_notices": 0,
+      "accepted_notices": 0,
+      "unsupported_schema_notices": 0
+    },
+    {
+      "id": "DE_AACHEN",
+      "name": "亚琛经济区采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "connected",
+      "scanned_notices": 310,
+      "accepted_notices": 2,
+      "unsupported_schema_notices": 0
+    },
+    {
+      "id": "TED",
+      "name": "欧盟 TED（五国）",
+      "country_codes": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "BE"
+      ],
+      "enabled": true,
+      "scope": "欧盟级公开公告；不能替代国家／地方未上报公告",
+      "status": "connected",
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261104 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 60,
+      "accepted": 26,
+      "endpoint": "https://api.ted.europa.eu/v3/notices/search"
+    },
+    {
+      "id": "BKMS",
+      "name": "德国官方 Open Data",
+      "country": "DE",
+      "enabled": true,
+      "scope": "上月及本月，截止前一日，国家级已申报公告",
+      "status": "connected",
+      "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
+      "months": [
+        "2026-10",
+        "2026-11"
+      ],
+      "scanned_notices": 26336,
+      "accepted_notices": 149,
+      "license": "CC0",
+      "export_available_through": "previous day Europe/Berlin"
+    },
+    {
+      "id": "DFG",
+      "name": "DFG 官方采购门户",
+      "country": "DE",
+      "enabled": true,
+      "scope": "DFG 当前公开列表及截止核验",
+      "status": "connected",
+      "endpoint": "https://bieterportal.dfg.de/?l=1",
+      "scanned_rows": 25,
+      "accepted_notices": 3,
+      "note": "当前公开列表；发布时间如未公开则留空"
+    },
+    {
+      "id": "SIMAP",
+      "name": "瑞士 SIMAP",
+      "country": "CH",
+      "enabled": true,
+      "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
+      "status": "connected",
+      "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
+      "window_start": "2026-08-06",
+      "search_terms": [
+        "robot",
+        "cobot",
+        "manipulator",
+        "humanoid",
+        "automatisierung",
+        "automation"
+      ],
+      "scanned_hits": 78,
+      "unique_publications": 64,
+      "accepted_notices": 26,
+      "detail_errors": [],
+      "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
+    },
+    {
+      "id": "USP",
+      "name": "奥地利 USP",
+      "country": "AT",
+      "enabled": true,
+      "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购",
+      "status": "connected",
+      "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
+      "search_terms": [
+        "robot",
+        "cobot",
+        "manipulator",
+        "automatisierung",
+        "automation"
+      ],
+      "window_start": "2026-08-06",
+      "scanned_hits": 57,
+      "unique_detail_pages": 15,
+      "accepted_notices": 14,
+      "detail_errors": []
+    },
+    {
+      "id": "TENDERNED",
+      "name": "荷兰 TenderNed",
+      "country": "NL",
+      "enabled": true,
+      "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购",
+      "status": "connected",
+      "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
+      "window_start": "2026-08-06",
+      "scanned_notices": 6732,
+      "accepted_notices": 70,
+      "license": "CC0"
+    },
+    {
+      "id": "BE_BOSA",
+      "name": "比利时 BOSA e-Procurement",
+      "country": "BE",
+      "enabled": false,
+      "status": "blocked",
+      "scope": "本地层级公告尚未直接接入，当前比利时仅 TED",
+      "endpoint": "https://www.publicprocurement.be/api/sea/search/publications",
+      "documentation": "https://bosa.belgium.be/en/applications/e-procurement",
+      "reason": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制",
+      "note": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制"
+    }
+  ],
+  "jurisdictions": [
+    {
+      "country": "DE",
+      "region": "Baden-Württemberg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Bayern",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Berlin",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Brandenburg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Bremen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Hamburg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Hessen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Mecklenburg-Vorpommern",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Niedersachsen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Nordrhein-Westfalen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "partial_NRW_platforms",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Saarland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Sachsen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Sachsen-Anhalt",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Schleswig-Holstein",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "DE",
+      "region": "Thüringen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Burgenland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Kärnten",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Niederösterreich",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Oberösterreich",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Salzburg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Steiermark",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Tirol",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Vorarlberg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "AT",
+      "region": "Wien",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Zürich",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Bern",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Luzern",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Uri",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Schwyz",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Obwalden",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Nidwalden",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Glarus",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Zug",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Fribourg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Solothurn",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Basel-Stadt",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Basel-Landschaft",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Schaffhausen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Appenzell Ausserrhoden",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Appenzell Innerrhoden",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "St. Gallen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Graubünden",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Aargau",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Thurgau",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Ticino",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Vaud",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Valais",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Neuchâtel",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Genève",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "CH",
+      "region": "Jura",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Drenthe",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Flevoland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Friesland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Gelderland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Groningen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Limburg",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Noord-Brabant",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Noord-Holland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Overijssel",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Utrecht",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Zeeland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "NL",
+      "region": "Zuid-Holland",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "BE",
+      "region": "Vlaanderen",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "BE",
+      "region": "Wallonie",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    },
+    {
+      "country": "BE",
+      "region": "Bruxelles-Capitale",
+      "coverage": "national_aggregation_partial",
+      "direct_local_status": "not_individually_verified",
+      "note": "仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入"
+    }
+  ],
+  "jurisdiction_note": "66 个州／省／大区是检查清单，不是已接入平台数量；每个地区仍可能存在独立城市、学校和机构平台。",
+  "refresh": "每日 Europe/Berlin 08:00 自动重采集并记录来源健康；新增接口须验证后启用。"
+}
