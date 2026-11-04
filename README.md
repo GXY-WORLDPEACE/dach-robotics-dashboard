@@ -1,4 +1,4 @@
-# DACH 教育与科研机器人采购情报
+# 欧洲五国教育科研机器人采购情报
 
 https://gxy-worldpeace.github.io/dach-robotics-dashboard/
 
@@ -8,10 +8,14 @@ https://gxy-worldpeace.github.io/dach-robotics-dashboard/
 
 | 来源 | 访问方式与范围 | 限制 |
 | --- | --- | --- |
-| TED | 官方免密钥 Search API，德国／奥地利，仍有投标截止日期的 competition 公告 | 非全部历史；若原公告未同步延期可能漏检，因此增加门户核验 |
+| TED | 官方免密钥 Search API，德国／奥地利／瑞士／荷兰／比利时，仍有投标截止日期的 competition 公告 | 非全部历史；若原公告未同步延期可能漏检，因此增加门户核验 |
 | 德国 Bekanntmachungsservice（BKMS） | 官方 Open Data `https://oeffentlichevergabe.de/api/notice-exports`；CSV 索引 + 原始 eForms XML；上月与本月 | 数据截至德国时间前一日；只覆盖向该服务提交的公告，不能声称覆盖全部地方采购 |
 | DFG | `https://bieterportal.dfg.de/?l=1` 官方公开列表；自动解析项目编号和当前截止日期 | 网页结构可能变动；未公开的发布日期留空 |
-| 瑞士 SIMAP | 暂未接入 | 官方 OpenAPI 已找到，但未验证稳定采集链路 |
+| 瑞士 SIMAP | 已接入公开搜索与详情接口 | 见下方五国扩展范围及限制 |
+| 奥地利 USP | 已接入官方公开列表及详情 | 最近 90 天关键词；详情访问异常记录 partial |
+| 荷兰 TenderNed | 已接入公开 TNS JSON | 最近 90 天；不使用需凭证的 XML API |
+| 德国区域平台 | 6 个 NRW／城市 ZIP 端点 | 同时解析 UBL 和旧格式；非全部德国地方平台 |
+| 比利时 BOSA 本地接口 | 暂未直接接入，匿名访问 403 | 目前通过 TED 部分覆盖 |
 
 BKMS 官方说明与 CC0 许可：https://oeffentlichevergabe.de/ui/de/publicationPolicy
 API 文档：https://oeffentlichevergabe.de/documentation/swagger-ui/opendata/index.html
@@ -61,4 +65,31 @@ BKMS 完整归档存入被忽略的 `.cache/bkms/`（可用 BKMS_CACHE_DIR 改�
 - DFG 移动串联机器人：TED 原公告字段为 11 月 2 日，DFG 当前官方门户为 11 月 13 日 12:00，已单独核验。
 - TH Wildau：官方导出为拟进行采购，未提供可靠投标截止；归入采购预告。原平台页面本次返回 404，不把聚合站期限当作已核实事实。
 
-这些修复扩大覆盖范围，但尚未直接接入所有州平台、学校网站、奥地利本地平台或 SIMAP。地方未上报公告、早于上月月初且未更新的公告仍可能遗漏。
+这些修复扩大覆盖范围，但尚未直接接入所有州平台及学校网站；奥地利 USP 和 SIMAP 接入范围见下方五国扩展说明。地方未上报公告、早于上月月初且未更新的公告仍可能遗漏。
+
+## 五国与地方平台扩展（2026-11-04）
+
+监控国家扩展为德国、奥地利、瑞士、荷兰、比利时。**部分覆盖，绝不声称已接入全部地方平台**。国家／州／市未公开或未向汇总平台上报的采购仍可能缺失。
+
+| 来源 | 实际采集方式 | 范围与限制 |
+| --- | --- | --- |
+| TED | 官方 Search API，DEU/AUT/CHE/NLD/BEL | 欧盟级公告，关键词与未来投标截止日期；不能替代五国本地公告 |
+| 德国 BKMS、DFG | 原有官方数据源继续运行 | 上述时间窗口和限制保留 |
+| 德国区域平台 | GovData 明确列出的 NRW、Metropole Ruhr、BLB NRW、Westfalen、Köln、Aachen XML ZIP | 同时支持 UBL eForms 与 NOTICE_NAT 旧格式；原始发布日期缺失时留空，不使用 ZIP 更新时间伪造公告发布日期 |
+| SIMAP（瑞士） | 官方匿名公开搜索与详情接口，滚动游标分页 | 最近 90 天的六组关键词；automation/automatisierung 限供应类项目以减少建筑／服务噪声。覆盖平台发布的联邦、州、市公告，不覆盖未公开采购 |
+| USP（奥地利） | 当前官方公开 DataTables JSON 列表及服务器渲染详情 | 最近 90 天五组关键词；遵守页面公布的请求间隔。列表仅公开日期时保留日期，不编造时间；详情失败按 partial 记录 |
+| TenderNed（荷兰） | 官方公开 TNS JSON 服务 | 最近 90 天，按发布顺序分页，单页最多 100；公开 XML API 需要账号，此项目没有使用该接口或任何凭证 |
+| BOSA（比利时） | 尚未直接接入 | 官方公开站点的匿名搜索接口返回 403；比利时目前通过 TED 部分覆盖，未绕过访问限制 |
+| Rheinland 区域平台 | 尚未接入 | GovData 所列端点本次返回 403，列入缺口 |
+
+公开文档：
+- TenderNed：https://data.overheid.nl/dataset/aankondigingen-van-overheidsopdrachten---tenderned
+- SIMAP：https://www.simap.ch/api-doc/
+- USP：https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist
+- 德国区域 ZIP 目录：https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw
+
+`collector/source_registry.json` 管理已启用和受限来源；`data/source_coverage.json` 每次采集自动生成每国数量、每来源运行结果、实际窗口、错误与缺口。66 个州／省／大区是核查清单，**不是已接入平台数量，也不代表 66 个地区全覆盖**。页面可展开查看每个地区的缺口。
+
+所有启用来源继续由现有 GitHub Actions 在 Europe/Berlin 08:00 自动采集，来源间使用最多 4 个工作线程；单个来源内遵守分页与间隔。单源失败不会阻止其他来源更新，状态会注明异常并保留历史。多个来源的项目按程序 ID、精确引用或官方平台 ID 去重；TenderNed 与 SIMAP 的官方链接可用于与 TED 关联。缺少可靠关联键的疑似重复不会按相似标题强行合并。
+
+扩展新区域 ZIP 来源时，应先验证官方出处、解析器、截止日期与去重，再向 registry 添加 `kind=vmp_zip` 和 `enabled=true`。访问受限或未验证来源不能标成 connected。未翻译的新公告仍明确标记“中文翻译待补充”。

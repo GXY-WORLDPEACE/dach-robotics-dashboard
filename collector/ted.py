@@ -11,7 +11,7 @@ API = 'https://api.ted.europa.eu/v3/notices/search'
 FIELDS = ['publication-number','notice-title','buyer-name','buyer-country','publication-date',
           'deadline-receipt-tender-date-lot','deadline-receipt-tender-time-lot',
           'description-proc','estimated-value-proc','estimated-value-cur-proc','form-type',
-          'procedure-identifier','internal-identifier-proc','notice-identifier']
+          'procedure-identifier','internal-identifier-proc','notice-identifier','document-url-lot','submission-url-lot']
 
 def values(v):
     if isinstance(v, dict):
@@ -24,9 +24,9 @@ def text(v):
     return ' / '.join(dict.fromkeys(values(v)))
 
 def query(today):
-    terms = ['robot*','cobot*','manipulator*','humanoid*','automatisierung*','automation*']
+    terms = ['robot*','cobot*','manipulator*','humanoid*','automatisierung*','automation*','automatisering*','automatisation*','teleoper*','quadrup*']
     keywords = ' OR '.join(f'{field} ~ {term}' for field in ['title-proc','description-proc'] for term in terms)
-    return (f'buyer-country IN (DEU AUT) AND form-type = competition AND '
+    return (f'buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND '
             f'deadline-receipt-tender-date-lot >= {today:%Y%m%d} AND ({keywords})')
 
 def request(payload):
@@ -45,7 +45,7 @@ def request(payload):
 
 def parse(n, now):
     countries=values(n.get('buyer-country'))
-    country=next(({'DEU':'DE','AUT':'AT'}[c] for c in countries if c in ('DEU','AUT')),None)
+    country=next(({'DEU':'DE','AUT':'AT','CHE':'CH','NLD':'NL','BEL':'BE'}[c] for c in countries if c in ('DEU','AUT','CHE','NLD','BEL')),None)
     if not country or text(n.get('form-type')) != 'competition': return None
     title=text(n.get('notice-title')).lower()
     training_service='berufsausbildung' in title and not any(term in title for term in ['robot','cobot','manipulator','lernstation','lernfabrik'])
@@ -77,6 +77,7 @@ def parse(n, now):
         procedure_id=text(n.get('procedure-identifier')) or None,
         procurement_reference=text(n.get('internal-identifier-proc')) or None,
         notice_uuid=text(n.get('notice-identifier')) or None,notice_stage='notice',
+        official_links=list(dict.fromkeys(values(n.get('document-url-lot'))+values(n.get('submission-url-lot')))),
         deadlines=sorted(set(x[1] for x in deadlines)),
         budget_amount=text(n.get('estimated-value-proc')) or None,
         budget_currency=text(n.get('estimated-value-cur-proc')) or None,

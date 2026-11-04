@@ -1,31 +1,26 @@
 {
+  "registry": "source_registry.json",
+  "note": "source_registry.json 是唯一启用清单；coverage.py 发布真实运行健康与缺口。",
   "TED": {
     "enabled": true,
-    "endpoint": "https://api.ted.europa.eu/v3/notices/search",
     "countries": [
       "DE",
-      "AT"
+      "AT",
+      "CH",
+      "NL",
+      "BE"
     ]
   },
   "SIMAP": {
-    "enabled": false,
-    "documentation": "https://www.simap.ch/api-doc/",
-    "specification": "https://www.simap.ch/api/specifications/simap.yaml",
-    "reason": "Official API found; search/detail integration and reliability not yet verified"
-  },
-  "BKMS": {
     "enabled": true,
-    "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
-    "formats": [
-      "csv.zip",
-      "eforms.zip"
-    ],
-    "window": "previous and current calendar month; export through previous day",
-    "license": "CC0"
+    "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search"
   },
-  "DFG": {
+  "USP": {
     "enabled": true,
-    "endpoint": "https://bieterportal.dfg.de/?l=1",
-    "mode": "public HTML list; live deadline verification"
+    "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist"
+  },
+  "TENDERNED": {
+    "enabled": true,
+    "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties"
   }
 }

@@ -1,0 +1,143 @@
+{
+  "countries": [
+    "DE",
+    "AT",
+    "CH",
+    "NL",
+    "BE"
+  ],
+  "sources": [
+    {
+      "id": "DE_NRW",
+      "name": "NRW 州采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.evergabe.nrw.de/VMPSatellite/opendata?id=0bb4c8bc-514f-49bf-a490-d93103c377f0",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    {
+      "id": "DE_RUHR",
+      "name": "鲁尔区采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vergabe.metropoleruhr.de/VMPSatellite/opendata?id=4985b1a5-d2e8-4611-a4c6-20694a130bb3",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    {
+      "id": "DE_RHEINLAND",
+      "name": "莱茵兰采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vmp-rheinland.de/VMPSatellite/opendata?id=35eb26cf-9d6c-4780-903a-89059f382b03",
+      "enabled": false,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
+      "status": "blocked",
+      "reason": "本次公开访问返回 HTTP 403，未使用凭证或绕过限制"
+    },
+    {
+      "id": "DE_BLB",
+      "name": "NRW BLB 采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://evergabe.blb.nrw.de/Vergabe/opendata?id=f33b7b4a-082d-4bbb-b176-d8b4ebf75a51",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    {
+      "id": "DE_WESTFALEN",
+      "name": "威斯特法伦采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    {
+      "id": "DE_KOELN",
+      "name": "科隆市采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://vergabe.stadt-koeln.de/VMPSatellite/opendata?id=f8f65333-9078-451c-8628-09376a7fbfcb",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    {
+      "id": "DE_AACHEN",
+      "name": "亚琛经济区采购平台",
+      "country": "DE",
+      "kind": "vmp_zip",
+      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
+      "enabled": true,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    {
+      "id": "TED",
+      "name": "欧盟 TED（五国）",
+      "country_codes": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "BE"
+      ],
+      "enabled": true,
+      "scope": "欧盟级公开公告；不能替代国家／地方未上报公告"
+    },
+    {
+      "id": "BKMS",
+      "name": "德国官方 Open Data",
+      "country": "DE",
+      "enabled": true,
+      "scope": "上月及本月，截止前一日，国家级已申报公告"
+    },
+    {
+      "id": "DFG",
+      "name": "DFG 官方采购门户",
+      "country": "DE",
+      "enabled": true,
+      "scope": "DFG 当前公开列表及截止核验"
+    },
+    {
+      "id": "SIMAP",
+      "name": "瑞士 SIMAP",
+      "country": "CH",
+      "enabled": true,
+      "scope": "六组关键词、最近 90 天，联邦／州／市在 SIMAP 公开的公告"
+    },
+    {
+      "id": "USP",
+      "name": "奥地利 USP",
+      "country": "AT",
+      "enabled": true,
+      "scope": "五组关键词、最近 90 天，USP 公开申报公告"
+    },
+    {
+      "id": "TENDERNED",
+      "name": "荷兰 TenderNed",
+      "country": "NL",
+      "enabled": true,
+      "scope": "公开 TNS 服务最近 90 天，非未公开采购"
+    },
+    {
+      "id": "BE_BOSA",
+      "name": "比利时 BOSA e-Procurement",
+      "country": "BE",
+      "enabled": false,
+      "status": "blocked",
+      "scope": "本地层级公告尚未直接接入，当前比利时仅 TED",
+      "endpoint": "https://www.publicprocurement.be/api/sea/search/publications",
+      "documentation": "https://bosa.belgium.be/en/applications/e-procurement",
+      "reason": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制"
+    }
+  ],
+  "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购"
+}

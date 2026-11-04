@@ -3,9 +3,12 @@ import datetime as dt
 import json
 import sys
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor,as_completed
+from functools import partial
 from .core import ROOT,merge
 from .institutions import classify
-from . import ted,bkms,dfg
+from . import ted,bkms,dfg,simap,tenderned,usp,vmp
+from .coverage import registry,report
 from .opportunities import coalesce,normalized
 from .audit import audit
 
@@ -16,20 +19,28 @@ def write(path,data):
 def main():
     now=dt.datetime.now(dt.timezone.utc);previous=ROOT/'data'/'history.json'
     old=json.loads(previous.read_text()).get('tenders',[]) if previous.exists() else []
-    status={'scanned_at':now.isoformat(),'sources':{'SIMAP':{'status':'not_connected','note':'暂未接入；不得视为瑞士全覆盖'}},'errors':[]}
+    status={'scanned_at':now.isoformat(),'sources':{},'errors':[]}
+    config=registry()
+    for source in config['sources']:
+        if not source.get('enabled'):status['sources'][source['id']]={'status':source.get('status','not_connected'),'note':source.get('reason','暂未接入')}
     fresh=[];success={};dfg_live=[]
-    for name,module in [('TED',ted),('BKMS',bkms),('DFG',dfg)]:
-        try:
-            items,details=module.collect(now)
-            details.pop('current_ids',None)
-            status['sources'][name]={'status':'connected',**details}
-            success[name]={x['id'] for x in items};fresh+=items
-            if name=='DFG':dfg_live=items
-            print(f'{name}: {len(items)} source notices',flush=True)
-        except Exception as e:
-            error=f'{name}: {type(e).__name__}: {e}'
-            status['sources'][name]={'status':'error','note':'保留上次成功数据，可能陈旧'};status['errors'].append(error)
-            print(error,file=sys.stderr,flush=True)
+    collectors=[('TED',ted.collect),('BKMS',bkms.collect),('DFG',dfg.collect),('SIMAP',simap.collect),('USP',usp.collect),('TENDERNED',tenderned.collect)]
+    collectors += [(s['id'],partial(vmp.collect_source,s)) for s in config['sources'] if s.get('kind')=='vmp_zip' and s.get('enabled')]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        jobs={pool.submit(collect,now):name for name,collect in collectors}
+        for job in as_completed(jobs):
+            name=jobs[job]
+            try:
+                items,details=job.result()
+                details.pop('current_ids',None)
+                status['sources'][name]={'status':'connected',**details}
+                success[name]={x['id'] for x in items};fresh+=items
+                if name=='DFG':dfg_live=items
+                print(f'{name}: {len(items)} source notices',flush=True)
+            except Exception as e:
+                error=f'{name}: {type(e).__name__}: {e}'
+                status['sources'][name]={'status':'error','note':'保留上次成功数据，可能陈旧'};status['errors'].append(error)
+                print(error,file=sys.stderr,flush=True)
     # Attach a portal reference only for an unambiguous exact buyer+title match.
     for portal in dfg_live:
         matching=[x for x in fresh if x.get('source')=='BKMS' and normalized(x.get('buyer'))==normalized(portal.get('buyer')) and normalized(x.get('title'))==normalized(portal.get('title'))]
@@ -40,8 +51,8 @@ def main():
     history=merge(old,fresh)
     for item in history:
         if 'institution_type' not in item:item.update(classify(item))
-        if item.get('source') in ('TED','DFG') and item['source'] in success:
-            item['source_unavailable']=item['id'] not in success[item['source']]
+        if item.get('source') not in ('BKMS',) and item.get('source') in success:
+            item['source_unavailable']=bool(item.get('detail_unavailable')) or item['id'] not in success[item['source']]
     board=coalesce(history,now,dfg_live)
     active=[x for x in board if x['phase']=='active']
     timestamp=now.isoformat()
@@ -52,7 +63,9 @@ def main():
     status.update(new_items_fetched=len(fresh),active_count=len(active),history_count=len(history),
        project_count=len(board),phase_counts=dict(Counter(x['phase'] for x in board)),
        education_active_count=sum(bool(x.get('education_research')) for x in active),
-       feeds_enabled=sum(x.get('status')=='connected' for x in status['sources'].values()))
+       feeds_enabled=sum(x.get('status') in ('connected','partial') for x in status['sources'].values()),
+       country_counts=dict(Counter(x['country'] for x in active)))
+    write(ROOT/'data'/'source_coverage.json',report(status,board,timestamp))
     write(ROOT/'data'/'scan_status.json',status)
     print(json.dumps({k:v for k,v in status.items() if k!='sources'},ensure_ascii=False),flush=True)
     return 1 if status['errors'] else 0

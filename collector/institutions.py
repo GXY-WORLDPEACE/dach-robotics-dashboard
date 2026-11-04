@@ -3,10 +3,10 @@ import re
 
 RULES = [
  ('chamber', '工商会／手工业协会', r'\b(?:ihk|hwk)\b|handwerkskammer|industrie[-\s]und[-\s]handelskammer|chambre de métiers|chambre de commerce|wirtschaftskammer'),
- ('vocational', '职业学校／技术学校', r'\bbbs\b|gewerbeschul\w*|berufsschul\w*|berufskolleg\w*|berufsfachschul\w*|beruflich\w* schul\w*|fachschul\w*|technikerschul\w*|berufsbildend\w* schul\w*|berufsbildungswerk\w*|berufliches schulzentrum|höhere technische (?:bundes)?lehranstalt|\bhtl\b|berufsfachschule|école professionnelle|scuola professionale'),
+ ('vocational', '职业学校／技术学校', r'\bmbo\b|\broc\b|beroepsonderwijs|\bbbs\b|gewerbeschul\w*|berufsschul\w*|berufskolleg\w*|berufsfachschul\w*|beruflich\w* schul\w*|fachschul\w*|technikerschul\w*|berufsbildend\w* schul\w*|berufsbildungswerk\w*|berufliches schulzentrum|höhere technische (?:bundes)?lehranstalt|\bhtl\b|berufsfachschule|école professionnelle|scuola professionale'),
  ('training', '职业培训中心', r'berufsbildungsstätt\w*|training cent(?:er|re)\w*|berufsbildungszentr\w*|bildungszentr\w*|ausbildungszentr\w*|lehrwerkstatt\w*|überbetrieblich\w* (?:bildungs|ausbildungs)stätt\w*|überbetrieblich\w* (?:ausbildungs|bildungs)zentr\w*|centre de formation professionnelle'),
- ('research', '研究所', r'deutsche forschungsgemeinschaft|fraunhofer|helmholtz|leibniz|max[-\s]planck|forschungszentr\w*|forschungsinstitut\w*|\bdlr\b|\bdesy\b|\bkit\b|bundesanstalt für materialforschung|\bempa\b|\beawag\b|\bpsi\b|\bcern\b|\bait\b|institut de recherche'),
- ('university', '高校／应用科技大学', r'\buniversität\b|\buniversitaet\b|\buniversit[yé]\b|\bhochschule\b|\bfachhochschule\b|\b(?:tu|fh|haw|eth|epfl)\b|technische universiteit|haute école'),
+ ('research', '研究所', r'\btno\b|\bnwo\b|\bfwo\b|\bvito\b|\bimec\b|flanders make|\bcnrs\b|deutsche forschungsgemeinschaft|fraunhofer|helmholtz|leibniz|max[-\s]planck|forschungszentr\w*|forschungsinstitut\w*|\bdlr\b|\bdesy\b|\bkit\b|bundesanstalt für materialforschung|\bempa\b|\beawag\b|\bpsi\b|\bcern\b|\bait\b|institut de recherche'),
+ ('university', '高校／应用科技大学', r'\bku leuven\b|\bvub\b|\bulb\b|\buliege\b|\bzhaw\b|\bfhnw\b|\bhslu\b|\bethz\b|\buniversiteit\b|\bhogeschool\b|\buniversité\b|\buniversità\b|\buniversität\b|\buniversitaet\b|\buniversit[yé]\b|\bhochschule\b|\bfachhochschule\b|\b(?:tu|fh|haw|eth|epfl)\b|technische universiteit|haute école'),
 ]
 PUBLIC = r'\bstadt\b|landkreis|kreisverwaltung|landratsamt|schulträger|schultraeger|gemeinde|kanton|magistrat|senatsverwaltung'
 ROBOT = r'robot|cobot|manipulator|humanoid|teleoperation|greifer|gripper|quadruped'

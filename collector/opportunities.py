@@ -10,11 +10,20 @@ def normalized(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',str
 def identity_keys(x):
     keys=[];country=x.get('country') or 'DE'
     if x.get('procedure_id'):keys.append(('procedure',country,x['procedure_id']))
-    if x.get('procurement_reference') and x.get('buyer'):
+    if x.get('procurement_reference') and x.get('buyer') and not x.get('lot_key'):
         keys.append(('buyer-reference',country,normalized(x['buyer']),normalized(x['procurement_reference'])))
     if x.get('source')=='BKMS':keys.append(('notice-uuid',x.get('notice_id')))
     if x.get('notice_uuid'):keys.append(('notice-uuid',x['notice_uuid']))
+    if x.get('source')=='TENDERNED':keys.append(('tenderned-publication',str(x['notice_id'])))
+    if x.get('source')=='SIMAP' and x.get('procedure_id') and not x.get('lot_key'):keys.append(('simap-project',x['procedure_id'].removeprefix('SIMAP:')))
+    if x.get('portal_notice_id'):keys.append(('vmp-notice',x['portal_notice_id']))
     for url in x.get('official_links',[]):
+        nl=re.search(r'tenderned\.nl/(?:[^?]*/)?aankondigingen/(?:overzicht/)?(\d+)',url)
+        if nl:keys.append(('tenderned-publication',nl[1]))
+        ch=re.search(r'simap\.ch/(?:[a-z]{2}/)?project-detail/([a-f0-9-]+)',url)
+        if ch:keys.append(('simap-project',ch[1]))
+        portal=re.search(r'/notice/(CX[A-Z0-9]+)',url)
+        if portal:keys.append(('vmp-notice',portal[1]))
         m=re.search(r'https://(?:www\.)?subreport(?:-elvis)?\.de/.*?\b(E\d{8})\b',url)
         if m:keys.append(('subreport',m[1],normalized(x.get('buyer'))))
     return keys or [('id',x['id'])]
@@ -37,7 +46,7 @@ def phase(x,now):
     return 'unknown','未公开可验证截止日期，不能确认仍可投标'
 
 def publication_order(x):
-    t=as_time(x.get('publication_timestamp') or x.get('publication_date'))
+    t=as_time(x.get('publication_timestamp') or x.get('publication_date') or x.get('source_snapshot_at'))
     # A date-only TED publication represents the start of the day here.
     if t and len(x.get('publication_date') or '')==10 and not x.get('publication_timestamp'):t=t.replace(hour=0,minute=0,second=0,microsecond=0)
     return (t.timestamp() if t else 0,int(x.get('notice_version') or 0),x.get('source')=='BKMS')
