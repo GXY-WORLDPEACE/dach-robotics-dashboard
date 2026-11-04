@@ -1,6 +1,47 @@
 {
-  "updated_at": "2026-11-04T19:54:30.461324+00:00",
+  "updated_at": "2026-11-04T20:10:50.703382+00:00",
   "tenders": [
+    {
+      "id": "TED:681441-2026",
+      "title": "Österreich – Berufsausbildung – Überbetriebliche Berufsausbildung nach BAG 30b in Kurz- und Langform im Bezirk Wolfsberg in den Berufsbereichen Metall-Elektrotechnik, IT-Technik – Systemtechnik mit Robotik sowie Offene Berufswahl",
+      "buyer": "Bund, vertreten durch das Arbeitsmarktservice, vertreten durch das Arbeitsmarktservice Kärnten",
+      "country": "AT",
+      "region": null,
+      "description": "Überbetriebliche Berufsausbildung nach BAG 30b in Kurz- und Langform im Bezirk Wolfsberg in den Berufsbereichen Metall-Elektrotechnik, IT-Technik – Systemtechnik mit Robotik (ÜBA 1 – in individualisierter, modularer Ausbildungsform) sowie Offene Berufswahl (ÜBA 2 - mit individuellem Einstieg über die Dauer von 10 Monaten)",
+      "publication_date": "2026-10-02",
+      "deadline": "2026-11-16T11:00:00+02:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/681441-2026",
+      "priority": "P2",
+      "match_score": 55,
+      "matched_products": [
+        "DOBOT CR / CRA / E6 / ATOM（待确认）"
+      ],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
+      "notice_id": "681441-2026",
+      "procedure_id": "f4173c55-5d5e-44d7-ae36-aff275b8f354",
+      "deadlines": [
+        "2026-11-16T11:00:00+02:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "明确涉及机器人，平台类型及技术规格待确认"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力"
+    },
     {
       "id": "TED:760689-2026",
       "title": "Deutschland – CT-Scanner – Manipulator-Systems für einen Computertomographen",
@@ -23,7 +64,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "760689-2026",
       "procedure_id": "a0074e82-66c3-415c-b596-ec8a670fb5cf",
       "deadlines": [
@@ -64,7 +105,7 @@
       "last_seen": "2026-11-04",
       "status": "已过期或不再出现在当前 TED 查询中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "728867-2026",
       "procedure_id": "75f36b0b-6459-461f-902c-5b1bc4490a13",
       "deadlines": [
@@ -105,7 +146,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "731988-2026",
       "procedure_id": "75f36b0b-6459-461f-902c-5b1bc4490a13",
       "deadlines": [
@@ -146,7 +187,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "698232-2026",
       "procedure_id": "fe881204-679a-4c7c-bc71-1b8fb084edbf",
       "deadlines": [
@@ -265,7 +306,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "716518-2026",
       "procedure_id": "b55c018e-1420-4f7e-b3e3-626c9cefa02a",
       "deadlines": [
@@ -348,7 +389,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "732446-2026",
       "procedure_id": "0ca29c98-7ba9-4f85-95f6-357f63fcb6a8",
       "deadlines": [
@@ -428,7 +469,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "737366-2026",
       "procedure_id": "638e0aca-d9ed-41f9-8922-c8b65e6918b6",
       "deadlines": [
@@ -467,7 +508,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "738935-2026",
       "procedure_id": "37eaf015-68ec-4ebb-ac13-0f561cf42f11",
       "deadlines": [
@@ -547,7 +588,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "737714-2026",
       "procedure_id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
       "deadlines": [
@@ -705,7 +746,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:54:30.461324+00:00",
+      "collected_at": "2026-11-04T20:10:50.703382+00:00",
       "notice_id": "739804-2026",
       "procedure_id": "761da713-b93c-405d-9444-660e90566b21",
       "deadlines": [
