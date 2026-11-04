@@ -36,21 +36,29 @@ jobs:
 
       - name: Prepare static website
         run: |
+          if [ ! -f docs/index.html ]; then
+            echo "ERROR: docs/index.html not found"
+            echo "Available files:"
+            find . -maxdepth 3 -type f
+            exit 1
+          fi
+
           mkdir -p _site
-          cp -r index.html _site/
+
+          # Copy website files
+          cp -r docs/. _site/
+
+          # Copy tender JSON data
           if [ -d data ]; then
-            cp -r data _site/
+            mkdir -p _site/data
+            cp -r data/. _site/data/
           fi
-          if [ -d assets ]; then
-            cp -r assets _site/
-          fi
-          if [ -d css ]; then
-            cp -r css _site/
-          fi
-          if [ -d js ]; then
-            cp -r js _site/
-          fi
+
+          # Disable Jekyll processing
           touch _site/.nojekyll
+
+          echo "Website files prepared:"
+          find _site -maxdepth 3 -type f
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
