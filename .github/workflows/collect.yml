@@ -1,5 +1,8 @@
 name: Collect public tenders
 on:
+  push:
+    branches: [main]
+    paths: ['collector/**', 'tests/**', '.github/workflows/collect.yml']
   workflow_dispatch:
   schedule:
     # UTC candidates: 08:00 CEST / 08:00 CET. Local guard selects one.
@@ -29,7 +32,7 @@ jobs:
           from zoneinfo import ZoneInfo
           now = datetime.datetime.now(datetime.timezone.utc)
           offset = now.astimezone(ZoneInfo('Europe/Berlin')).utcoffset().total_seconds()/3600
-          # Both UTC hours share one cron; use UTC hour, with a local-date success guard.
+          # Select the scheduled UTC slot; retain a local-date success guard.
           run = os.environ['EVENT'] != 'schedule' or int(os.environ['CRON'].split()[1]) == 8-int(offset)
           if os.environ['EVENT'] == 'schedule':
               import json, pathlib
