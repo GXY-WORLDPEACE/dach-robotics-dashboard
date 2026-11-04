@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:53:14.358916+00:00",
+  "updated_at": "2026-11-04T19:54:30.461324+00:00",
   "tenders": [
     {
       "id": "TED:760689-2026",
@@ -23,7 +23,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "760689-2026",
       "procedure_id": "a0074e82-66c3-415c-b596-ec8a670fb5cf",
       "deadlines": [
@@ -54,7 +54,7 @@
       "last_seen": "2026-11-04",
       "status": "已过期或不再出现在当前 TED 查询中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "728867-2026",
       "procedure_id": "75f36b0b-6459-461f-902c-5b1bc4490a13",
       "deadlines": [
@@ -85,7 +85,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "731988-2026",
       "procedure_id": "75f36b0b-6459-461f-902c-5b1bc4490a13",
       "deadlines": [
@@ -116,7 +116,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "698232-2026",
       "procedure_id": "fe881204-679a-4c7c-bc71-1b8fb084edbf",
       "deadlines": [
@@ -209,7 +209,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "716518-2026",
       "procedure_id": "b55c018e-1420-4f7e-b3e3-626c9cefa02a",
       "deadlines": [
@@ -274,7 +274,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "732446-2026",
       "procedure_id": "0ca29c98-7ba9-4f85-95f6-357f63fcb6a8",
       "deadlines": [
@@ -336,7 +336,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "737366-2026",
       "procedure_id": "638e0aca-d9ed-41f9-8922-c8b65e6918b6",
       "deadlines": [
@@ -367,7 +367,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "738935-2026",
       "procedure_id": "37eaf015-68ec-4ebb-ac13-0f561cf42f11",
       "deadlines": [
@@ -429,7 +429,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "737714-2026",
       "procedure_id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
       "deadlines": [
@@ -555,7 +555,7 @@
       "last_seen": "2026-11-04",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "collected_at": "2026-11-04T19:54:30.461324+00:00",
       "notice_id": "739804-2026",
       "procedure_id": "761da713-b93c-405d-9444-660e90566b21",
       "deadlines": [
