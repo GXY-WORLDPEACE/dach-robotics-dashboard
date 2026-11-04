@@ -32,7 +32,17 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "明确涉及机器人，平台类型及技术规格待确认"
-      ]
+      ],
+      "institution_type": "research",
+      "institution_label": "研究所",
+      "education_research": true,
+      "institution_evidence": [
+        "采购机构关键词：Fraunhofer"
+      ],
+      "procurement_for_education": false,
+      "institution_relation": "采购机构名称匹配",
+      "lead_priority": "A",
+      "lead_reason": "目标机构直接采购，且公告明确涉及机器人，建议优先核实需求"
     },
     {
       "id": "TED:731988-2026",
@@ -63,7 +73,17 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "仅涉及自动化，需先确认是否包含机器人采购"
-      ]
+      ],
+      "institution_type": "research",
+      "institution_label": "研究所",
+      "education_research": true,
+      "institution_evidence": [
+        "采购机构关键词：Fraunhofer"
+      ],
+      "procurement_for_education": false,
+      "institution_relation": "采购机构名称匹配",
+      "lead_priority": "B",
+      "lead_reason": "存在教育科研／培训机构线索，需核实最终用户及机器人需求"
     },
     {
       "id": "TED:698232-2026",
@@ -94,7 +114,15 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "仅涉及自动化，需先确认是否包含机器人采购"
-      ]
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力"
     },
     {
       "id": "TED:716518-2026",
@@ -125,7 +153,17 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "仅涉及自动化，需先确认是否包含机器人采购"
-      ]
+      ],
+      "institution_type": "research",
+      "institution_label": "研究所",
+      "education_research": true,
+      "institution_evidence": [
+        "采购机构关键词：Helmholtz"
+      ],
+      "procurement_for_education": false,
+      "institution_relation": "采购机构名称匹配",
+      "lead_priority": "B",
+      "lead_reason": "存在教育科研／培训机构线索，需核实最终用户及机器人需求"
     },
     {
       "id": "TED:732446-2026",
@@ -159,7 +197,17 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "Fremdfabrikat SPOT ausdrücklich genannt；先核实是否允许等效产品，不能视为 DOBOT 直接替代"
-      ]
+      ],
+      "institution_type": "university",
+      "institution_label": "高校／应用科技大学",
+      "education_research": true,
+      "institution_evidence": [
+        "采购机构关键词：Universität"
+      ],
+      "procurement_for_education": false,
+      "institution_relation": "采购机构名称匹配",
+      "lead_priority": "A",
+      "lead_reason": "目标机构直接采购，且公告明确涉及机器人，建议优先核实需求"
     },
     {
       "id": "TED:737366-2026",
@@ -190,7 +238,15 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "专用医疗/清洁/检查应用，DOBOT 直接适配度低；需人工复核"
-      ]
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力"
     },
     {
       "id": "TED:738935-2026",
@@ -221,7 +277,17 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "仅涉及自动化，需先确认是否包含机器人采购"
-      ]
+      ],
+      "institution_type": "university",
+      "institution_label": "高校／应用科技大学",
+      "education_research": true,
+      "institution_evidence": [
+        "采购机构关键词：Fachhochschule"
+      ],
+      "procurement_for_education": false,
+      "institution_relation": "采购机构名称匹配",
+      "lead_priority": "B",
+      "lead_reason": "存在教育科研／培训机构线索，需核实最终用户及机器人需求"
     },
     {
       "id": "TED:737714-2026",
@@ -252,7 +318,15 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "仅涉及自动化，需先确认是否包含机器人采购"
-      ]
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力"
     },
     {
       "id": "TED:739804-2026",
@@ -285,7 +359,15 @@
       "budget_basis": "公告程序级预估金额；非单台设备预算",
       "match_reasons": [
         "Fremdfabrikat SPOT ausdrücklich genannt；先核实是否允许等效产品，不能视为 DOBOT 直接替代"
-      ]
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力"
     }
   ]
 }

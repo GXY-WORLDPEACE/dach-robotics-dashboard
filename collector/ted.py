@@ -5,6 +5,7 @@ import time
 import urllib.request
 from zoneinfo import ZoneInfo
 from .core import normalize
+from .institutions import classify
 
 API = 'https://api.ted.europa.eu/v3/notices/search'
 FIELDS = ['publication-number','notice-title','buyer-name','buyer-country','publication-date',
@@ -47,7 +48,9 @@ def parse(n, now):
     country=next(({'DEU':'DE','AUT':'AT'}[c] for c in countries if c in ('DEU','AUT')),None)
     if not country or text(n.get('form-type')) != 'competition': return None
     title=text(n.get('notice-title')).lower()
-    if any(term in title for term in ['software','lizenz','bauarbeiten','bauinstallations','planungsleistungen','berufsausbildung','consulting','marketing','elektroinstall','gebäudeautomation','gebaeudeautomation','gebäudeleittechnik','heizungs','netzausrüstung','chirurgische eingriffe','installation von','schaltanlagen']): return None
+    training_service='berufsausbildung' in title and not any(term in title for term in ['robot','cobot','manipulator','lernstation','lernfabrik'])
+    if training_service: return None
+    if any(term in title for term in ['software','lizenz','bauarbeiten','bauinstallations','planungsleistungen','consulting','marketing','elektroinstall','gebäudeautomation','gebaeudeautomation','gebäudeleittechnik','heizungs','netzausrüstung','chirurgische eingriffe','installation von','schaltanlagen']): return None
     dates=values(n.get('deadline-receipt-tender-date-lot'))
     times=values(n.get('deadline-receipt-tender-time-lot'))
     deadlines=[]
@@ -79,6 +82,10 @@ def parse(n, now):
         match_reasons=match(item)[2])
     item['priority'],item['matched_products'],_=match(item)
     item['match_score']={'P1':85,'P2':55,'P3':20}[item['priority']]
+    item.update(classify({**item,'description':text(n.get('description-proc'))}))
+    if item['institution_type'] in ('vocational','training','chamber') and any(t in (item['title']+' '+item['description']).lower() for t in ['robot','cobot','manipulator']):
+        if 'DOBOT Magician / E6' not in item['matched_products']: item['matched_products'].append('DOBOT Magician / E6')
+        item['match_reasons'].append('职业教育／培训场景：可核实 Magician、E6 或 CR/CRA 教学实训配置；不代表满足技术要求')
     return item
 
 def match(item):

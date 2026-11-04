@@ -4,6 +4,7 @@ import json
 import sys
 from .core import ROOT, merge
 from .ted import collect
+from .institutions import classify
 
 def write(path, data):
     tmp=path.with_suffix('.tmp')
@@ -22,6 +23,7 @@ def main():
         history=merge(old,fresh)
         active_ids=set(details.pop('current_ids'))
         for item in history:
+            if "institution_type" not in item: item.update(classify(item))
             if item.get('source')=='TED' and item['id'] not in active_ids:
                 item['status']='已过期或不再出现在当前 TED 查询中'
         active=[x for x in history if x['id'] in active_ids]
