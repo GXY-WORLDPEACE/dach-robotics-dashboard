@@ -46,10 +46,11 @@ def collect(now):
             if token in seen:raise RuntimeError('SIMAP pagination repeated')
             seen.add(token);params['lastItem']=token;time.sleep(.2)
         else:raise RuntimeError('SIMAP pagination limit exceeded')
-    items=[];detail_errors=[]
+    items=[];detail_errors=[];detail_started=time.monotonic()
     for p in projects.values():
         try:
-            d=request(f"{BASE}/v1/project/{p['id']}/publication-details/{p['publicationId']}")
+            if time.monotonic()-detail_started>600:raise TimeoutError('本轮详情核验时间预算已用完；保留官方索引，截止待核实')
+            d=request(f"{BASE}/v1/project/{p['id']}/publication-details/{p['publicationId']}",timeout=15,attempts=2)
             x=parse(p,d,now)
         except Exception as e:
             detail_errors.append({'publication_id':p['publicationId'],'error':type(e).__name__})
@@ -58,4 +59,4 @@ def collect(now):
         if x:items.append(x)
         print(f'SIMAP: {len(items)}/{len(projects)} detail pages',flush=True) if len(items)%10==0 else None
         time.sleep(.15)
-    return items,{'endpoint':BASE+'/v2/project/project-search','window_start':since,'search_terms':TERMS,'scanned_hits':scanned,'unique_publications':len(projects),'accepted_notices':len(items),'detail_errors':detail_errors,'status':'partial' if detail_errors else 'connected','scope':'SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购','reuse':'遵循 SIMAP 使用条件；不保存联系人及投标文件'}
+    return items,{'endpoint':BASE+'/v2/project/project-search','window_start':since,'search_terms':TERMS,'scanned_hits':scanned,'unique_publications':len(projects),'accepted_notices':len(items),'detail_errors':detail_errors,'status':'partial' if detail_errors else 'connected','scope':'SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购','detail_time_budget_seconds':600,'reuse':'遵循 SIMAP 使用条件；不保存联系人及投标文件'}

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T21:18:16.759753+00:00",
+  "checked_at": "2026-11-04T21:13:23.176009+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -39,7 +39,7 @@
     {
       "code": "CH",
       "name": "瑞士",
-      "active_count": 9,
+      "active_count": 8,
       "education_active_count": 0,
       "connected_sources": [
         "TED",
@@ -52,8 +52,8 @@
     {
       "code": "NL",
       "name": "荷兰",
-      "active_count": 10,
-      "education_active_count": 1,
+      "active_count": 9,
+      "education_active_count": 0,
       "connected_sources": [
         "TED",
         "TENDERNED"
@@ -87,7 +87,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1202,
+      "scanned_notices": 1203,
       "accepted_notices": 21,
       "unsupported_schema_notices": 0
     },
@@ -101,7 +101,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 810,
+      "scanned_notices": 811,
       "accepted_notices": 4,
       "unsupported_schema_notices": 0
     },
@@ -128,7 +128,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 541,
+      "scanned_notices": 542,
       "accepted_notices": 0,
       "unsupported_schema_notices": 0
     },
@@ -142,7 +142,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1022,
+      "scanned_notices": 1023,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0
     },
@@ -156,7 +156,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 0,
+      "scanned_notices": 1,
       "accepted_notices": 0,
       "unsupported_schema_notices": 0
     },
@@ -170,7 +170,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 310,
+      "scanned_notices": 311,
       "accepted_notices": 2,
       "unsupported_schema_notices": 0
     },

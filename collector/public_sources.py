@@ -13,7 +13,7 @@ from .institutions import classify
 from .ted import match
 COUNTRIES={'DEU':'DE','AUT':'AT','CHE':'CH','NLD':'NL','BEL':'BE'}
 
-def request(url,payload=None,limit=12_000_000):
+def request(url,payload=None,limit=12_000_000,timeout=40,attempts=3):
     cache_root=os.environ.get('PUBLIC_SOURCE_CACHE_DIR')
     cache_file=None
     if cache_root:
@@ -22,9 +22,9 @@ def request(url,payload=None,limit=12_000_000):
         if cache_file.exists():return json.loads(cache_file.read_text())
     req=urllib.request.Request(url,data=json.dumps(payload).encode() if payload is not None else None,
         headers={'User-Agent':'Robotics-Education-Procurement-Monitor/4.0','Accept':'application/json','Content-Type':'application/json'})
-    for attempt in range(3):
+    for attempt in range(attempts):
         try:
-            with urllib.request.urlopen(req,timeout=40) as r:
+            with urllib.request.urlopen(req,timeout=timeout) as r:
                 raw=r.read(limit+1)
                 if len(raw)>limit:raise RuntimeError('Response exceeds size limit')
                 data=json.loads(raw)
@@ -32,7 +32,7 @@ def request(url,payload=None,limit=12_000_000):
                     cache_file.parent.mkdir(parents=True,exist_ok=True);cache_file.write_text(json.dumps(data))
                 return data
         except Exception as e:
-            if getattr(e,'code',None) in (401,403,404) or attempt==2:raise
+            if getattr(e,'code',None) in (401,403,404) or attempt==attempts-1:raise
             time.sleep(2**attempt)
 
 def multilingual(v):
@@ -45,14 +45,14 @@ def multilingual(v):
 
 def relevant(title,description=''):
     title=title or '';s=(title+' '+(description or '')).casefold()
-    if any(x in title.casefold() for x in ['ebook','e-book','e book','robotic process','rpa','kanalsanierung','mähroboter','rasenmäher','reinigungsdienst','softwarelizenz','gebäudeautomation','gebaeudeautomation']):return False
+    if any(x in title.casefold() for x in ['ebook','e-book','e book','personeel','personnel','recruitment','personalvermittlung','arbeitskräfte','robotic process','rpa','kanalsanierung','mähroboter','rasenmäher','reinigungsdienst','softwarelizenz','gebäudeautomation','gebaeudeautomation']):return False
     return bool(re.search(r'robot|cobot|manipulator|humanoid|teleoper|quadrup',s) or re.search(r'automat',title,re.I))
 
 def deadline(v,zone='Europe/Berlin'):
     if not v:return None
     v=str(v).strip()
     try:
-        if len(v)==10:return dt.date.fromisoformat(v).isoformat()
+        if re.fullmatch(r'\d{4}-\d{2}-\d{2}(?:[+-]\d{2}:\d{2}|Z)?',v):return dt.date.fromisoformat(v[:10]).isoformat()
         t=dt.datetime.fromisoformat(v)
         return (t if t.tzinfo else t.replace(tzinfo=ZoneInfo(zone))).isoformat()
     except ValueError:return None

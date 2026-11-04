@@ -9,6 +9,7 @@ from .core import ROOT,merge
 from .institutions import classify
 from . import ted,bkms,dfg,simap,tenderned,usp,vmp
 from .coverage import registry,report
+from .public_sources import relevant
 from .opportunities import coalesce,normalized
 from .audit import audit
 
@@ -53,7 +54,7 @@ def main():
         if 'institution_type' not in item:item.update(classify(item))
         if item.get('source') not in ('BKMS',) and item.get('source') in success:
             item['source_unavailable']=bool(item.get('detail_unavailable')) or item['id'] not in success[item['source']]
-    board=coalesce(history,now,dfg_live)
+    board=coalesce([x for x in history if x.get('source') not in ('TENDERNED','USP','SIMAP') or relevant(x.get('title',''),x.get('description',''))],now,dfg_live)
     active=[x for x in board if x['phase']=='active']
     timestamp=now.isoformat()
     write(ROOT/'data'/'history.json',{'updated_at':timestamp,'tenders':history})

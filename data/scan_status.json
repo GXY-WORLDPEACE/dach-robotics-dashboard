@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-04T21:18:16.759753+00:00",
+  "scanned_at": "2026-11-04T21:13:23.176009+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -8,6 +8,18 @@
     "BE_BOSA": {
       "status": "blocked",
       "note": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制"
+    },
+    "BKMS": {
+      "status": "connected",
+      "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
+      "months": [
+        "2026-10",
+        "2026-11"
+      ],
+      "scanned_notices": 26336,
+      "accepted_notices": 149,
+      "license": "CC0",
+      "export_available_through": "previous day Europe/Berlin"
     },
     "TED": {
       "status": "connected",
@@ -23,22 +35,10 @@
       "accepted_notices": 3,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
-    "BKMS": {
-      "status": "connected",
-      "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
-      "months": [
-        "2026-10",
-        "2026-11"
-      ],
-      "scanned_notices": 26336,
-      "accepted_notices": 149,
-      "license": "CC0",
-      "export_available_through": "previous day Europe/Berlin"
-    },
     "DE_NRW": {
       "status": "connected",
       "endpoint": "https://www.evergabe.nrw.de/VMPSatellite/opendata?id=0bb4c8bc-514f-49bf-a490-d93103c377f0",
-      "scanned_notices": 1202,
+      "scanned_notices": 1203,
       "accepted_notices": 21,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -47,7 +47,7 @@
     "DE_RUHR": {
       "status": "connected",
       "endpoint": "https://www.vergabe.metropoleruhr.de/VMPSatellite/opendata?id=4985b1a5-d2e8-4611-a4c6-20694a130bb3",
-      "scanned_notices": 810,
+      "scanned_notices": 811,
       "accepted_notices": 4,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -56,7 +56,7 @@
     "DE_BLB": {
       "status": "connected",
       "endpoint": "https://evergabe.blb.nrw.de/Vergabe/opendata?id=f33b7b4a-082d-4bbb-b176-d8b4ebf75a51",
-      "scanned_notices": 541,
+      "scanned_notices": 542,
       "accepted_notices": 0,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -65,7 +65,7 @@
     "DE_WESTFALEN": {
       "status": "connected",
       "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
-      "scanned_notices": 1022,
+      "scanned_notices": 1023,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -74,8 +74,17 @@
     "DE_KOELN": {
       "status": "connected",
       "endpoint": "https://vergabe.stadt-koeln.de/VMPSatellite/opendata?id=f8f65333-9078-451c-8628-09376a7fbfcb",
-      "scanned_notices": 0,
+      "scanned_notices": 1,
       "accepted_notices": 0,
+      "unsupported_schema_notices": 0,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    "DE_AACHEN": {
+      "status": "connected",
+      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
+      "scanned_notices": 311,
+      "accepted_notices": 2,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
@@ -96,15 +105,6 @@
       "accepted_notices": 14,
       "detail_errors": [],
       "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
-    },
-    "DE_AACHEN": {
-      "status": "connected",
-      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
-      "scanned_notices": 310,
-      "accepted_notices": 2,
-      "unsupported_schema_notices": 0,
-      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
-      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
     "TENDERNED": {
       "status": "connected",
@@ -137,22 +137,22 @@
   },
   "errors": [],
   "new_items_fetched": 318,
-  "active_count": 91,
+  "active_count": 89,
   "history_count": 328,
-  "project_count": 284,
+  "project_count": 281,
   "phase_counts": {
-    "history": 162,
-    "active": 91,
+    "history": 161,
+    "active": 89,
     "planned": 13,
     "unknown": 18
   },
-  "education_active_count": 20,
+  "education_active_count": 19,
   "feeds_enabled": 12,
   "country_counts": {
     "DE": 65,
-    "NL": 10,
     "AT": 3,
-    "CH": 9,
-    "BE": 4
+    "CH": 8,
+    "BE": 4,
+    "NL": 9
   }
 }

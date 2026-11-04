@@ -6,7 +6,7 @@ from collector.tenderned import parse as nl_parse
 from collector.simap import parse as ch_parse
 from collector.usp import parse as at_parse
 from collector.vmp import parse_legacy
-from collector.public_sources import multilingual
+from collector.public_sources import multilingual,deadline,relevant
 from collector.institutions import classify
 from collector.opportunities import phase,coalesce
 from collector.coverage import report
@@ -27,6 +27,8 @@ class FiveCountryTests(unittest.TestCase):
   d={'type':'tender','procurement':{'orderDescription':{'de':'Robotik für Forschung'}},'dates':{'offerDeadline':'2026-11-12T12:00:00+01:00','qnas':[{'date':'2026-11-05'}]},'decision':{'totalPrice':250000}}
   x=ch_parse(p,d,NOW);self.assertEqual(x['deadline'],'2026-11-12T12:00:00+01:00');self.assertEqual(x['country'],'CH');self.assertIsNone(x['budget_amount'])
   d['type']='direct_award';self.assertEqual(phase(ch_parse(p,d,NOW),NOW)[0],'history')
+ def test_date_with_offset_is_still_date_only(self):self.assertEqual(deadline('2026-11-16+01:00'),'2026-11-16')
+ def test_staffing_not_robot_hardware(self):self.assertFalse(relevant('Technisch wetenschappelijk personeel','robotica'))
  def test_multilingual_skips_nulls(self):self.assertEqual(multilingual({'de':None,'fr':'Robot industriel'}),'Robot industriel')
  def test_usp_date_only_is_preserved(self):
   row=['Cobot','TU Wien','2026-11-01','2026-11-12','fixture',True,'2026-11-12',None]
