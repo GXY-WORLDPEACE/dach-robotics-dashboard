@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-11-04T20:37:28.829058+00:00",
+  "cases": [
+    {
+      "sample": "BAM",
+      "title": "BAM：柔性协作机器人上下料系统",
+      "found": true,
+      "reason": "国家级 UVgO 公告；旧系统仅接入 TED，缺少国家级数据源。",
+      "phase": "active",
+      "deadline": "2026-11-11T11:00:00+01:00",
+      "source_url": "https://oeffentlichevergabe.de/ui/de/notices/d5ac23cd-3a48-4fa8-87eb-1b17e694c480",
+      "deadline_source": "https://oeffentlichevergabe.de/ui/de/notices/d5ac23cd-3a48-4fa8-87eb-1b17e694c480",
+      "project_id": "BKMS:d5ac23cd-3a48-4fa8-87eb-1b17e694c480:1"
+    },
+    {
+      "sample": "Magdeburg-Stendal",
+      "title": "Magdeburg-Stendal：自动化搬运与码垛系统",
+      "found": true,
+      "reason": "国家级公告；新版延长截止日期，必须按公告版本更新。",
+      "phase": "active",
+      "deadline": "2026-11-06T10:00:00+01:00",
+      "source_url": "https://oeffentlichevergabe.de/ui/de/notices/e6c7549e-f612-4265-9731-8b04db662c65",
+      "deadline_source": "https://oeffentlichevergabe.de/ui/de/notices/e6c7549e-f612-4265-9731-8b04db662c65",
+      "project_id": "BKMS:e6c7549e-f612-4265-9731-8b04db662c65:2"
+    },
+    {
+      "sample": "DFG Dresden",
+      "title": "DFG：移动串联机器人",
+      "found": true,
+      "reason": "TED 原公告截止字段为 11 月 2 日；DFG 当前官方列表为 11 月 13 日，旧过滤会漏掉延期项目。",
+      "phase": "active",
+      "deadline": "2026-11-13T12:00:00+01:00",
+      "source_url": "https://oeffentlichevergabe.de/ui/de/notices/189c4f73-c043-4559-ba5e-cf558fc28aae",
+      "deadline_source": "https://bieterportal.dfg.de/?l=1",
+      "project_id": "BKMS:189c4f73-c043-4559-ba5e-cf558fc28aae:01"
+    },
+    {
+      "sample": "TH Wildau",
+      "title": "TH Wildau：机械臂采购意向",
+      "found": true,
+      "reason": "官方导出标记拟进行采购，无可验证的投标截止日期；作为采购预告展示，不算投标中。原平台页面本次返回 404，详细意向期限待核实。",
+      "phase": "planned",
+      "deadline": null,
+      "source_url": "https://oeffentlichevergabe.de/ui/de/notices/25946758",
+      "deadline_source": "https://oeffentlichevergabe.de/ui/de/notices/25946758",
+      "project_id": "BKMS:25946758:1"
+    }
+  ],
+  "note": "基于当前官方采集数据的覆盖核查；不是全量覆盖保证。"
+}

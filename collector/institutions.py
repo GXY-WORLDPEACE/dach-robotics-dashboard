@@ -3,9 +3,9 @@ import re
 
 RULES = [
  ('chamber', '工商会／手工业协会', r'\b(?:ihk|hwk)\b|handwerkskammer|industrie[-\s]und[-\s]handelskammer|chambre de métiers|chambre de commerce|wirtschaftskammer'),
- ('vocational', '职业学校／技术学校', r'berufsschul\w*|berufskolleg\w*|berufsfachschul\w*|beruflich\w* schul\w*|fachschul\w*|technikerschul\w*|berufsbildend\w* schul\w*|berufsbildungswerk\w*|berufliches schulzentrum|höhere technische (?:bundes)?lehranstalt|\bhtl\b|berufsfachschule|école professionnelle|scuola professionale'),
- ('training', '职业培训中心', r'berufsbildungszentr\w*|bildungszentr\w*|ausbildungszentr\w*|lehrwerkstatt\w*|überbetrieblich\w* (?:bildungs|ausbildungs)stätt\w*|überbetrieblich\w* (?:ausbildungs|bildungs)zentr\w*|centre de formation professionnelle'),
- ('research', '研究所', r'fraunhofer|helmholtz|leibniz|max[-\s]planck|forschungszentr\w*|forschungsinstitut\w*|\bdlr\b|\bdesy\b|\bkit\b|bundesanstalt für materialforschung|\bempa\b|\beawag\b|\bpsi\b|\bcern\b|\bait\b|institut de recherche'),
+ ('vocational', '职业学校／技术学校', r'\bbbs\b|gewerbeschul\w*|berufsschul\w*|berufskolleg\w*|berufsfachschul\w*|beruflich\w* schul\w*|fachschul\w*|technikerschul\w*|berufsbildend\w* schul\w*|berufsbildungswerk\w*|berufliches schulzentrum|höhere technische (?:bundes)?lehranstalt|\bhtl\b|berufsfachschule|école professionnelle|scuola professionale'),
+ ('training', '职业培训中心', r'berufsbildungsstätt\w*|training cent(?:er|re)\w*|berufsbildungszentr\w*|bildungszentr\w*|ausbildungszentr\w*|lehrwerkstatt\w*|überbetrieblich\w* (?:bildungs|ausbildungs)stätt\w*|überbetrieblich\w* (?:ausbildungs|bildungs)zentr\w*|centre de formation professionnelle'),
+ ('research', '研究所', r'deutsche forschungsgemeinschaft|fraunhofer|helmholtz|leibniz|max[-\s]planck|forschungszentr\w*|forschungsinstitut\w*|\bdlr\b|\bdesy\b|\bkit\b|bundesanstalt für materialforschung|\bempa\b|\beawag\b|\bpsi\b|\bcern\b|\bait\b|institut de recherche'),
  ('university', '高校／应用科技大学', r'\buniversität\b|\buniversitaet\b|\buniversit[yé]\b|\bhochschule\b|\bfachhochschule\b|\b(?:tu|fh|haw|eth|epfl)\b|technische universiteit|haute école'),
 ]
 PUBLIC = r'\bstadt\b|landkreis|kreisverwaltung|landratsamt|schulträger|schultraeger|gemeinde|kanton|magistrat|senatsverwaltung'
@@ -25,6 +25,15 @@ def classify(item):
     buyer_hit=None if re.search(r'klinikum|hospital|krankenhaus',buyer,re.I) else hit(buyer)
     title_hit=hit(title)
     body_hit=hit(desc)
+    if body_hit and body_hit[0]=='chamber':
+        # Membership / registry requirements are not evidence of a chamber as user.
+        m=re.search(RULES[0][2],desc,re.I)
+        context=desc[max(0,m.start()-150):m.end()+150] if m else ''
+        if not re.search(r'bildungszentr|ausbildungszentr|berufsbildung|lehrwerkstatt|überbetrieblich|fortbildung|weiterbildung',context,re.I):
+            body_hit=None
+            for key,label,pattern in RULES[1:]:
+                m=re.search(pattern,desc,re.I)
+                if m:body_hit=(key,label,m.group(0));break
     found=buyer_hit or title_hit or body_hit
     if not found:
         return {'institution_type':'other','institution_label':'其他／待确认',

@@ -11,7 +11,7 @@ API = 'https://api.ted.europa.eu/v3/notices/search'
 FIELDS = ['publication-number','notice-title','buyer-name','buyer-country','publication-date',
           'deadline-receipt-tender-date-lot','deadline-receipt-tender-time-lot',
           'description-proc','estimated-value-proc','estimated-value-cur-proc','form-type',
-          'procedure-identifier']
+          'procedure-identifier','internal-identifier-proc','notice-identifier']
 
 def values(v):
     if isinstance(v, dict):
@@ -75,6 +75,8 @@ def parse(n, now):
     if not item: return None
     item.update(source='TED',collected_at=now.isoformat(),notice_id=notice,
         procedure_id=text(n.get('procedure-identifier')) or None,
+        procurement_reference=text(n.get('internal-identifier-proc')) or None,
+        notice_uuid=text(n.get('notice-identifier')) or None,notice_stage='notice',
         deadlines=sorted(set(x[1] for x in deadlines)),
         budget_amount=text(n.get('estimated-value-proc')) or None,
         budget_currency=text(n.get('estimated-value-cur-proc')) or None,

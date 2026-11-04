@@ -1,35 +1,64 @@
-# DACH Robotics Tender Intelligence
+# DACH 教育与科研机器人采购情报
 
-Live public tender dashboard: https://gxy-worldpeace.github.io/dach-robotics-dashboard/
+https://gxy-worldpeace.github.io/dach-robotics-dashboard/
 
-## Sources and scope
-- **TED connected**: official keyless `POST https://api.ted.europa.eu/v3/notices/search`, Germany/Austria buyers, competition notices, future submission deadlines. Queries robot/cobot/manipulator/humanoid/automation terms in procedure title and description. Software licences, construction and consulting titles are excluded. This is a targeted search, not complete DACH coverage.
-- **SIMAP not connected**: official Swagger https://www.simap.ch/api-doc/ and OpenAPI https://www.simap.ch/api/specifications/simap.yaml verified. The specification exposes `/publications/v2/project/project-search` and publication detail endpoints. Search/detail field mapping, pagination and operational reliability remain unverified; no Swiss records are fabricated or imported.
-- National below-threshold platforms are not connected.
+中文看板，重点关注高校、研究所、职业学校、职业培训中心及 IHK/HWK。机构跟进 A/B/C 与产品匹配 P1/P2/P3 独立。只导入公开官方来源；摘要与关键词评分不代表技术合规、采购资格或预算能力。
 
-## Run and validate
-Python 3.12+, standard library only. No API key required.
+## 已接入来源
+
+| 来源 | 访问方式与范围 | 限制 |
+| --- | --- | --- |
+| TED | 官方免密钥 Search API，德国／奥地利，仍有投标截止日期的 competition 公告 | 非全部历史；若原公告未同步延期可能漏检，因此增加门户核验 |
+| 德国 Bekanntmachungsservice（BKMS） | 官方 Open Data `https://oeffentlichevergabe.de/api/notice-exports`；CSV 索引 + 原始 eForms XML；上月与本月 | 数据截至德国时间前一日；只覆盖向该服务提交的公告，不能声称覆盖全部地方采购 |
+| DFG | `https://bieterportal.dfg.de/?l=1` 官方公开列表；自动解析项目编号和当前截止日期 | 网页结构可能变动；未公开的发布日期留空 |
+| 瑞士 SIMAP | 暂未接入 | 官方 OpenAPI 已找到，但未验证稳定采集链路 |
+
+BKMS 官方说明与 CC0 许可：https://oeffentlichevergabe.de/ui/de/publicationPolicy
+API 文档：https://oeffentlichevergabe.de/documentation/swagger-ui/opendata/index.html
+BKMS 的 CSV 格式不包含本采集器需要的投标截止字段，因此不能用有效期或开标时间代替截止时间。截止时间从原始 XML 的 TenderSubmissionDeadlinePeriod / ParticipationRequestReceptionPeriod 读取。问答截止时间不会当作投标截止时间。
+
+## 公告阶段与去重
+
+- `data/tenders.json`：已确认有未来截止日期的投标中项目。
+- `data/opportunities.json`：按采购程序去重后的投标中、采购预告、历史／结果公告、状态待核实项目；网站主要读取此文件。
+- `data/history.json`：保留不同来源、版本和首次发现时间。公告缺失不等于取消。
+- `data/scan_status.json`：每个来源的成功／失败、扫描范围与数量。单个来源失败保留其历史数据，并明确警告数据可能陈旧；其他来源继续更新，工作流返回失败以便排查。
+- `data/coverage_audit.json`：每轮自动检查 BAM、DFG、Wildau、Magdeburg-Stendal 四个已知真实样本是否仍能检出。
+
+身份合并使用采购程序 UUID、官方公告 UUID、精确的采购方+项目编号，或明确的 subreport 项目 ID。保留所有原始公告 ID 与链接，不按相似标题盲目去重。DFG 门户与 BKMS 的项目编号缺失时，仅在采购方+标题完全一致且对应唯一采购程序时补充关联。当前 DFG 列表可以修正该程序的截止时间，页面保留原公告字段与核验链接。结果公告不会因带有未来日期而成为投标中。
+
+采购预告和缺少截止日期的公告不会混入投标中。历史选项仅表示已收录公告的截止已过或已公布结果，不保证该采购已完成。
+
+## 教育科研分类
+
+检查采购方、项目名称和正文关键词：Universität/TU/Hochschule/FH/HAW/ETH、Fraunhofer/Helmholtz/Leibniz/Max Planck/DFG、Berufsschule/Berufskolleg/Fachschule/Technikerschule/BBS/HTL、Bildungszentrum/Ausbildungszentrum/Lehrwerkstatt、IHK/HWK 等。
+
+市县政府正文提到学校时仅标注“代采线索，最终用户待核实”。单纯要求企业提供 IHK/HWK 注册证明不能当作商会采购。医院名称包含 Universitätsklinikum 不等于大学机器人实验室。普通机器人操作培训也不等于培训中心采购。
+
+## 本地运行与检查
+
+Python 3.12+，只用标准库，无 API 密钥。
 
 ```
 python -m unittest discover -s tests -v
 python -m collector.fetch
 ```
 
-`data/tenders.json` contains current active notices; `data/history.json` retains previously collected records. IDs are TED publication numbers with a source prefix; repeated scans update the same notice and retain first_seen. Distinct official publications/corrections retain separate IDs in history; the dashboard displays the latest publication per procedure_id when available. Last successful data survives API errors, with error status published and workflow failure. Partial/pagination failures fail closed. Missing budgets stay null; amounts are procedure-level estimates, not device prices. Multiple future lot deadlines are stored, the earliest is displayed. A missing time is date-only (assumed valid until that local day's end), and must be checked manually. Removed notices are marked unavailable in history; this is not proof of cancellation.
+BKMS 完整归档存入被忽略的 `.cache/bkms/`（可用 BKMS_CACHE_DIR 改目录），按当天日期缓存，不提交原始归档、公共联系人表或中间数据。每天获取上月与本月的 CSV / XML，约百 MB 量级。导出不含当天新公告，此限制在页面展示。原始月归档仅用于解析，不是看板数据文件。
 
-P1: explicit product-family keywords; P2: generic robotics; P3: broad automation or specialist medical/cleaning/lab applications. Reasons and candidate DOBOT families appear on cards. This is preliminary matching, not technical qualification. Verify payload, reach, interfaces, safety, lots and deadlines in official documents. No private customer data or secrets belong here.
+## GitHub Actions 与 Pages
 
-## Automation and Pages
-Collection runs at UTC 06:00 and 07:00 with a Europe/Berlin timezone guard choosing 08:00 local time (CET/CEST). A same-local-day success guard avoids duplicate scheduled runs. GitHub Actions may delay or skip scheduled runs; this is not a strict delivery SLA. Manual runs bypass the guard.
+每天 Europe/Berlin 08:00 计划采集。UTC 06:00 / 07:00 两个候选 cron 按夏令时选择，按本地日期防止重复成功运行。Actions 可能延迟或跳过，非严格准点服务。修改 collector / tests / collection workflow 时也运行测试与采集，支持手动触发。
 
-The collector tests, queries TED, commits JSON to main. Pages runs on main pushes **and collection workflow completion**, because GITHUB_TOKEN pushes do not trigger another push workflow. Pages always checks out main and packages docs plus data. A failed scan deploys its error status while retaining prior successful data. Enable GitHub Pages with GitHub Actions and allow contents writes. `collector/sources.json` is a source inventory; TED implementation and filtering live in `collector/ted.py`.
+采集自动提交 data 到 main；Pages 监听 main push 和采集工作流完成，以覆盖 GITHUB_TOKEN 提交不会触发 push 工作流的情况。失败扫描也发布错误状态与保留数据。需要 Pages 配置为 GitHub Actions，内容写权限可用。
 
-## 教育科研与职业培训范围
+中文译文单独存储在 `docs/translations.zh.json`，跨来源合并后保留原已译公告的译文。尚未翻译的新项目明确显示待翻译，不自动编造中文内容。原文和原平台链接可展开查看。
 
-默认展示高校、研究所、职业学校／技术学校、职业培训中心／企业实训中心、工商会／手工业协会的采购线索，可切换“全部采购机构”。分类在每次采集时自动运行，检查采购机构、项目名称和完整程序描述；不把机构关键词作为 TED 查询的硬性限制，以免漏掉市县政府代采项目。
+## 覆盖核查结果（2026-11-04）
 
-机构关键词包含 Universität/TU/Hochschule/FH/HAW/ETH、Fraunhofer/Helmholtz/Leibniz/Max Planck、Berufsschule/Berufskolleg/Berufsfachschule/Fachschule/Technikerschule/HTL、Berufsbildungszentrum/Bildungszentrum/Ausbildungszentrum/Lehrwerkstatt、IHK/HWK 等。医院不会仅因名称包含 Universitätsklinikum 就被视作高校实验室。市县采购方加正文教育机构关键词只标记“代采线索，待核实”，不把采购机关名称替换成学校。
+- BAM：原来未接入国家级 UVgO 来源，已由 BKMS 检出。
+- Magdeburg-Stendal：国家级公告版本更新；旧截止 11 月 4 日，新版 11 月 6 日 10:00。
+- DFG 移动串联机器人：TED 原公告字段为 11 月 2 日，DFG 当前官方门户为 11 月 13 日 12:00，已单独核验。
+- TH Wildau：官方导出为拟进行采购，未提供可靠投标截止；归入采购预告。原平台页面本次返回 404，不把聚合站期限当作已核实事实。
 
-机构跟进 A/B/C 与产品匹配 P1/P2/P3 独立：A 表示目标机构名称匹配且涉及机器人；B 表示教育科研／培训线索需要进一步核实；C 表示暂未识别目标机构。均不推断预算或采购能力。职业教育中的机器人设备采购不再因标题含 Berufsausbildung 而被排除；纯培训服务仍排除。中文翻译映射和原始公告保持分开。
-
-此更新扩展机构识别和看板筛选，不表示新增接入德国本地平台或 SIMAP；仍仅展示已验证来源的真实公告。没有匹配项目的类型显示为零。
+这些修复扩大覆盖范围，但尚未直接接入所有州平台、学校网站、奥地利本地平台或 SIMAP。地方未上报公告、早于上月月初且未更新的公告仍可能遗漏。

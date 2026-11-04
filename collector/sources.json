@@ -1,4 +1,31 @@
 {
-  "TED": {"enabled": true, "endpoint": "https://api.ted.europa.eu/v3/notices/search", "countries": ["DE", "AT"]},
-  "SIMAP": {"enabled": false, "documentation": "https://www.simap.ch/api-doc/", "specification": "https://www.simap.ch/api/specifications/simap.yaml", "reason": "Official API found; search/detail integration and reliability not yet verified"}
+  "TED": {
+    "enabled": true,
+    "endpoint": "https://api.ted.europa.eu/v3/notices/search",
+    "countries": [
+      "DE",
+      "AT"
+    ]
+  },
+  "SIMAP": {
+    "enabled": false,
+    "documentation": "https://www.simap.ch/api-doc/",
+    "specification": "https://www.simap.ch/api/specifications/simap.yaml",
+    "reason": "Official API found; search/detail integration and reliability not yet verified"
+  },
+  "BKMS": {
+    "enabled": true,
+    "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
+    "formats": [
+      "csv.zip",
+      "eforms.zip"
+    ],
+    "window": "previous and current calendar month; export through previous day",
+    "license": "CC0"
+  },
+  "DFG": {
+    "enabled": true,
+    "endpoint": "https://bieterportal.dfg.de/?l=1",
+    "mode": "public HTML list; live deadline verification"
+  }
 }

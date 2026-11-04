@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:ContractNotice xmlns:ns0="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2" xmlns:ns1="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ns2="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+   <ns1:ID>e6c7549e-f612-4265-9731-8b04db662c65</ns1:ID>
+   <ns1:ContractFolderID>8e03c5e0-db71-4c04-a6fc-ba54d7c031cb</ns1:ContractFolderID>
+   <ns1:IssueDate>2026-11-03+01:00</ns1:IssueDate>
+   <ns1:IssueTime>09:35:44+01:00</ns1:IssueTime>
+   <ns1:VersionID>2</ns1:VersionID>
+   <ns1:RequestedPublicationDate>2026-10-07</ns1:RequestedPublicationDate>
+   <ns1:RegulatoryDomain>de-uvgo</ns1:RegulatoryDomain>
+   <ns1:NoticeTypeCode listName="change">cn-standard</ns1:NoticeTypeCode>
+   <ns2:ContractingParty>
+      <ns2:Party>
+         <ns2:PartyName>
+            <ns1:Name languageID="DEU">Hochschule Magdeburg-Stendal</ns1:Name>
+         </ns2:PartyName>
+         </ns2:Party>
+   </ns2:ContractingParty>
+   <ns2:TenderingProcess>
+      <ns1:ProcedureCode listName="procurement-procedure-type">de-open</ns1:ProcedureCode>
+   </ns2:TenderingProcess>
+   <ns2:ProcurementProject>
+      <ns1:ID schemeName="InternalID">HS-MS-035-2026</ns1:ID>
+      <ns1:Name languageID="DEU">Flexible Automation (automatisierten Handling- und Palettiersystems für Zerspanungswerkzeuge und Werkzeugaufnahmen)</ns1:Name>
+      <ns1:Description languageID="DEU">Lieferung, Installation und Inbetriebnahme eines universell einsetzbaren automatisierten Handling- und Palettiersystems für Zerspanungswerkzeuge und Werkzeugaufnahmen</ns1:Description>
+      <ns2:RealizedLocation>
+         <ns1:Description languageID="DEU">Hochschule Magdeburg-Stendal
+Breitscheidstr. 2
+39114 Magdeburg</ns1:Description>
+      </ns2:RealizedLocation>
+   </ns2:ProcurementProject>
+   <ns2:ProcurementProjectLot>
+      <ns1:ID schemeName="Lot">LOT-0000</ns1:ID>
+      <ns2:TenderingProcess>
+         <ns1:SubmissionMethodCode listName="esubmission">allowed</ns1:SubmissionMethodCode>
+         <ns2:TenderSubmissionDeadlinePeriod>
+            <ns1:EndDate>2026-11-06+01:00</ns1:EndDate>
+            <ns1:EndTime>10:00:00+01:00</ns1:EndTime>
+         </ns2:TenderSubmissionDeadlinePeriod>
+         <ns2:AdditionalInformationRequestPeriod>
+            <ns1:EndDate>2026-11-06+01:00</ns1:EndDate>
+            <ns1:EndTime>10:00:00+01:00</ns1:EndTime>
+         </ns2:AdditionalInformationRequestPeriod>
+      </ns2:TenderingProcess>
+      <ns2:ProcurementProject>
+         <ns1:ID schemeName="InternalID">HS-MS-035-2026</ns1:ID>
+         <ns1:Name languageID="DEU">Flexible Automation (automatisierten Handling- und Palettiersystems für Zerspanungswerkzeuge und Werkzeugaufnahmen)</ns1:Name>
+         <ns1:Description languageID="DEU">Lieferung, Installation und Inbetriebnahme eines universell einsetzbaren automatisierten Handling- und Palettiersystems für Zerspanungswerkzeuge und Werkzeugaufnahmen</ns1:Description>
+         <ns2:RealizedLocation>
+            <ns1:Description languageID="DEU">Hochschule Magdeburg-Stendal
+Breitscheidstr. 2
+39114 Magdeburg</ns1:Description>
+         </ns2:RealizedLocation>
+      </ns2:ProcurementProject>
+   </ns2:ProcurementProjectLot>
+</ns0:ContractNotice>
