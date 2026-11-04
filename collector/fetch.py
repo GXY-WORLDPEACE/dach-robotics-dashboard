@@ -1,39 +1,39 @@
-"""RSS/Atom ingestion for user-configured official feeds. Only items matching robotics keywords are kept."""
-import json,datetime,sys,urllib.request,xml.etree.ElementTree as ET
-from pathlib import Path
-from .core import ROOT,normalize,merge,save,score
+"""Collect real TED notices and retain an auditable, deduplicated history."""
+import datetime as dt
+import json
+import sys
+from .core import ROOT, merge
+from .ted import collect
 
-def fetch_feed(feed):
-    req=urllib.request.Request(feed['url'],headers={'User-Agent':'DACH-Robotics-Tender-Monitor/1.0 (public procurement research)'})
-    with urllib.request.urlopen(req,timeout=25) as resp: data=resp.read(3_000_000)
-    root=ET.fromstring(data)
-    def value(node,name):
-        for c in node.iter():
-            if c.tag.rsplit('}',1)[-1]==name and c.text:return c.text.strip()
-        return ''
-    nodes=[x for x in root.iter() if x.tag.rsplit('}',1)[-1] in ('item','entry')]
-    out=[]
-    for n in nodes:
-        title=value(n,'title');desc=value(n,'description') or value(n,'summary') or value(n,'content')
-        if score(title,desc)[0]<15:continue
-        link=value(n,'link')
-        if not link:
-            for c in n.iter():
-                if c.tag.rsplit('}',1)[-1]=='link' and c.get('href'):link=c.get('href');break
-        obj=normalize({'title':title,'description':desc,'source_url':link,'notice_id':value(n,'guid') or value(n,'id') or None,'country':feed.get('country'),'publication_date':value(n,'pubDate') or value(n,'published') or None,'verification_status':'公告摘要待核实','status':'截止日期待核实'})
-        if obj:out.append(obj)
-    return out
+def write(path, data):
+    tmp=path.with_suffix('.tmp')
+    tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    tmp.replace(path)
 
 def main():
-    conf=json.loads((ROOT/'collector'/'sources.json').read_text(encoding='utf-8'))
-    target=ROOT/'data'/'tenders.json'; old=json.loads(target.read_text(encoding='utf-8')).get('tenders',[]) if target.exists() else []
-    fresh=[];errors=[]
-    for feed in conf.get('rss_feeds',[]):
-        if not feed.get('enabled'):continue
-        try:fresh+=fetch_feed(feed)
-        except Exception as e:errors.append(f"{feed.get('name')}: {type(e).__name__}: {e}")
-    save(merge(old,fresh))
-    (ROOT/'data'/'scan_status.json').write_text(json.dumps({'scanned_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'new_items_fetched':len(fresh),'feeds_enabled':sum(bool(x.get('enabled')) for x in conf.get('rss_feeds',[])),'errors':errors,'note':'Only configured RSS/Atom feeds are collected. No full DACH coverage is implied.'},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Fetched {len(fresh)} candidates; errors: {len(errors)}')
+    now=dt.datetime.now(dt.timezone.utc)
+    target=ROOT/'data'/'tenders.json'
+    archive=ROOT/'data'/'history.json'
+    previous=archive if archive.exists() else target
+    old=json.loads(previous.read_text()).get('tenders',[]) if previous.exists() else []
+    status={'scanned_at':now.isoformat(),'sources':{'TED':{'status':'error'},'SIMAP':{'status':'not_connected','note':'官方 OpenAPI 已确认；搜索及详情映射与稳定性尚未验证，暂未接入。'}},'errors':[]}
+    try:
+        fresh,details=collect(now)
+        history=merge(old,fresh)
+        active_ids=set(details.pop('current_ids'))
+        for item in history:
+            if item.get('source')=='TED' and item['id'] not in active_ids:
+                item['status']='已过期或不再出现在当前 TED 查询中'
+        active=[x for x in history if x['id'] in active_ids]
+        write(ROOT/'data'/'history.json',{'updated_at':now.isoformat(),'tenders':history})
+        write(target,{'updated_at':now.isoformat(),'tenders':active})
+        status.update(new_items_fetched=len(fresh),active_count=len(active),history_count=len(history),feeds_enabled=1)
+        status['sources']['TED']={'status':'connected',**details}
+        print(json.dumps(status,ensure_ascii=False))
+    except Exception as e:
+        status['errors']=[f'{type(e).__name__}: {e}'];status['feeds_enabled']=0
+        print(status['errors'][0],file=sys.stderr)
+    write(ROOT/'data'/'scan_status.json',status)
+    return 1 if status['errors'] else 0
 
-if __name__=='__main__':main()
+if __name__=='__main__':sys.exit(main())

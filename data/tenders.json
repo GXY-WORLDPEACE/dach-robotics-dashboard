@@ -1,4 +1,291 @@
 {
-  "updated_at": "2026-11-04T19:12:22.547616+00:00",
-  "tenders": []
+  "updated_at": "2026-11-04T19:53:14.358916+00:00",
+  "tenders": [
+    {
+      "id": "TED:760689-2026",
+      "title": "Deutschland – CT-Scanner – Manipulator-Systems für einen Computertomographen",
+      "buyer": "Fraunhofer Institut für Lasertechnik",
+      "country": "DE",
+      "region": null,
+      "description": "Manipulator-Systems für einen Computertomographen",
+      "publication_date": "2026-11-03",
+      "deadline": "2026-12-03T09:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/760689-2026",
+      "priority": "P2",
+      "match_score": 55,
+      "matched_products": [
+        "DOBOT CR / CRA / E6 / ATOM（待确认）"
+      ],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "760689-2026",
+      "procedure_id": "a0074e82-66c3-415c-b596-ec8a670fb5cf",
+      "deadlines": [
+        "2026-12-03T09:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "明确涉及机器人，平台类型及技术规格待确认"
+      ]
+    },
+    {
+      "id": "TED:731988-2026",
+      "title": "Deutschland – Apparate und Geräte zum Prüfen und Testen – PEM-Elektrolyse-Teststand",
+      "buyer": "Fraunhofer Institut für Solare Energiesysteme, ISE",
+      "country": "DE",
+      "region": null,
+      "description": "Das Fraunhofer ISE betreibt seit über 30 Jahren PEM-Elektrolyse-Teststände bei Betriebstemperaturen von bis zu 120 C sowie Drücken von bis zu 50 bar (ü) und beabsichtigt aktuell die Anschaffung eines Teststandes zur Charakterisierung von PEM Elektrolysestacks. An dem Teststand sollen Charakterisierungen von Niedertemperatur-PEM-Elektrolysezellen als Shortstacks mit Leistungen bis zu 50 kW bei Temperaturen von bis zu 85°C und Drücken bis zu 50 bar (ü) durchgeführt werden. Es soll die Beschaffung eines Teststands beauftragt werden. Der Auftragnehmer wird mit der Lieferung, der Aufstellung und der Einweisung für dieses Gerät beauftragt. Die gewünschte Anlage muss einsatzbereit übergeben werden. Die Automatisierung erfolgt durch den Auftraggeber.",
+      "publication_date": "2026-10-22",
+      "deadline": "2026-11-05T12:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/731988-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "731988-2026",
+      "procedure_id": "75f36b0b-6459-461f-902c-5b1bc4490a13",
+      "deadlines": [
+        "2026-11-05T12:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ]
+    },
+    {
+      "id": "TED:698232-2026",
+      "title": "Deutschland – Maschinen für das Textil-, Bekleidungs- und Ledergewerbe – Modulares Automatisierungssystem zur Schmutzwäscheverarbeitung mit Fremdkörpererkennung und optionaler Artikelidentifikation",
+      "buyer": "Universitätsklinikum Freiburg",
+      "country": "DE",
+      "region": null,
+      "description": "Modulares Automatisierungssystem zur Schmutzwäscheverarbeitung mit Fremdkörpererkennung und optionaler Artikelidentifikation",
+      "publication_date": "2026-10-09",
+      "deadline": "2026-11-09T12:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/698232-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "698232-2026",
+      "procedure_id": "fe881204-679a-4c7c-bc71-1b8fb084edbf",
+      "deadlines": [
+        "2026-11-09T12:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ]
+    },
+    {
+      "id": "TED:716518-2026",
+      "title": "Deutschland – Laborgeräte, optische Geräte und Präzisionsgeräte (außer Gläser) – Programmierbares Windfelderzeugungssystem für einen Wind-Wellen-Kanal",
+      "buyer": "Helmholtz-Zentrum hereon GmbH",
+      "country": "DE",
+      "region": null,
+      "description": "Präambel Die Helmholtz-Zentrum hereon GmbH (Hereon) ist eine gemeinnützige Forschungseinrichtung und eine der 18 Mitgliedseinrichtungen der Hermann von Helmholtz-Gemeinschaft Deutscher Forschungszentren e. V. Die Aufwendungen des Hereon werden zu 90% vom Bund (BMFTR - Bundesministerium für Forschung, Technologie und Raumfahrt) und zu 10% von den vier Konsortialländern (Schleswig-Holstein, Hamburg, Niedersachsen und Brandenburg) finanziert. Die satzungsmäßige Aufgabe der Gesellschaft ist es, im multidisziplinären Verbund Forschung und Entwicklung, insbesondere auf den Gebieten der Materialforschung, der Küsten-, Klima- und Umweltforschung sowie der regenerativen Medizin zu betreiben. Gegenstand der Vergabe ist ein Programmierbares Windfelderzeugungssystem für einen Wind-Wellen-Kanal. Technische Spezifikation 1. Beschaffungsumfang Die Beschaffung umfasst die Lieferung, Installation, Inbetriebnahme und Funktionsprüfung eines programmierbaren Windfelderzeugungssystems für den Betrieb über einem bestehenden Wind-Wellen-Kanal. Das System muss sämtliche für den Betrieb erforderlichen mechanischen, elektrischen, steuerungstechnischen und softwareseitigen Komponenten umfassen, einschließlich Tragstrukturen, Strömungskonditionierungselementen, Luftführungen, Steuerungssoftware sowie Kommunikationsinfrastruktur. Das System wird für wissenschaftliche Untersuchungen in folgenden Bereichen e",
+      "publication_date": "2026-10-16",
+      "deadline": "2026-11-17T12:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/716518-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "716518-2026",
+      "procedure_id": "b55c018e-1420-4f7e-b3e3-626c9cefa02a",
+      "deadlines": [
+        "2026-11-17T12:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ]
+    },
+    {
+      "id": "TED:732446-2026",
+      "title": "Deutschland – Industrieroboter – Roboterplattform \"Boston Dynamics Spot\"",
+      "buyer": "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau",
+      "country": "DE",
+      "region": null,
+      "description": "Kauf einer fabrikneuen Roboterplattform \"Boston Dynamics Spot Plattform\"",
+      "publication_date": "2026-10-22",
+      "deadline": "2026-11-23T09:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/732446-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [
+        "DOBOT CR / CRA",
+        "DOBOT Quadruped"
+      ],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "732446-2026",
+      "procedure_id": "0ca29c98-7ba9-4f85-95f6-357f63fcb6a8",
+      "deadlines": [
+        "2026-11-23T09:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "Fremdfabrikat SPOT ausdrücklich genannt；先核实是否允许等效产品，不能视为 DOBOT 直接替代"
+      ]
+    },
+    {
+      "id": "TED:737366-2026",
+      "title": "Deutschland – Laborgeräte, optische Geräte und Präzisionsgeräte (außer Gläser) – POST-PCR-Pipettier-Roboter",
+      "buyer": "Präsidium Technik, Logistik, Service der Polizei Baden-Württemberg",
+      "country": "DE",
+      "region": null,
+      "description": "Lieferung von 2 Stück Post-PCR-Pipettier-Roboterplattformen inkl. Zubehör, Installation, Herbeiführung der Betriebsbereitschaft, Programmierung, Einweisung/Schulung und Systemservice.",
+      "publication_date": "2026-10-26",
+      "deadline": "2026-11-24T10:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/737366-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "737366-2026",
+      "procedure_id": "638e0aca-d9ed-41f9-8922-c8b65e6918b6",
+      "deadlines": [
+        "2026-11-24T10:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "专用医疗/清洁/检查应用，DOBOT 直接适配度低；需人工复核"
+      ]
+    },
+    {
+      "id": "TED:738935-2026",
+      "title": "Deutschland – Laborgeräte, optische Geräte und Präzisionsgeräte (außer Gläser) – EFRE: Containerbasierte Pilotbiogasanlage zur Reststoffverwertung",
+      "buyer": "Fachhochschule Aachen",
+      "country": "DE",
+      "region": null,
+      "description": "Dieses Vergabeverfahren steht im Zusammenhang mit einem Projekt, das aus dem EFRE/JTF-Programm NRW CircularCities NRW durch die Europäische Union und das Land Nordrhein-Westfalen kofinanziert wird . Förderkennzeichen: EFRE-20801954 ************************************************************** Auszug aus der Leistungsbeschreibung: Die Fachhochschule Aachen beabsichtigt, im Rahmen des Projekts ZELLULÄR eine containerbasierte Gesamtanlage zur Verwertung und Recycling von Restströmen aus der Papierindustrie zu beschaffen. Die Bestandteile der Gesamtanlage sind zu sehen in Abbildung 1 der Leistungsbeschreibung. Die Anlage muss im Wesentlichen aus einem Substratlager, einem anaeroben Rührkesselreaktor (Biogasanlage), einer Fest-Flüssig-Separation inklusive Polymerdosieranlage, einer Um-kehrosmoseanlage, einer nachgeschalteten Einheit zur Nährstoffrückgewinnung sowie den benötigten Zwischenspeicherbehältern und Förderpumpen bestehen. Der anaerobe Reaktor ist als kontinuierlich betriebener Rührkesselreaktor (CSTR) mit einem Arbeitsvolumen von etwa 400 L zuzüglich Kopfraum auszuführen. Die gesamte Anlage ist in einem 20-Fuß-Container realisiert und betriebsbereit montiert geliefert werden. Sollte sich im Zuge der Angebotserstellung herausstellen, dass das Substratlager den verbleibenden Bauraum in Container überschreitet, ist das Substratlager außerhalb des Containers zu positionieren.",
+      "publication_date": "2026-10-26",
+      "deadline": "2026-11-24T12:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/738935-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "738935-2026",
+      "procedure_id": "37eaf015-68ec-4ebb-ac13-0f561cf42f11",
+      "deadlines": [
+        "2026-11-24T12:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ]
+    },
+    {
+      "id": "TED:737714-2026",
+      "title": "Deutschland – Maschinen für allgemeine und besondere Zwecke – Planung, Lieferung u. Inbetriebnahme eines Hochdruckhomogenisator für den BioCampus MultiPilot (BMP)",
+      "buyer": "Zweckverband Hafen Straubing-Sand",
+      "country": "DE",
+      "region": null,
+      "description": "Gegenstand der Vergabe ist die Lieferung, Aufstellung, Inbetriebnahme, Abnahme und Einweisung eines Hochdruckhomogenisators zum Aufschluss fermentativ hergestellter Produkte. Die Anlage muss einen kontinuierlichen Produktdurchsatz von mindestens 1.000 L/h bei gleichzeitig 1.200 bar Homogenisierdruck erreichen. Der Leistungsumfang umfasst insbesondere die technische Detailplanung, die erforderliche MSR- und Automatisierung, Fertigung, Werksprüfung, Lieferung, Montage, Inbetriebnahme, Leistungsnachweis und Dokumentation. Detaillierte technische und prozessbezogene Unterlagen werden interessierten Unternehmen nach Abgabe einer Verschwiegenheitserklärung über die Vergabeplattform zugänglich gemacht.",
+      "publication_date": "2026-10-26",
+      "deadline": "2026-11-29T23:59:00+01:00",
+      "budget_amount": "300000",
+      "budget_currency": "EUR",
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/737714-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "737714-2026",
+      "procedure_id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
+      "deadlines": [
+        "2026-11-29T23:59:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ]
+    },
+    {
+      "id": "TED:739804-2026",
+      "title": "Deutschland – Industrieroboter – Lieferung des UGV Manipulator-Fahrzeugs „SPOT“ nebst Zubehör, Dienstleistung und Wartungsvertrag",
+      "buyer": "Bundesamt für Strahlenschutz",
+      "country": "DE",
+      "region": null,
+      "description": "Zur Erfüllung der Amtsaufgaben und speziell zur Unterstützung der im Unterstützungsverbund (UVB) – CBRN beteiligten Behörden Bundespolizei (BPOL) und Bundeskriminalamt (BKA) und zur Unterstützung der Länder soll ein schreitendes unbemanntes Bodenfahrzeug (Unmanned Ground Vehicle, UGV) beschafft werden. Das schreitende UGV soll Messgeräte tragen und deren Daten übermitteln können und damit teilautonom die Erkundung von Gefahrenbereichen durchführen. Weiterhin soll das schreitende UGV die Fähigkeit besitzen, Türen zu öffnen (Nutzung von Türklinken und schiebende wie ziehende Öffnung von auch selbst zufallenden Türen) und Treppen mit bis zu 30 cm Stufenhöhe zu überwinden (gültig für alle gängigen Konstruktionsmaterialien wie Beton, Holz, Metall und Metall-Gitter) um sich frei in Gebäuden bewegen zu können. Das schreitende UGV muss die Fähigkeit besitzen seine Umgebung dreidimensional (3D) zu erfassen und sich auf Grundlage dieser Daten semiautonom in dieser Umgebung zu bewegen. Um die zwingende technische Kompatibilität mit den benannten Partnerbehörden zu gewährleisten, muss es sich bei dem schreitenden UGV um das Modell „Spot“ des Herstellers „Boston Dynamics“ handeln. Nur hierdurch kann technisch gewährleistet werden, dass erworbene und selbst angefertigte Zusatzausstattung (Hardware und Software) mit den Partnern ausgetauscht werden kann. Die Schnittstellen (Hardware, Software",
+      "publication_date": "2026-10-26",
+      "deadline": "2026-12-01T10:00:00+01:00",
+      "budget_amount": "302700",
+      "budget_currency": "EUR",
+      "source_url": "https://ted.europa.eu/en/notice/-/detail/739804-2026",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [
+        "DOBOT CR / CRA"
+      ],
+      "verification_status": "TED 官方公告；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "投标中",
+      "source": "TED",
+      "collected_at": "2026-11-04T19:53:14.358916+00:00",
+      "notice_id": "739804-2026",
+      "procedure_id": "761da713-b93c-405d-9444-660e90566b21",
+      "deadlines": [
+        "2026-12-01T10:00:00+01:00"
+      ],
+      "budget_basis": "公告程序级预估金额；非单台设备预算",
+      "match_reasons": [
+        "Fremdfabrikat SPOT ausdrücklich genannt；先核实是否允许等效产品，不能视为 DOBOT 直接替代"
+      ]
+    }
+  ]
 }

@@ -25,7 +25,7 @@ def merge(old,new):
     entries={x['id']:x for x in old if 'id' in x}
     for item in new:
         if item['id'] in entries:
-            before=entries[item['id']]; item['first_seen']=before.get('first_seen',item['first_seen']); item['status']=before.get('status',item['status'])
+            before=entries[item['id']]; item['first_seen']=before.get('first_seen',item['first_seen'])
         entries[item['id']]=item
     return sorted(entries.values(),key=lambda x:(x['priority'],x.get('deadline') or '9999',x['title']))
 

@@ -1,48 +1,25 @@
 # DACH Robotics Tender Intelligence
 
-Public, mobile-friendly robotics procurement dashboard for Germany (DE), Austria (AT), and Switzerland (CH). GitHub Pages + scheduled GitHub Actions + JSON. **Starter project; NOT a complete live procurement service.**
+Live public tender dashboard: https://gxy-worldpeace.github.io/dach-robotics-dashboard/
 
-## Features
-- Responsive Chinese-language tender cards, keyword/country/priority filters and CSV export.
-- Rule-based DOBOT product matching (preliminary keyword heuristic; not technical compliance verification).
-- Deduplication by source notice ID or URL; first-seen date retention.
-- RSS/Atom collector with explicit configured sources and error reporting.
-- Daily GitHub Actions scan and automatic GitHub Pages deployment after data commits.
-- No private CRM data, credentials, or internal commercial notes in the public repository.
+## Sources and scope
+- **TED connected**: official keyless `POST https://api.ted.europa.eu/v3/notices/search`, Germany/Austria buyers, competition notices, future submission deadlines. Queries robot/cobot/manipulator/humanoid/automation terms in procedure title and description. Software licences, construction and consulting titles are excluded. This is a targeted search, not complete DACH coverage.
+- **SIMAP not connected**: official Swagger https://www.simap.ch/api-doc/ and OpenAPI https://www.simap.ch/api/specifications/simap.yaml verified. The specification exposes `/publications/v2/project/project-search` and publication detail endpoints. Search/detail field mapping, pagination and operational reliability remain unverified; no Swiss records are fabricated or imported.
+- National below-threshold platforms are not connected.
 
-## Deploy
-1. Create a **public** GitHub repository and upload this project to its `main` branch (`git init`, `git add .`, `git commit`, `git branch -M main`, `git remote add origin ...`, `git push -u origin main`).
-2. In **Settings → Pages → Build and deployment**, select **GitHub Actions**.
-3. In **Settings → Actions → General**, ensure workflow permissions allow the collector to push commits (read/write). Organization policy may override this.
-4. In **Actions**, run **Deploy Pages** manually once. Your URL will resemble `https://USERNAME.github.io/REPO/`.
-5. Edit `collector/sources.json` to add **verified official RSS/Atom feeds**, for example `{ "name": "Verified feed name", "url": "https://official.example/rss", "country": "DE", "enabled": true }`. The example URL is illustrative only and MUST NOT be enabled as-is. Confirm access terms and feed semantics. **No official feeds are enabled by default.**
-6. Run **Collect public tenders** manually; inspect `data/scan_status.json` for failures. Future scans run automatically, and data changes trigger Pages deployment.
+## Run and validate
+Python 3.12+, standard library only. No API key required.
 
-## Schedule and reliability
-GitHub Actions uses UTC and may run late or be skipped during load. Current schedule `07:15 UTC` is 08:15 in winter (CET) and 09:15 in summer (CEST); it is **not DST-aware**. For an exact 08:00 Europe/Berlin requirement, use an external timezone-aware scheduler or add an hourly trigger with a local-time guard. This workflow is separate from the existing ChatGPT 08:00 report.
-
-## Data integrity and limitations
-- Initial `data/tenders.json` intentionally contains **zero** tenders. No demo tenders are presented as real.
-- RSS feeds often omit deadline, budget and technical attachments. Missing fields remain null, with status marked unverified.
-- A real comprehensive collector for TED, e-Vergabe, SIMAP and Austria requires platform-specific APIs/search integrations, legal/terms checks, rate limiting, pagination and often official document parsing. Those integrations are **not implemented in this starter**.
-- Scoring is only keyword matching. Manual validation against tender documents is required before bids.
-- `data/tenders.json` is **public**. Do not store customer notes, quotes, contacts that are not public, API keys, or confidential information here.
-- GitHub Pages is public hosting; it provides no private user login. A private CRM requires a separate authenticated backend and database.
-
-## Local testing
-```bash
+```
 python -m unittest discover -s tests -v
 python -m collector.fetch
-python -m http.server 8000
 ```
-For local preview open `http://localhost:8000/docs/` but note the relative `data/` URL assumes the Pages build structure. To preview the full deployed structure, create `_site` as in `.github/workflows/pages.yml`, then serve `_site`.
 
-## Files
-- `docs/index.html` — static dashboard UI
-- `collector/core.py` — normalization, deduplication and matching
-- `collector/fetch.py` — RSS/Atom feed collector
-- `collector/sources.json` — configurable official feed endpoints
-- `data/tenders.json` — published data
-- `data/scan_status.json` — collection health
-- `.github/workflows/collect.yml` — daily collection
-- `.github/workflows/pages.yml` — GitHub Pages deployment
+`data/tenders.json` contains current active notices; `data/history.json` retains previously collected records. IDs are TED publication numbers with a source prefix; repeated scans update the same notice and retain first_seen. Distinct official publications/corrections retain separate IDs in history; the dashboard displays the latest publication per procedure_id when available. Last successful data survives API errors, with error status published and workflow failure. Partial/pagination failures fail closed. Missing budgets stay null; amounts are procedure-level estimates, not device prices. Multiple future lot deadlines are stored, the earliest is displayed. A missing time is date-only (assumed valid until that local day's end), and must be checked manually. Removed notices are marked unavailable in history; this is not proof of cancellation.
+
+P1: explicit product-family keywords; P2: generic robotics; P3: broad automation or specialist medical/cleaning/lab applications. Reasons and candidate DOBOT families appear on cards. This is preliminary matching, not technical qualification. Verify payload, reach, interfaces, safety, lots and deadlines in official documents. No private customer data or secrets belong here.
+
+## Automation and Pages
+Collection runs at UTC 06:00 and 07:00 with a Europe/Berlin timezone guard choosing 08:00 local time (CET/CEST). A same-local-day success guard avoids duplicate scheduled runs. GitHub Actions may delay or skip scheduled runs; this is not a strict delivery SLA. Manual runs bypass the guard.
+
+The collector tests, queries TED, commits JSON to main. Pages runs on main pushes **and collection workflow completion**, because GITHUB_TOKEN pushes do not trigger another push workflow. Pages always checks out main and packages docs plus data. A failed scan deploys its error status while retaining prior successful data. Enable GitHub Pages with GitHub Actions and allow contents writes. `collector/sources.json` is a source inventory; TED implementation and filtering live in `collector/ted.py`.

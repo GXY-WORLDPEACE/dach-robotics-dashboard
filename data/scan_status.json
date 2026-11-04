@@ -1,7 +1,21 @@
 {
-  "scanned_at": "2026-11-04T19:12:22.547780+00:00",
-  "new_items_fetched": 0,
-  "feeds_enabled": 0,
+  "scanned_at": "2026-11-04T19:53:14.358916+00:00",
+  "sources": {
+    "TED": {
+      "status": "connected",
+      "query": "buyer-country IN (DEU AUT) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261104 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation*)",
+      "api_results": 37,
+      "accepted": 10,
+      "endpoint": "https://api.ted.europa.eu/v3/notices/search"
+    },
+    "SIMAP": {
+      "status": "not_connected",
+      "note": "官方 OpenAPI 已确认；搜索及详情映射与稳定性尚未验证，暂未接入。"
+    }
+  },
   "errors": [],
-  "note": "Only configured RSS/Atom feeds are collected. No full DACH coverage is implied."
+  "new_items_fetched": 10,
+  "active_count": 9,
+  "history_count": 20,
+  "feeds_enabled": 1
 }

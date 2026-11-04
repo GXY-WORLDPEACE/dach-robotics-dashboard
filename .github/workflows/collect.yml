@@ -2,7 +2,9 @@ name: Collect public tenders
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 7 * * *'
+    # UTC candidates: 08:00 CEST / 08:00 CET. Local guard selects one.
+    - cron: '0 6 * * *'
+    - cron: '0 7 * * *'
 permissions:
   contents: write
 concurrency:
@@ -13,18 +15,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Select Europe/Berlin 08:00 slot
+        id: clock
+        env:
+          EVENT: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import datetime, os
+          from zoneinfo import ZoneInfo
+          now = datetime.datetime.now(datetime.timezone.utc)
+          offset = now.astimezone(ZoneInfo('Europe/Berlin')).utcoffset().total_seconds()/3600
+          # Both UTC hours share one cron; use UTC hour, with a local-date success guard.
+          run = os.environ['EVENT'] != 'schedule' or int(os.environ['CRON'].split()[1]) == 8-int(offset)
+          if os.environ['EVENT'] == 'schedule':
+              import json, pathlib
+              p=pathlib.Path('data/scan_status.json')
+              if p.exists():
+                  s=json.loads(p.read_text())
+                  last=s.get('scanned_at')
+                  if last and not s.get('errors'):
+                      run = run and datetime.datetime.fromisoformat(last).astimezone(ZoneInfo('Europe/Berlin')).date()!=now.astimezone(ZoneInfo('Europe/Berlin')).date()
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write(f'run={str(run).lower()}\n')
+          PY
+      - name: Tests
+        if: steps.clock.outputs.run == 'true'
+        run: python -m unittest discover -s tests -v
       - name: Run collection
+        if: steps.clock.outputs.run == 'true'
         run: python -m collector.fetch
       - name: Commit updated public data
+        if: always() && steps.clock.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/tenders.json data/scan_status.json
+          git add data/
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh public tender data"
             git push

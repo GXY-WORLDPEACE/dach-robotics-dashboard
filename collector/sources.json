@@ -1,4 +1,4 @@
 {
-  "rss_feeds": [],
-  "instructions": "Add verified official procurement RSS/Atom feed URLs as {name, url, country, enabled:true}. No feeds are pre-enabled because endpoints and usage rights must be verified."
+  "TED": {"enabled": true, "endpoint": "https://api.ted.europa.eu/v3/notices/search", "countries": ["DE", "AT"]},
+  "SIMAP": {"enabled": false, "documentation": "https://www.simap.ch/api-doc/", "specification": "https://www.simap.ch/api/specifications/simap.yaml", "reason": "Official API found; search/detail integration and reliability not yet verified"}
 }
