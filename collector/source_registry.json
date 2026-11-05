@@ -111,7 +111,7 @@
       "name": "瑞士 SIMAP",
       "country": "CH",
       "enabled": true,
-      "scope": "六组关键词、最近 90 天，联邦／州／市在 SIMAP 公开的公告"
+      "scope": "德语、英语、法语、意大利语关键词，最近 90 天，联邦／州／市在 SIMAP 公开的公告"
     },
     {
       "id": "USP",

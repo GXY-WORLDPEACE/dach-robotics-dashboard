@@ -46,7 +46,7 @@ def multilingual(v):
 def relevant(title,description=''):
     title=title or '';s=(title+' '+(description or '')).casefold()
     if any(x in title.casefold() for x in ['ebook','e-book','e book','personeel','personnel','recruitment','personalvermittlung','arbeitskräfte','robotic process','rpa','kanalsanierung','mähroboter','rasenmäher','reinigungsdienst','softwarelizenz','gebäudeautomation','gebaeudeautomation']):return False
-    return bool(re.search(r'robot|cobot|manipulator|humanoid|teleoper|quadrup',s) or re.search(r'automat',title,re.I))
+    return bool(re.search(r'robot|cobot|manipulat(?:or|eur)|manipolator|humanoid|umanoid|teleoper|quadrup',s) or re.search(r'automat',title,re.I))
 
 def deadline(v,zone='Europe/Berlin'):
     if not v:return None
