@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T07:23:56.556586+00:00",
+  "checked_at": "2026-11-05T08:09:09.753904+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -217,7 +217,7 @@
       "scope": "DFG 当前公开列表及截止核验",
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 25,
+      "scanned_rows": 24,
       "accepted_notices": 3,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
@@ -234,28 +234,21 @@
         "robot",
         "cobot",
         "manipulator",
+        "manipulateur",
+        "manipolatore",
         "humanoid",
+        "umanoide",
         "automatisierung",
-        "automation"
+        "automation",
+        "automatisation",
+        "automazione"
       ],
-      "scanned_hits": 79,
-      "unique_publications": 65,
+      "scanned_hits": 99,
+      "unique_publications": 68,
       "accepted_notices": 27,
       "detail_errors": [
         {
-          "publication_id": "40aa9577-3554-403a-bb45-d0ae0d9c269a",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "735d6f94-a94b-4093-a875-0a3ed2820d29",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "3c783e77-da9f-45e7-81b5-43b9a907069f",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "3903f35b-fe8d-4e9e-bcc9-baa393215da5",
+          "publication_id": "c062fd2b-1711-40f9-99fb-e792d08a7a05",
           "error": "URLError"
         }
       ],
@@ -292,7 +285,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-07",
-      "scanned_notices": 6737,
+      "scanned_notices": 6739,
       "accepted_notices": 67,
       "license": "CC0"
     },
