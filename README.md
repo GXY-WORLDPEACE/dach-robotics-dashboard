@@ -52,7 +52,7 @@ BKMS 完整归档存入被忽略的 `.cache/bkms/`（可用 BKMS_CACHE_DIR 改�
 
 ## GitHub Actions 与 Pages
 
-每天 Europe/Berlin 08:00 计划采集。UTC 06:00 / 07:00 两个候选 cron 按夏令时选择，按本地日期防止重复成功运行。Actions 可能延迟或跳过，非严格准点服务。修改 collector / tests / collection workflow 时也运行测试与采集，支持手动触发。
+每天 Europe/Berlin 06:00、12:00 和 18:00 计划采集。GitHub Actions 使用 Europe/Berlin 时区处理夏令时。Actions 可能延迟或跳过，非严格准点服务。修改 collector / tests / collection workflow 时也运行测试与采集，支持手动触发。
 
 采集自动提交 data 到 main；Pages 监听 main push 和采集工作流完成，以覆盖 GITHUB_TOKEN 提交不会触发 push 工作流的情况。失败扫描也发布错误状态与保留数据。需要 Pages 配置为 GitHub Actions，内容写权限可用。
 
@@ -90,6 +90,6 @@ BKMS 完整归档存入被忽略的 `.cache/bkms/`（可用 BKMS_CACHE_DIR 改�
 
 `collector/source_registry.json` 管理已启用和受限来源；`data/source_coverage.json` 每次采集自动生成每国数量、每来源运行结果、实际窗口、错误与缺口。66 个州／省／大区是核查清单，**不是已接入平台数量，也不代表 66 个地区全覆盖**。页面可展开查看每个地区的缺口。
 
-所有启用来源继续由现有 GitHub Actions 在 Europe/Berlin 08:00 自动采集，来源间使用最多 4 个工作线程；单个来源内遵守分页与间隔。单源失败不会阻止其他来源更新，状态会注明异常并保留历史。多个来源的项目按程序 ID、精确引用或官方平台 ID 去重；TenderNed 与 SIMAP 的官方链接可用于与 TED 关联。缺少可靠关联键的疑似重复不会按相似标题强行合并。
+所有启用来源继续由现有 GitHub Actions 在 Europe/Berlin 06:00、12:00 和 18:00 自动采集，来源间使用最多 4 个工作线程；单个来源内遵守分页与间隔。单源失败不会阻止其他来源更新，状态会注明异常并保留历史。多个来源的项目按程序 ID、精确引用或官方平台 ID 去重；TenderNed 与 SIMAP 的官方链接可用于与 TED 关联。缺少可靠关联键的疑似重复不会按相似标题强行合并。
 
 扩展新区域 ZIP 来源时，应先验证官方出处、解析器、截止日期与去重，再向 registry 添加 `kind=vmp_zip` 和 `enabled=true`。访问受限或未验证来源不能标成 connected。未翻译的新公告仍明确标记“中文翻译待补充”。

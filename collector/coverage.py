@@ -29,4 +29,4 @@ def report(status,board,now):
             regions.append({'country':code,'region':name,'coverage':'national_aggregation_partial',
                 'direct_local_status':'partial_NRW_platforms' if code=='DE' and name=='Nordrhein-Westfalen' else 'not_individually_verified',
                 'note':'仅纳入已接入国家级／区域平台上报的公开公告；不代表该地区全部地方平台已接入'})
-    return {'checked_at':now,'coverage_complete':False,'coverage_claim':reg['coverage_claim'],'countries':countries,'sources':sources,'jurisdictions':regions,'jurisdiction_note':'66 个州／省／大区是检查清单，不是已接入平台数量；每个地区仍可能存在独立城市、学校和机构平台。','refresh':'每日 Europe/Berlin 08:00 自动重采集并记录来源健康；新增接口须验证后启用。'}
+    return {'checked_at':now,'coverage_complete':False,'coverage_claim':reg['coverage_claim'],'countries':countries,'sources':sources,'jurisdictions':regions,'jurisdiction_note':'66 个州／省／大区是检查清单，不是已接入平台数量；每个地区仍可能存在独立城市、学校和机构平台。','refresh':'每日 Europe/Berlin 06:00、12:00 和 18:00 自动重采集并记录来源健康；新增接口须验证后启用。'}
