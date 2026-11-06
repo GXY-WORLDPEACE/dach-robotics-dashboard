@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06T12:33:18.688175+00:00",
+  "checked_at": "2026-11-06T21:49:13.336938+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -26,7 +26,7 @@
     {
       "code": "AT",
       "name": "奥地利",
-      "active_count": 4,
+      "active_count": 3,
       "education_active_count": 1,
       "connected_sources": [
         "TED",
@@ -39,7 +39,7 @@
     {
       "code": "CH",
       "name": "瑞士",
-      "active_count": 8,
+      "active_count": 7,
       "education_active_count": 0,
       "connected_sources": [
         "TED",
@@ -248,23 +248,7 @@
       "accepted_notices": 27,
       "detail_errors": [
         {
-          "publication_id": "656cf70d-9cdc-46d3-85d7-0cdacd49d377",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "40aa9577-3554-403a-bb45-d0ae0d9c269a",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "bf395566-982e-4c7f-8cfd-32f8e46deef2",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "34b84774-db4d-4818-8cb2-fb4681dda679",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "11ad4516-9868-4c5a-b795-c9aa5a5aa9e6",
+          "publication_id": "1da32e70-d94c-4871-ae50-2fe54fef0940",
           "error": "URLError"
         }
       ],
@@ -288,8 +272,8 @@
       ],
       "window_start": "2026-08-08",
       "scanned_hits": 62,
-      "unique_detail_pages": 17,
-      "accepted_notices": 16,
+      "unique_detail_pages": 16,
+      "accepted_notices": 15,
       "detail_errors": []
     },
     {
@@ -301,7 +285,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-08",
-      "scanned_notices": 6803,
+      "scanned_notices": 6825,
       "accepted_notices": 69,
       "license": "CC0"
     },
