@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T18:21:43.582955+00:00",
+  "checked_at": "2026-11-06T12:33:18.688175+00:00",
   "cases": [
     {
       "sample": "BAM",
@@ -17,7 +17,7 @@
       "title": "Magdeburg-Stendal：自动化搬运与码垛系统",
       "found": true,
       "reason": "国家级公告；新版延长截止日期，必须按公告版本更新。",
-      "phase": "active",
+      "phase": "history",
       "deadline": "2026-11-06T10:00:00+01:00",
       "source_url": "https://oeffentlichevergabe.de/ui/de/notices/e6c7549e-f612-4265-9731-8b04db662c65",
       "deadline_source": "https://oeffentlichevergabe.de/ui/de/notices/e6c7549e-f612-4265-9731-8b04db662c65",
