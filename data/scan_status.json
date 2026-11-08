@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-08T11:34:55.815840+00:00",
+  "scanned_at": "2026-11-08T20:49:36.656487+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -110,8 +110,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-10",
-      "scanned_notices": 6845,
-      "accepted_notices": 70,
+      "scanned_notices": 6881,
+      "accepted_notices": 71,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     },
@@ -137,11 +137,19 @@
       "accepted_notices": 27,
       "detail_errors": [
         {
-          "publication_id": "634f0b17-973c-478a-8273-21ea7eb0c086",
+          "publication_id": "0375ee9d-e860-4ea2-9e95-f4faca7f7c59",
           "error": "URLError"
         },
         {
-          "publication_id": "a0d03e18-d2ce-4a84-9342-9f6e255c1bf4",
+          "publication_id": "8ccbf0a2-d0f3-449a-b089-a1601c1ec6dc",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "2ba649bb-65ec-460e-b96d-52a791cfa87b",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "2deba281-9dd0-47bd-8ce4-3acb0c205fd7",
           "error": "URLError"
         },
         {
@@ -149,7 +157,7 @@
           "error": "URLError"
         },
         {
-          "publication_id": "e29c4d40-b4e1-4d23-a8ff-ce73c936c374",
+          "publication_id": "63db158b-b1e8-4427-9393-0fc920624102",
           "error": "URLError"
         }
       ],
@@ -159,12 +167,12 @@
     }
   },
   "errors": [],
-  "new_items_fetched": 340,
+  "new_items_fetched": 341,
   "active_count": 91,
-  "history_count": 362,
-  "project_count": 309,
+  "history_count": 363,
+  "project_count": 310,
   "phase_counts": {
-    "history": 185,
+    "history": 186,
     "active": 91,
     "planned": 15,
     "unknown": 18
