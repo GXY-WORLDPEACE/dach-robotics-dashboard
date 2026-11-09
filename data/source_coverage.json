@@ -1,20 +1,18 @@
 {
-  "checked_at": "2026-11-08T20:49:36.656487+00:00",
+  "checked_at": "2026-11-09T13:27:01.063866+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 67,
+      "active_count": 66,
       "education_active_count": 20,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
-        "DE_BLB",
         "DE_WESTFALEN",
         "DE_KOELN",
-        "DE_AACHEN",
         "TED",
         "BKMS",
         "DFG"
@@ -52,7 +50,7 @@
     {
       "code": "NL",
       "name": "荷兰",
-      "active_count": 10,
+      "active_count": 9,
       "education_active_count": 0,
       "connected_sources": [
         "TED",
@@ -65,7 +63,7 @@
     {
       "code": "BE",
       "name": "比利时",
-      "active_count": 4,
+      "active_count": 3,
       "education_active_count": 0,
       "connected_sources": [
         "TED"
@@ -87,7 +85,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1197,
+      "scanned_notices": 1206,
       "accepted_notices": 19,
       "unsupported_schema_notices": 0
     },
@@ -101,7 +99,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 829,
+      "scanned_notices": 831,
       "accepted_notices": 4,
       "unsupported_schema_notices": 0
     },
@@ -127,10 +125,8 @@
       "enabled": true,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
-      "status": "connected",
-      "scanned_notices": 544,
-      "accepted_notices": 0,
-      "unsupported_schema_notices": 0
+      "status": "error",
+      "note": "保留上次成功数据，可能陈旧"
     },
     {
       "id": "DE_WESTFALEN",
@@ -142,7 +138,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1055,
+      "scanned_notices": 1063,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0
     },
@@ -169,10 +165,8 @@
       "enabled": true,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
-      "status": "connected",
-      "scanned_notices": 307,
-      "accepted_notices": 2,
-      "unsupported_schema_notices": 0
+      "status": "error",
+      "note": "保留上次成功数据，可能陈旧"
     },
     {
       "id": "TED",
@@ -187,9 +181,9 @@
       "enabled": true,
       "scope": "欧盟级公开公告；不能替代国家／地方未上报公告",
       "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261108 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 54,
-      "accepted": 23,
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261109 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 58,
+      "accepted": 22,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     {
@@ -204,8 +198,8 @@
         "2026-10",
         "2026-11"
       ],
-      "scanned_notices": 29859,
-      "accepted_notices": 173,
+      "scanned_notices": 30481,
+      "accepted_notices": 174,
       "license": "CC0",
       "export_available_through": "previous day Europe/Berlin"
     },
@@ -217,7 +211,7 @@
       "scope": "DFG 当前公开列表及截止核验",
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 26,
+      "scanned_rows": 24,
       "accepted_notices": 4,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
@@ -229,7 +223,7 @@
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-10",
+      "window_start": "2026-08-11",
       "search_terms": [
         "robot",
         "cobot",
@@ -243,32 +237,16 @@
         "automatisation",
         "automazione"
       ],
-      "scanned_hits": 106,
-      "unique_publications": 72,
-      "accepted_notices": 27,
+      "scanned_hits": 105,
+      "unique_publications": 73,
+      "accepted_notices": 26,
       "detail_errors": [
         {
-          "publication_id": "0375ee9d-e860-4ea2-9e95-f4faca7f7c59",
+          "publication_id": "c062fd2b-1711-40f9-99fb-e792d08a7a05",
           "error": "URLError"
         },
         {
-          "publication_id": "8ccbf0a2-d0f3-449a-b089-a1601c1ec6dc",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "2ba649bb-65ec-460e-b96d-52a791cfa87b",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "2deba281-9dd0-47bd-8ce4-3acb0c205fd7",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "fa861b68-026f-4fa4-9f55-00ac6af947ca",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "63db158b-b1e8-4427-9393-0fc920624102",
+          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
           "error": "URLError"
         }
       ],
@@ -290,8 +268,8 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-10",
-      "scanned_hits": 62,
+      "window_start": "2026-08-11",
+      "scanned_hits": 63,
       "unique_detail_pages": 16,
       "accepted_notices": 15,
       "detail_errors": []
@@ -304,8 +282,8 @@
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购",
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-10",
-      "scanned_notices": 6881,
+      "window_start": "2026-08-11",
+      "scanned_notices": 6884,
       "accepted_notices": 71,
       "license": "CC0"
     },
