@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-09T13:27:01.063866+00:00",
+  "scanned_at": "2026-11-10T00:28:20.996849+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -18,8 +18,8 @@
     },
     "TED": {
       "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261109 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 58,
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261110 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 55,
       "accepted": 22,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
@@ -30,7 +30,7 @@
         "2026-10",
         "2026-11"
       ],
-      "scanned_notices": 30481,
+      "scanned_notices": 30572,
       "accepted_notices": 174,
       "license": "CC0",
       "export_available_through": "previous day Europe/Berlin"
@@ -38,8 +38,8 @@
     "DE_NRW": {
       "status": "connected",
       "endpoint": "https://www.evergabe.nrw.de/VMPSatellite/opendata?id=0bb4c8bc-514f-49bf-a490-d93103c377f0",
-      "scanned_notices": 1206,
-      "accepted_notices": 19,
+      "scanned_notices": 1204,
+      "accepted_notices": 20,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
@@ -47,20 +47,25 @@
     "DE_RUHR": {
       "status": "connected",
       "endpoint": "https://www.vergabe.metropoleruhr.de/VMPSatellite/opendata?id=4985b1a5-d2e8-4611-a4c6-20694a130bb3",
-      "scanned_notices": 831,
+      "scanned_notices": 829,
       "accepted_notices": 4,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
     "DE_BLB": {
-      "status": "error",
-      "note": "保留上次成功数据，可能陈旧"
+      "status": "connected",
+      "endpoint": "https://evergabe.blb.nrw.de/Vergabe/opendata?id=f33b7b4a-082d-4bbb-b176-d8b4ebf75a51",
+      "scanned_notices": 540,
+      "accepted_notices": 0,
+      "unsupported_schema_notices": 0,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
     "DE_WESTFALEN": {
       "status": "connected",
       "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
-      "scanned_notices": 1063,
+      "scanned_notices": 1056,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -76,8 +81,13 @@
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
     "DE_AACHEN": {
-      "status": "error",
-      "note": "保留上次成功数据，可能陈旧"
+      "status": "connected",
+      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
+      "scanned_notices": 308,
+      "accepted_notices": 2,
+      "unsupported_schema_notices": 0,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
     "USP": {
       "status": "connected",
@@ -89,7 +99,7 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-11",
+      "window_start": "2026-08-12",
       "scanned_hits": 63,
       "unique_detail_pages": 16,
       "accepted_notices": 15,
@@ -99,8 +109,8 @@
     "TENDERNED": {
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-11",
-      "scanned_notices": 6884,
+      "window_start": "2026-08-12",
+      "scanned_notices": 6840,
       "accepted_notices": 71,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
@@ -108,7 +118,7 @@
     "SIMAP": {
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-11",
+      "window_start": "2026-08-12",
       "search_terms": [
         "robot",
         "cobot",
@@ -122,16 +132,32 @@
         "automatisation",
         "automazione"
       ],
-      "scanned_hits": 105,
-      "unique_publications": 73,
+      "scanned_hits": 107,
+      "unique_publications": 75,
       "accepted_notices": 26,
       "detail_errors": [
         {
-          "publication_id": "c062fd2b-1711-40f9-99fb-e792d08a7a05",
+          "publication_id": "2092b96c-7b05-4803-b150-2a12751218cb",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "e5f4d72b-fd92-41f0-9c51-1038f0ab2698",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "11ad4516-9868-4c5a-b795-c9aa5a5aa9e6",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "63f7db0e-a6f5-40cd-a7d4-64eff90aed2b",
           "error": "URLError"
         },
         {
           "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "24ac61ce-b783-426d-9c5f-bea946f9ca08",
           "error": "URLError"
         }
       ],
@@ -140,24 +166,21 @@
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
     }
   },
-  "errors": [
-    "DE_BLB: BadZipFile: File is not a zip file",
-    "DE_AACHEN: HTTPError: HTTP Error 503: Service Unavailable"
-  ],
-  "new_items_fetched": 338,
-  "active_count": 88,
-  "history_count": 367,
-  "project_count": 313,
+  "errors": [],
+  "new_items_fetched": 341,
+  "active_count": 87,
+  "history_count": 368,
+  "project_count": 314,
   "phase_counts": {
-    "history": 192,
-    "active": 88,
+    "history": 194,
+    "active": 87,
     "planned": 15,
     "unknown": 18
   },
   "education_active_count": 21,
-  "feeds_enabled": 10,
+  "feeds_enabled": 12,
   "country_counts": {
-    "DE": 66,
+    "DE": 65,
     "AT": 3,
     "CH": 7,
     "BE": 3,
