@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T00:28:20.996849+00:00",
+  "updated_at": "2026-11-10T13:05:25.175865+00:00",
   "tenders": [
     {
       "id": "BKMS:25901608:1",
@@ -27,7 +27,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-20T12:00:00+02:00"
       ],
@@ -88,7 +88,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-21T12:00:00+02:00"
       ],
@@ -149,7 +149,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-27T12:00:00+01:00"
       ],
@@ -210,7 +210,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-09T09:00:00+01:00"
       ],
@@ -271,7 +271,7 @@
       "notice_version": "1",
       "procedure_id": "ae749e0d-9fa3-4b1d-8761-99de46962a73",
       "procurement_reference": "32/26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-11T11:00:00+01:00"
       ],
@@ -332,7 +332,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T09:00:00+01:00"
       ],
@@ -393,7 +393,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-20T12:00:00+01:00"
       ],
@@ -454,7 +454,7 @@
       "procedure_id": null,
       "procurement_reference": "10042957",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -509,7 +509,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-13T07:02:26Z",
       "official_links": [
@@ -570,7 +570,7 @@
       "notice_version": "01",
       "procedure_id": "76b21ec5-7233-4086-bc2a-3acea6971d1e",
       "procurement_reference": "TU-037/26-23-MB",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-04T09:24:04Z",
       "official_links": [],
@@ -629,7 +629,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-03T07:01:16Z",
       "official_links": [
@@ -688,7 +688,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-20T19:01:09Z",
       "official_links": [
@@ -747,7 +747,7 @@
       "procedure_id": null,
       "procurement_reference": "57-26 HE",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -803,7 +803,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-01T07:02:25Z",
       "official_links": [
@@ -863,7 +863,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-23T12:00:00+02:00"
       ],
@@ -923,7 +923,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-26T13:04:00+01:00"
       ],
@@ -983,7 +983,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-30T10:00:00+01:00"
       ],
@@ -1043,7 +1043,7 @@
       "notice_version": "01",
       "procedure_id": "21786200-c5da-49ed-bb3a-0c0a80d5e3dc",
       "procurement_reference": "DFG_2026_III-WGI_EU31",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-13T12:00:00+01:00"
       ],
@@ -1107,7 +1107,7 @@
       "notice_version": "01",
       "procedure_id": "f2a3896f-1908-4302-981c-c9e78ecf453e",
       "procurement_reference": "PR1313652-2720- W",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-26T11:00:00+01:00"
       ],
@@ -1167,7 +1167,7 @@
       "notice_version": "01",
       "procedure_id": "a0074e82-66c3-415c-b596-ec8a670fb5cf",
       "procurement_reference": "PR1307069",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-03T09:00:00+01:00"
       ],
@@ -1229,7 +1229,7 @@
       "procedure_id": null,
       "procurement_reference": "10042570 - 2",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -1283,7 +1283,7 @@
       "procedure_id": null,
       "procurement_reference": "2026-HHU-HEL/1073",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -1337,7 +1337,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-23T19:00:05Z",
       "official_links": [],
@@ -1393,7 +1393,7 @@
       "notice_version": "01",
       "procedure_id": "a0d6a225-ac72-4b76-a571-c413840a262a",
       "procurement_reference": "017/2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-09T02:12:21Z",
       "official_links": [],
@@ -1449,7 +1449,7 @@
       "procedure_id": "TenderNed:616714",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -1501,7 +1501,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-22T07:01:49Z",
       "official_links": [
@@ -1559,7 +1559,7 @@
       "notice_version": "01",
       "procedure_id": "9dd9f7fe-3832-49e7-8464-1a57bdc929d2",
       "procurement_reference": "055037/26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-28T03:26:18Z",
       "official_links": [],
@@ -1615,7 +1615,7 @@
       "notice_version": "01",
       "procedure_id": "b34721e2-d4c3-4a75-85fc-03ae3a6a107d",
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-01T10:42:04Z",
       "official_links": [],
@@ -1671,7 +1671,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-26T19:00:03Z",
       "official_links": [],
@@ -1727,7 +1727,7 @@
       "procedure_id": null,
       "procurement_reference": "2026-206",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -1779,7 +1779,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-21T10:00:00+02:00"
       ],
@@ -1835,7 +1835,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-27T10:00:00+01:00"
       ],
@@ -1893,7 +1893,7 @@
       "notice_version": "01",
       "procedure_id": "0ca29c98-7ba9-4f85-95f6-357f63fcb6a8",
       "procurement_reference": "2026-RPTU-2163",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-23T09:00:00+01:00"
       ],
@@ -1953,7 +1953,7 @@
       "notice_version": "01",
       "procedure_id": "595620c1-3ffd-45f4-a508-33b25339dce5",
       "procurement_reference": "DFG_2026_III-WGI_EU48",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-04T12:00:00+01:00"
       ],
@@ -2015,7 +2015,7 @@
       "notice_version": "01",
       "procedure_id": "f25762f5-ec4c-4332-9679-528dc8b87477",
       "procurement_reference": "V/E736/26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -2075,7 +2075,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-02T07:02:02Z",
       "official_links": [
@@ -2131,7 +2131,7 @@
       "procedure_id": "SIMAP:efec3241-0d90-41da-b3c3-129ff60050a2",
       "procurement_reference": "45052",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -2184,7 +2184,7 @@
       "notice_version": "01",
       "procedure_id": "f989708c-df64-4007-8d75-09afa30a1ef8",
       "procurement_reference": "2026-HHU-HEL/1052",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -2244,7 +2244,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T13:00:00+01:00"
       ],
@@ -2305,7 +2305,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-23T09:30:00+02:00"
       ],
@@ -2365,7 +2365,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-03T10:29:00+01:00"
       ],
@@ -2427,7 +2427,7 @@
       "notice_version": "2",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-06T09:59:00+01:00"
       ],
@@ -2491,7 +2491,7 @@
       "procedure_id": "TenderNed:608852",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -2543,7 +2543,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-03T07:01:27Z",
       "official_links": [
@@ -2581,7 +2581,7 @@
       "buyer": "Nederlandse Organisatie voor toegepast-natuurwetenschappelijk onderzoek TNO",
       "country": "NL",
       "region": null,
-      "description": "Step-height Profilometer (automatic cassette handling)",
+      "description": "Step-height Profilometer (automatic cassette handling) Levering van één Step-height Profilometer (automatic cassette handling)",
       "publication_date": "2026-09-29",
       "deadline": "2026-07-31T00:00:00+02:00",
       "budget_amount": null,
@@ -2599,7 +2599,7 @@
       "procedure_id": "TenderNed:593016",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/441814",
       "match_reasons": [
@@ -2631,7 +2631,7 @@
       "buyer": "Technische Universiteit Eindhoven",
       "country": "NL",
       "region": null,
-      "description": "The delivery and installation of a Automated Wafer Level Inspection Tool",
+      "description": "The delivery and installation of a Automated Wafer Level Inspection Tool 1",
       "publication_date": "2026-08-19",
       "deadline": "2026-10-02T14:00:00+02:00",
       "budget_amount": null,
@@ -2649,7 +2649,7 @@
       "procedure_id": "TenderNed:604365",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/436477",
       "match_reasons": [
@@ -2681,7 +2681,7 @@
       "buyer": "Technische Universiteit Eindhoven",
       "country": "NL",
       "region": null,
-      "description": "The delivery and installation of a Automated Wafer Level Tester Tool",
+      "description": "The delivery and installation of a Automated Wafer Level Tester Tool 1",
       "publication_date": "2026-08-19",
       "deadline": "2026-10-02T14:00:00+02:00",
       "budget_amount": null,
@@ -2699,7 +2699,7 @@
       "procedure_id": "TenderNed:605005",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/436478",
       "match_reasons": [
@@ -2749,7 +2749,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-26T14:00:00+01:00"
       ],
@@ -2807,7 +2807,7 @@
       "notice_version": "1",
       "procedure_id": "3d27adbd-2e3a-44ef-8c38-4bb23179eda8",
       "procurement_reference": "TU-065/26-22-IA",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-27T10:00:00+01:00"
       ],
@@ -2922,7 +2922,7 @@
       "notice_version": "2",
       "procedure_id": "8e03c5e0-db71-4c04-a6fc-ba54d7c031cb",
       "procurement_reference": "HS-MS-035-2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-06T10:00:00+01:00"
       ],
@@ -2975,13 +2975,13 @@
       "verification_status": "德国官方 Open Data；技术规格待复核",
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-10",
-      "status": "投标中",
+      "status": "截止日期已过",
       "source": "BKMS",
       "notice_id": "2fbf8834-a929-413f-ad6b-c5e597a8bbcb",
       "notice_version": "01",
       "procedure_id": "e657864f-5346-4c3a-ac27-8d0dd5b0b453",
       "procurement_reference": "PR1297775-2180-B",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-10T11:00:00+01:00"
       ],
@@ -3013,7 +3013,7 @@
       "source_links": [
         "https://oeffentlichevergabe.de/ui/de/notices/2fbf8834-a929-413f-ad6b-c5e597a8bbcb"
       ],
-      "phase": "active"
+      "phase": "history"
     },
     {
       "id": "BKMS:25919226:1",
@@ -3039,7 +3039,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": "DFG_2026_III-WGI_67",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-11T12:00:00+01:00"
       ],
@@ -3150,7 +3150,7 @@
       "notice_version": "01",
       "procedure_id": "55399f9e-2d20-44e9-bd54-ab6ad7b28f12",
       "procurement_reference": "066/2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T09:00:00+01:00"
       ],
@@ -3204,7 +3204,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "716518-2026",
       "procedure_id": "b55c018e-1420-4f7e-b3e3-626c9cefa02a",
       "procurement_reference": "2026/09-51683",
@@ -3264,7 +3264,7 @@
       "notice_version": "01",
       "procedure_id": "c5d412b7-75db-40ce-928d-d353229d2716",
       "procurement_reference": "DFG_2026_III-WGI_EU40",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-19T09:00:00+01:00"
       ],
@@ -3322,7 +3322,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "732047-2026",
       "procedure_id": "c059ac47-b733-4e19-9244-f89e5784e85a",
       "procurement_reference": "055045/26",
@@ -3378,7 +3378,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "738935-2026",
       "procedure_id": "37eaf015-68ec-4ebb-ac13-0f561cf42f11",
       "procurement_reference": "346/2026-Schwg",
@@ -3438,7 +3438,7 @@
       "procedure_id": "331bce0a-81d1-4e25-be01-4ff9953a1243",
       "procurement_reference": "2026/14",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://ooeg.vemap.com",
         "https://www.vemap.com"
@@ -3496,7 +3496,7 @@
       "notice_version": "01",
       "procedure_id": "6de70533-0b66-4baa-8881-0e1e2dd080d7",
       "procurement_reference": "PR1275392-3460-W",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-02T11:00:00+01:00"
       ],
@@ -3554,7 +3554,7 @@
       "notice_version": "01",
       "procedure_id": "b75544ee-43aa-4ea4-a2d3-7d14a712dff2",
       "procurement_reference": "482/25",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-02T12:00:00+01:00"
       ],
@@ -3612,7 +3612,7 @@
       "notice_version": "01",
       "procedure_id": "65adb093-66ff-4c61-b051-81181474b00a",
       "procurement_reference": "PR1320279-3460-P",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-07T08:00:00+01:00"
       ],
@@ -3666,7 +3666,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "778614-2026",
       "procedure_id": "3ea5ba08-319a-4389-bc09-0b310abf4996",
       "procurement_reference": "35/2600038813",
@@ -3830,7 +3830,7 @@
       "notice_version": "01",
       "procedure_id": "d6a5e39f-5387-45d4-a3dc-d02f0083775a",
       "procurement_reference": "IHP-2026-033",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-07T02:10:44Z",
       "official_links": [],
@@ -3884,7 +3884,7 @@
       "notice_version": "01",
       "procedure_id": "d1c522a8-ac74-4c71-aa69-cf27698c4634",
       "procurement_reference": "PR1184859-3460-P",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-01T14:14:04Z",
       "official_links": [],
@@ -3938,7 +3938,7 @@
       "procedure_id": null,
       "procurement_reference": "BVG00088691",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -3990,7 +3990,7 @@
       "notice_version": "02",
       "procedure_id": "f53c6de6-1179-44c2-90b7-cdb9b779a7fb",
       "procurement_reference": "PR1247063",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-03T03:10:35Z",
       "official_links": [],
@@ -4044,7 +4044,7 @@
       "notice_version": "01",
       "procedure_id": "2402266b-fe69-49cf-a10f-8c0298e390cc",
       "procurement_reference": "ZB-2026-0028",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-30T03:24:30Z",
       "official_links": [],
@@ -4098,7 +4098,7 @@
       "notice_version": "01",
       "procedure_id": "537a62e2-6815-4b77-b495-41e893b5ee52",
       "procurement_reference": "2026/08-51638",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-04T03:23:21Z",
       "official_links": [],
@@ -4152,7 +4152,7 @@
       "notice_version": "01",
       "procedure_id": "debdae6e-9863-4929-a6fd-0ce42651b375",
       "procurement_reference": "EU-OV/2026-139",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-04T03:24:28Z",
       "official_links": [],
@@ -4206,7 +4206,7 @@
       "notice_version": "01",
       "procedure_id": "adeab12c-21ff-4b99-946d-d0e2d91bf61f",
       "procurement_reference": "OV 08-26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-01T12:40:04Z",
       "official_links": [],
@@ -4260,7 +4260,7 @@
       "notice_version": "01",
       "procedure_id": "d13394c1-4cea-40c5-8d71-dccef36ada05",
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-16T02:10:28Z",
       "official_links": [],
@@ -4314,7 +4314,7 @@
       "notice_version": "01",
       "procedure_id": "06c60878-c4d7-48d9-950b-87f0603e879f",
       "procurement_reference": "EK-ID 26/09",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-27T03:12:14Z",
       "official_links": [],
@@ -4368,7 +4368,7 @@
       "notice_version": "01",
       "procedure_id": "f8fc2038-99fd-4bd7-a5b5-246876532321",
       "procurement_reference": "TU-056/26-201-ZMN",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-03T03:08:38Z",
       "official_links": [],
@@ -4422,7 +4422,7 @@
       "procedure_id": "SIMAP:4df3467b-1deb-49e9-a8a9-50b41a338f15",
       "procurement_reference": "41840",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -4475,7 +4475,7 @@
       "notice_version": "01",
       "procedure_id": "2d6d8cb4-efd2-4bf8-b017-97622a3c070b",
       "procurement_reference": "PR1246546-3460-P",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-08T02:23:20Z",
       "official_links": [],
@@ -4529,7 +4529,7 @@
       "procedure_id": null,
       "procurement_reference": "BVG00084063",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -4581,7 +4581,7 @@
       "notice_version": "01",
       "procedure_id": "1d5ca99f-1c69-4a05-a157-38cf4043d420",
       "procurement_reference": "2026-HHU-HEL/1054",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -4639,7 +4639,7 @@
       "procedure_id": null,
       "procurement_reference": "2026-HHU-HEL/1077",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -4691,7 +4691,7 @@
       "notice_version": "01",
       "procedure_id": "b5f41f29-47f9-4ce0-8b0b-80c5354faeaf",
       "procurement_reference": "2026/05",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-09T02:12:10Z",
       "official_links": [],
@@ -4745,7 +4745,7 @@
       "notice_version": "01",
       "procedure_id": "020c12eb-3009-4e65-aadd-3b6a432dbc4b",
       "procurement_reference": "IHP-2026-042",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-04T03:23:40Z",
       "official_links": [],
@@ -4799,7 +4799,7 @@
       "procedure_id": null,
       "procurement_reference": "2026-032",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -4851,7 +4851,7 @@
       "notice_version": "01",
       "procedure_id": "e2be74eb-fd9b-4335-9b10-e58150fb4929",
       "procurement_reference": "IHP-2026-045",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-04T03:22:43Z",
       "official_links": [],
@@ -4905,7 +4905,7 @@
       "procedure_id": null,
       "procurement_reference": "BVG00092704",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -4957,7 +4957,7 @@
       "notice_version": "01",
       "procedure_id": "d7fc39d8-6864-478f-865b-54d45b59e212",
       "procurement_reference": "IIC-2026-0042",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-03T03:09:09Z",
       "official_links": [],
@@ -5013,7 +5013,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-16T08:00:00+02:00"
       ],
@@ -5072,7 +5072,7 @@
       "notice_version": "01",
       "procedure_id": "a818601a-84df-41c6-b9d7-b6e1ee8fa120",
       "procurement_reference": "1005518 - Botulinumtoxin Typ A (ausschließlich Incobotulinum),(z) ATC M03AX21",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2028-10-05T12:00:00+02:00"
       ],
@@ -5131,7 +5131,7 @@
       "procedure_id": "SIMAP:5066f730-8f28-427f-9f86-7307dfd403d8",
       "procurement_reference": "46981",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -5185,7 +5185,7 @@
       "procedure_id": "SIMAP:6fd78da5-22e9-4311-9925-c44b01c9c0e6",
       "procurement_reference": "29173",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -5239,7 +5239,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-06T07:00:55Z",
       "official_links": [
@@ -5271,6 +5271,58 @@
       "phase": "planned"
     },
     {
+      "id": "TENDERNED:443475",
+      "title": "System integrator intralogistiek ziekenhuisapotheek",
+      "buyer": "Academisch Ziekenhuis Maastricht",
+      "country": "NL",
+      "region": null,
+      "description": "Het academisch ziekenhuis Maastricht is voor haar ziekenhuisapotheek op zoek naar een system integrator welke de intralogistiek gaat inrichten, beheren, onderhouden en indien gewenst modificeren. Het betreft de levering van hardware, software en het uitvoeren en verzorgen van onderhoud en service gedurende een periode van minimaal 10 jaar We zoeken een marktpartij die de volgende hardware, software en diensten kan leveren:\n- Ontwerp optimale oplossing voor situatie apotheek MUMC+ binnen een gesteld budget;\n- ‘Doosjesrobots’ voor opslag en uitgifte van geneesmiddelen. De doosjes robot moet voorraadmedicatie kunnen leveren, maar moet ook doosjes voor medicatie op naam kunnen etiketteren. Ook moet het mogelijk zijn om gedeelten van verpakkingen uit te leveren en weer terug te plaatsen in de robot;\n-Indien mogelijk: Ondersteuning voor handmatige picking van producten die niet in de doosjesrobot passen;\n-Indien mogelijk: Ondersteuning voor cold-chain en bulk producten die niet in de doosjesrobot passen;\n-Systeem dat verschillende orderstromen kan combineren, bijv. het samenvoegen van afdelingsaanvraag plus patiënt op naam aanvraag voor één afdeling (d.m.v. combinatie van hardware en software?);\n-Systeem (bij voorkeur software) dat orders kan prioriteren, zodat bijv. spoedorders tussen reguliere orders door verwerkt kunnen worden;\n-Hardware die de producten transporteert naar de plek",
+      "publication_date": "2026-10-09",
+      "deadline": "2025-11-28T12:00:00+01:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/443475",
+      "priority": "P2",
+      "match_score": 55,
+      "matched_products": [
+        "DOBOT CR / CRA / E6 / ATOM（待确认）"
+      ],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "已公布结果／授标",
+      "source": "TENDERNED",
+      "notice_id": "443475",
+      "procedure_id": "TenderNed:552977",
+      "procurement_reference": null,
+      "notice_stage": "result",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/443475",
+      "match_reasons": [
+        "明确涉及机器人，平台类型及技术规格待确认"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Aankondiging gegunde opdracht",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:442895",
+        "TENDERNED:443475"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/443475",
+        "https://www.tenderned.nl/aankondigingen/overzicht/442895"
+      ],
+      "phase": "history"
+    },
+    {
       "id": "USP:fde58043-87ff-44b0-b6b0-3d089adfba4c-FN_240832s_BVergG-VIII-1-Z2_249067",
       "title": "MT-Liefervertrag-robot. Positionierungs- und Nadelführungssystem Radiologie",
       "buyer": "Gemeinnützige Salzburger Landeskliniken Betriebsgesellschaft mbH",
@@ -5296,7 +5348,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://salk.vemap.com/home/bekannt/anzeigen.html?annID=1102"
       ],
@@ -5349,7 +5401,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://vamed.vemap.com/home/bekannt/anzeigen.html?annID=418"
       ],
@@ -5377,6 +5429,58 @@
       "phase": "history"
     },
     {
+      "id": "TENDERNED:440822",
+      "title": "Marktconsultatie Pipetteerrobots Klinische Genetica",
+      "buyer": "Erasmus MC",
+      "country": "NL",
+      "region": null,
+      "description": "Zie bijlage 2",
+      "publication_date": "2026-09-21",
+      "deadline": "2026-09-30T23:59:59+02:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/440822",
+      "priority": "P2",
+      "match_score": 55,
+      "matched_products": [
+        "DOBOT CR / CRA / E6 / ATOM（待确认）"
+      ],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
+      "status": "采购预告／意向；参与期限需核实",
+      "source": "TENDERNED",
+      "notice_id": "440822",
+      "procedure_id": "TenderNed:612462",
+      "procurement_reference": null,
+      "notice_stage": "planned",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/440822",
+      "match_reasons": [
+        "明确涉及机器人，平台类型及技术规格待确认"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Marktconsultatie",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:440219",
+        "TENDERNED:440822"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/440822",
+        "https://www.tenderned.nl/aankondigingen/overzicht/440219"
+      ],
+      "phase": "planned"
+    },
+    {
       "id": "SIMAP:f3f68e1b-e8b7-43c4-b890-223b0b12a065",
       "title": "Rénovation/Transformation du CID de Malley / Station de lavage",
       "buyer": "Ville de Lausanne - Service de la propreté urbaine (Architram)",
@@ -5402,7 +5506,7 @@
       "procedure_id": "SIMAP:d0c7a0c7-aca2-4ce5-80d5-85aa78f9483e",
       "procurement_reference": "43324",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/d0c7a0c7-aca2-4ce5-80d5-85aa78f9483e",
       "match_reasons": [
@@ -5455,7 +5559,7 @@
       "notice_version": "01",
       "procedure_id": "01a11050-5bdd-4356-881e-8b044dce491a",
       "procurement_reference": "Diako 10/2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-03T10:00:00+01:00"
       ],
@@ -5513,7 +5617,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-06T12:00:00+01:00"
       ],
@@ -5571,7 +5675,7 @@
       "notice_version": "01",
       "procedure_id": "30780525-5e61-459b-910b-ff638ac26b58",
       "procurement_reference": "2026-07-28-Bu",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-11T10:00:00+01:00"
       ],
@@ -5625,7 +5729,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "681441-2026",
       "procedure_id": "f4173c55-5d5e-44d7-ae36-aff275b8f354",
       "procurement_reference": "P 795316 / 27D 65",
@@ -5684,7 +5788,7 @@
       "procedure_id": "32553007-2dfc-4bfe-8125-7a2a65366996",
       "procurement_reference": "WL-I63fW-05-2026",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://wstw.vergabeportal.at/Detail/259974",
         "https://www.wienerlinien.at"
@@ -5738,7 +5842,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-17T08:30:00+01:00"
       ],
@@ -5796,7 +5900,7 @@
       "notice_version": "01",
       "procedure_id": "b1000000-c0de-4000-a000-00d463084429",
       "procurement_reference": "TOM-2026-DA",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-20T23:59:00+01:00"
       ],
@@ -5854,7 +5958,7 @@
       "procedure_id": "SIMAP:6cf4f129-ad32-4306-9647-229393485b50",
       "procurement_reference": "46331",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/6cf4f129-ad32-4306-9647-229393485b50",
       "match_reasons": [
@@ -5903,7 +6007,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "751797-2026",
       "procedure_id": "6bbe045f-8c48-47c0-b497-640cc93b49bf",
       "procurement_reference": "2026-041",
@@ -5963,7 +6067,7 @@
       "notice_version": "01",
       "procedure_id": "b1000000-c0de-4000-a000-00d463294660",
       "procurement_reference": "A/HS6/473_111/26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-08T23:59:00+01:00"
       ],
@@ -5996,6 +6100,56 @@
       "phase": "active"
     },
     {
+      "id": "TENDERNED:448523",
+      "title": "Aankondiging vrijwillige transparantie vooraf Aanschaf van een DNA isolatie robot in combinatie met een pre-analyse straat voor Oxford Nanopore Technologies Long Read sequencing.",
+      "buyer": "Universitair Medisch Centrum Groningen (UMCG)",
+      "country": "NL",
+      "region": null,
+      "description": "Levering en implementatie van een geïntegreerde automatiseringsoplossing voor Long Read Sequencing (LRS), bestaande uit DNA-isolatie, samplevoorbereiding en geautomatiseerd laden van Oxford Nanopore-flowcellen voor diagnostische genoomanalyse. 1",
+      "publication_date": "2026-11-10",
+      "deadline": null,
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/448523",
+      "priority": "P2",
+      "match_score": 55,
+      "matched_products": [
+        "DOBOT CR / CRA / E6 / ATOM（待确认）"
+      ],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-10",
+      "last_seen": "2026-11-10",
+      "status": "已公布结果／授标",
+      "source": "TENDERNED",
+      "notice_id": "448523",
+      "procedure_id": "TenderNed:623829",
+      "procurement_reference": null,
+      "notice_stage": "result",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": null,
+      "match_reasons": [
+        "明确涉及机器人，平台类型及技术规格待确认"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Aankondiging gegunde opdracht",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:448523"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/448523"
+      ],
+      "phase": "history"
+    },
+    {
       "id": "SIMAP:d4b566d6-2c59-48ec-be71-bd0acd8777a2",
       "title": "Acquisition d'un robot de radiologie interventionnelle",
       "buyer": "Centrale d'achats et d'ingénierie biomédicale Vaud-Genève (CAIB)",
@@ -6021,7 +6175,7 @@
       "procedure_id": "SIMAP:e2283bf7-9da2-461d-887b-e9c00c7f4c51",
       "procurement_reference": "45123",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6074,7 +6228,7 @@
       "procedure_id": "SIMAP:6920ebc2-38a5-475b-aac0-879b656f03af",
       "procurement_reference": "39414",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6127,7 +6281,7 @@
       "procedure_id": "SIMAP:db899085-7487-427a-a627-9a45fd812f83",
       "procurement_reference": "43050",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6181,7 +6335,7 @@
       "notice_version": "01",
       "procedure_id": "218497a5-80a1-4c5d-bb5c-3d4f5f50083e",
       "procurement_reference": "V-05/2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-05T03:22:39Z",
       "official_links": [],
@@ -6235,7 +6389,7 @@
       "procedure_id": "SIMAP:bca84abc-31fe-48d6-b802-bc975b4a4e66",
       "procurement_reference": "43227",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6268,7 +6422,7 @@
       "buyer": "Academisch Ziekenhuis Maastricht",
       "country": "NL",
       "region": null,
-      "description": "Binnen de afdeling Medische Microbiologie, Infectieziekten en Infectiepreventie van het Maastricht UMC+ zijn twee MagNA Pure 96-systemen van Roche Diagnostics in gebruik voor geautomatiseerde nucleïnezuurextractie. Eén systeem moet vanwege ouderdom en afnemende betrouwbaarheid worden vervangen; het tweede blijft naar verwachting ten minste tot 2028 operationeel.\nHet Maastricht UMC+ is voornemens deze vervangingsopdracht te gunnen via de onderhandelingsprocedure zonder voorafgaande aankondiging op grond van artikel 2.32, eerste lid, onder b, sub 2, in samenhang met het derde lid, Aanbestedingswet 2012. Voorafgaand aan contractsluiting wordt een vrijwillige transparantiebekendmaking gepubliceerd. Het Maastricht UMC+ concludeert daarom dat wegens het ontbreken van reële mededinging om technische redenen de vervangingsopdracht uitsluitend via Roche Diagnostics kan worden gerealiseerd.",
+      "description": "Binnen de afdeling Medische Microbiologie, Infectieziekten en Infectiepreventie van het Maastricht UMC+ zijn twee MagNA Pure 96-systemen van Roche Diagnostics in gebruik voor geautomatiseerde nucleïnezuurextractie. Eén systeem moet vanwege ouderdom en afnemende betrouwbaarheid worden vervangen; het tweede blijft naar verwachting ten minste tot 2028 operationeel.\nHet Maastricht UMC+ is voornemens deze vervangingsopdracht te gunnen via de onderhandelingsprocedure zonder voorafgaande aankondiging op grond van artikel 2.32, eerste lid, onder b, sub 2, in samenhang met het derde lid, Aanbestedingswet 2012. Voorafgaand aan contractsluiting wordt een vrijwillige transparantiebekendmaking gepubliceerd. Het Maastricht UMC+ concludeert daarom dat wegens het ontbreken van reële mededinging om technische redenen de vervangingsopdracht uitsluitend via Roche Diagnostics kan worden gerealiseerd. Platform en reagentia voor het uitvoeren van geautomatiseerde nucleïnezuurextractie.",
       "publication_date": "2026-09-03",
       "deadline": null,
       "budget_amount": null,
@@ -6288,7 +6442,7 @@
       "procedure_id": "TenderNed:565226",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6338,7 +6492,7 @@
       "notice_version": "01",
       "procedure_id": "01a04881-deae-4741-8ecf-a0da35fde1a9",
       "procurement_reference": "EU 151/26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-25T15:20:04Z",
       "official_links": [],
@@ -6392,7 +6546,7 @@
       "notice_version": "01",
       "procedure_id": "d2014387-620b-4b20-86d4-bfce64177454",
       "procurement_reference": "E 2026-77 GB",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-13T02:25:01Z",
       "official_links": [],
@@ -6446,7 +6600,7 @@
       "notice_version": "01",
       "procedure_id": "1f84e4d3-0673-4348-8a9d-a2f299019545",
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-18T10:04:04Z",
       "official_links": [],
@@ -6500,7 +6654,7 @@
       "notice_version": "01",
       "procedure_id": "2dbc68f8-06b0-4e20-97ea-1f498f0377f1",
       "procurement_reference": "V-2025-0312",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -6533,64 +6687,12 @@
       "phase": "history"
     },
     {
-      "id": "TENDERNED:440822",
-      "title": "Marktconsultatie Pipetteerrobots Klinische Genetica",
-      "buyer": "Erasmus MC",
-      "country": "NL",
-      "region": null,
-      "description": "Zie bijlage",
-      "publication_date": "2026-09-21",
-      "deadline": null,
-      "budget_amount": null,
-      "budget_currency": null,
-      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/440822",
-      "priority": "P2",
-      "match_score": 55,
-      "matched_products": [
-        "DOBOT CR / CRA / E6 / ATOM（待确认）"
-      ],
-      "verification_status": "官方公开来源；技术规格待复核",
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-10",
-      "status": "采购预告／意向；参与期限需核实",
-      "source": "TENDERNED",
-      "notice_id": "440822",
-      "procedure_id": "TenderNed:612462",
-      "procurement_reference": null,
-      "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
-      "official_links": [],
-      "deadline_source": null,
-      "match_reasons": [
-        "明确涉及机器人，平台类型及技术规格待确认"
-      ],
-      "institution_type": "other",
-      "institution_label": "其他／待确认",
-      "education_research": false,
-      "institution_evidence": [],
-      "procurement_for_education": false,
-      "institution_relation": "未发现明确教育科研机构线索",
-      "lead_priority": "C",
-      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
-      "publication_type": "Marktconsultatie",
-      "source_unavailable": false,
-      "related_notice_ids": [
-        "TENDERNED:440219",
-        "TENDERNED:440822"
-      ],
-      "source_links": [
-        "https://www.tenderned.nl/aankondigingen/overzicht/440822",
-        "https://www.tenderned.nl/aankondigingen/overzicht/440219"
-      ],
-      "phase": "planned"
-    },
-    {
       "id": "TENDERNED:438313",
       "title": "Medicijnrobot voor Poli Apotheek",
       "buyer": "Leids Universitair Medisch Centrum (LUMC)",
       "country": "NL",
       "region": null,
-      "description": "Aanschaf van een medicijnrobot voor de Poli Apotheek",
+      "description": "Aanschaf van een medicijnrobot voor de Poli Apotheek Aanschaf van een medicijnrobot incl. service",
       "publication_date": "2026-09-03",
       "deadline": null,
       "budget_amount": null,
@@ -6610,7 +6712,7 @@
       "procedure_id": "TenderNed:580182",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6660,7 +6762,7 @@
       "notice_version": "01",
       "procedure_id": "25715ff4-2b79-49c6-b6dc-ffd9bd57175c",
       "procurement_reference": "# 26/29",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-13T02:24:34Z",
       "official_links": [],
@@ -6732,7 +6834,7 @@
       "lot_key": null,
       "canton": null,
       "final_user": "Office fédéral des routes OFROU, Division Infrastructure routière Ouest, filiale Estavayer-le-Lac",
-      "source_unavailable": false,
+      "source_unavailable": true,
       "related_notice_ids": [
         "SIMAP:51cd7829-0822-4912-b1ec-73b2340c27cb"
       ],
@@ -6767,7 +6869,7 @@
       "notice_version": "01",
       "procedure_id": "7d589f8f-bf61-4f2c-a597-28e09545aa1e",
       "procurement_reference": "2026-352",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -6827,7 +6929,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6878,7 +6980,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6909,7 +7011,7 @@
       "buyer": "Maastricht UMC+",
       "country": "NL",
       "region": null,
-      "description": "Maastricht Universitair Medisch Centrum (MUMC+) is voornemens een Callisto™ Sample Prep System aan te schaffen bij Volta Labs.",
+      "description": "Maastricht Universitair Medisch Centrum (MUMC+) is voornemens een Callisto™ Sample Prep System aan te schaffen bij Volta Labs. De voorgenomen opdracht betreft de initiële levering en ingebruikname van één Callisto™ Sample Prep System, inclusief installatie en gebruikersinstructie. Daarnaast omvat de beoogde contractuele reikwijdte onderhoud en service en systeemgebonden verbruiksartikelen. De optie bestaat dat er tijdens de looptijd van de raamovereenkomst, maximaal vier bijkomende robots inclusief verbruiksartikelen, service- & applicatiesupport kunnen worden aangekocht onder de raamovereenkomst voor het MUMC+ - zie ook document Motivatie Vrijwillige Transparantie",
       "publication_date": "2026-10-28",
       "deadline": null,
       "budget_amount": null,
@@ -6929,7 +7031,7 @@
       "procedure_id": "TenderNed:620245",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -6979,7 +7081,7 @@
       "notice_version": "01",
       "procedure_id": "4a6febeb-2e25-4902-b606-3a4d37c9d51d",
       "procurement_reference": "04514-5/6(2026)",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-07T02:06:10Z",
       "official_links": [],
@@ -7033,7 +7135,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -7084,7 +7186,7 @@
       "notice_version": "01",
       "procedure_id": "826aa706-d7b4-41a8-accc-52270c20b33e",
       "procurement_reference": "Z013-2026-0006",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-14T02:24:25Z",
       "official_links": [],
@@ -7191,7 +7293,7 @@
       "procedure_id": "SIMAP:c37e0183-1941-40f9-b718-31397028b2a4",
       "procurement_reference": "30954",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -7244,7 +7346,7 @@
       "notice_version": "01",
       "procedure_id": "636f3fcf-a711-4f02-913d-c720cc9d1079",
       "procurement_reference": "EU-OV/2026-24",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-06T02:26:05Z",
       "official_links": [],
@@ -7278,7 +7380,7 @@
       "buyer": "Nederlands Instituut Publieke Veiligheid",
       "country": "NL",
       "region": null,
-      "description": "Kantoorautomatisering, it dienstverlening",
+      "description": "Kantoorautomatisering, it dienstverlening zie document",
       "publication_date": "2026-11-03",
       "deadline": "2026-03-23T12:00:00+01:00",
       "budget_amount": null,
@@ -7296,7 +7398,7 @@
       "procedure_id": "TenderNed:570762",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/447326",
       "match_reasons": [
@@ -7326,7 +7428,7 @@
       "buyer": "Gemeente Veenendaal",
       "country": "NL",
       "region": null,
-      "description": "De Europese aanbesteding betreft de \"Lease en onderhoud drankenautomaten\" voor de Gemeente Veenendaal. Het is een openbare procedure voor het leasen van circa 16 drankenautomaten voor een initiële periode van 5 jaar (2026-2031), met opties voor verlenging tot maximaal 2036. De opdracht omvat de levering van service en onderhoud, en optioneel de lease van gezonde snackautomaten en/of extra drankenautomaten.\n\nDe aanbesteding verloopt volledig digitaal via TenderNed. Inschrijvers worden geselecteerd op basis van de economisch meest voordelige inschrijving (BPKV), waarbij zowel kwaliteitsaspecten (duurzaamheid, circulariteit, MVO, uitvoering apparatuur, beschikbaarheid, implementatieplan, en een smaak- en gebruikerstest) als de prijs worden beoordeeld. Er is ook aandacht voor Social Return On Investment (SROI) en duurzaamheid/circulariteit, met specifieke minimumeisen voor productontwerp, energieverbruik en afvalvermindering.",
+      "description": "De Europese aanbesteding betreft de \"Lease en onderhoud drankenautomaten\" voor de Gemeente Veenendaal. Het is een openbare procedure voor het leasen van circa 16 drankenautomaten voor een initiële periode van 5 jaar (2026-2031), met opties voor verlenging tot maximaal 2036. De opdracht omvat de levering van service en onderhoud, en optioneel de lease van gezonde snackautomaten en/of extra drankenautomaten.\n\nDe aanbesteding verloopt volledig digitaal via TenderNed. Inschrijvers worden geselecteerd op basis van de economisch meest voordelige inschrijving (BPKV), waarbij zowel kwaliteitsaspecten (duurzaamheid, circulariteit, MVO, uitvoering apparatuur, beschikbaarheid, implementatieplan, en een smaak- en gebruikerstest) als de prijs worden beoordeeld. Er is ook aandacht voor Social Return On Investment (SROI) en duurzaamheid/circulariteit, met specifieke minimumeisen voor productontwerp, energieverbruik en afvalvermindering. Lease van drankenautomaten: Specificeer het aantal en type drankenautomaten:\n14 drankenautomaten op de locatie van het gemeentehuis (waarvan 6 tafelmodel).\n1 drankenautomaat op de locatie van de gemeentewerf (tafelmodel).\n1 drankenautomaat op de locatie van het Centrum voor Jeugd en Gezin (CJG) (tafelmodel).\nService en onderhoud: Duidelijk vermelden dat de opdracht het leveren van volledige service en onderhoud op alle te plaatsen (dranken)automaten omvat.\nFul",
       "publication_date": "2026-09-03",
       "deadline": "2026-06-03T12:00:00+02:00",
       "budget_amount": null,
@@ -7344,7 +7446,7 @@
       "procedure_id": "TenderNed:581145",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/438242",
       "match_reasons": [
@@ -7374,7 +7476,7 @@
       "buyer": "Laborijn",
       "country": "NL",
       "region": null,
-      "description": "De scope van de opdracht betreft:\n•\tVerhuren van automaten middels Operational Lease;\n•\tPlaatsen en installeren van de automaten;\n•\tLeveren van ingrediënten t.b.v. consumptie;\n•\tLeveren van benodigdheden: thee(zakjes), roerstaafjes, suikers- en melksticks, zoetjes en koffiebekers;\n•\tHet onderhouden en het verlenen van service (o.a. herstellen van storingen) van de door Opdrachtnemer geplaatste automaten;\n\nDe volgende werkzaamheden behoren niet tot de opdracht:\n•\tVerzorging (het dagelijks schoonmaken en vullen) van de door Opdrachtnemer geplaatste automaten; \n•\tEerstelijnsstoringen worden door medewerkers van Opdrachtgever opgepakt en uitgevoerd.",
+      "description": "De scope van de opdracht betreft:\n•\tVerhuren van automaten middels Operational Lease;\n•\tPlaatsen en installeren van de automaten;\n•\tLeveren van ingrediënten t.b.v. consumptie;\n•\tLeveren van benodigdheden: thee(zakjes), roerstaafjes, suikers- en melksticks, zoetjes en koffiebekers;\n•\tHet onderhouden en het verlenen van service (o.a. herstellen van storingen) van de door Opdrachtnemer geplaatste automaten;\n\nDe volgende werkzaamheden behoren niet tot de opdracht:\n•\tVerzorging (het dagelijks schoonmaken en vullen) van de door Opdrachtnemer geplaatste automaten; \n•\tEerstelijnsstoringen worden door medewerkers van Opdrachtgever opgepakt en uitgevoerd. Zie aanbestedingsdocumenten",
       "publication_date": "2026-08-26",
       "deadline": "2026-06-08T09:00:00+02:00",
       "budget_amount": null,
@@ -7392,7 +7494,7 @@
       "procedure_id": "TenderNed:582131",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/437241",
       "match_reasons": [
@@ -7422,7 +7524,7 @@
       "buyer": "Veiligheidsregio Zuid-Holland Zuid",
       "country": "NL",
       "region": null,
-      "description": "Warme drankenautomaten",
+      "description": "Warme drankenautomaten 1",
       "publication_date": "2026-08-26",
       "deadline": "2026-06-30T10:00:00+02:00",
       "budget_amount": null,
@@ -7440,7 +7542,7 @@
       "procedure_id": "TenderNed:589295",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/437276",
       "match_reasons": [
@@ -7470,7 +7572,7 @@
       "buyer": "Belastingdienst, IUC Belastingdienst",
       "country": "NL",
       "region": null,
-      "description": "Zie beschrijvend document.",
+      "description": "Zie beschrijvend document. 390.000,-",
       "publication_date": "2026-09-01",
       "deadline": "2026-07-03T10:00:00+02:00",
       "budget_amount": null,
@@ -7488,7 +7590,7 @@
       "procedure_id": "TenderNed:586952",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/437902",
       "match_reasons": [
@@ -7518,7 +7620,7 @@
       "buyer": "Enexis Netbeheer BV",
       "country": "NL",
       "region": null,
-      "description": "De opdracht omvat de realisatie van een geautomatiseerd logistiek systeem (A plein) in het nieuwe Logistiek Operationeel Centrum (LOC) te Hoogeveen. De opdracht omvat conveyor techniek, pick  en put to light, integratie van bestaande verticale liftsystemen (Hänel), multiformaat dozensluiter, labelapplicatie én een geïntegreerde softwareoplossing inclusief WMS en koppeling met SAP EWM. Voor Enexis functioneert dit deel van de logistieke operatie daarmee als een Black-box oplossing. De softwareoplossing mag daarmee niet direct in SAP EWM van Enexis gebouwd worden. \nDe integrator is daarbij verantwoordelijk voor ontwerp, levering, installatie, commissioning, testen, implementatie, onderhoud en service.",
+      "description": "De opdracht omvat de realisatie van een geautomatiseerd logistiek systeem (A plein) in het nieuwe Logistiek Operationeel Centrum (LOC) te Hoogeveen. De opdracht omvat conveyor techniek, pick  en put to light, integratie van bestaande verticale liftsystemen (Hänel), multiformaat dozensluiter, labelapplicatie én een geïntegreerde softwareoplossing inclusief WMS en koppeling met SAP EWM. Voor Enexis functioneert dit deel van de logistieke operatie daarmee als een Black-box oplossing. De softwareoplossing mag daarmee niet direct in SAP EWM van Enexis gebouwd worden. \nDe integrator is daarbij verantwoordelijk voor ontwerp, levering, installatie, commissioning, testen, implementatie, onderhoud en service. Op basis van de nu bij ons bekende informatie, schatten wij de waarde van deze Opdracht op €1.200.000,- voor de initiële contractuur, inclusief de optionele scope.",
       "publication_date": "2026-09-08",
       "deadline": "2026-07-23T17:00:00+02:00",
       "budget_amount": null,
@@ -7536,7 +7638,7 @@
       "procedure_id": "TenderNed:599197",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/438904",
       "match_reasons": [
@@ -7566,7 +7668,7 @@
       "buyer": "Gemeente Almere",
       "country": "NL",
       "region": null,
-      "description": "Het doel van deze aanbesteding is het realiseren van tijdige, doelmatige en cliëntgerichte woningaanpassingen, deurautomaten en plafondliften (goedkoopst adequaat) voor onze cliënten die ondersteuning nodig hebben om zelfstandig en veilig in hun eigen woning te kunnen blijven wonen. De aanbesteding beoogt één betrouwbare en deskundige opdrachtnemer te contracteren die:\no\tpassende en duurzame oplossingen levert die aansluiten bij de individuele behoeften van de cliënt;\no\tcliëntgericht werkt en zich kan aanpassen aan de doelgroep met een cultuur- en stresssensitieve aanpak en correcte communicatie;\no\tde woningaanpassingen uitvoert, de deurautomaten en plafondliften levert en bedrijfsklaar oplevert binnen afgesproken doorlooptijden en kwaliteitsnormen;\no\tzorgt voor het voldoen aan de eisen van comfort en veiligheid, een lange levensduur met minimale milieubelasting;\no\tadequate en flexibele service, onderhoud en nazorg biedt gedurende de gehele gebruiksduur;\no\tzorgdraagt voor demontage en",
+      "description": "Het doel van deze aanbesteding is het realiseren van tijdige, doelmatige en cliëntgerichte woningaanpassingen, deurautomaten en plafondliften (goedkoopst adequaat) voor onze cliënten die ondersteuning nodig hebben om zelfstandig en veilig in hun eigen woning te kunnen blijven wonen. De aanbesteding beoogt één betrouwbare en deskundige opdrachtnemer te contracteren die:\no\tpassende en duurzame oplossingen levert die aansluiten bij de individuele behoeften van de cliënt;\no\tcliëntgericht werkt en zich kan aanpassen aan de doelgroep met een cultuur- en stresssensitieve aanpak en correcte communicatie;\no\tde woningaanpassingen uitvoert, de deurautomaten en plafondliften levert en bedrijfsklaar oplevert binnen afgesproken doorlooptijden en kwaliteitsnormen;\no\tzorgt voor het voldoen aan de eisen van comfort en veiligheid, een lange levensduur met minimale milieubelasting;\no\tadequate en flexibele service, onderhoud en nazorg biedt gedurende de gehele gebruiksduur;\no\tzorgdraagt voor demontage en De geraamde jaarlijkse waarde van de opdracht is € 500.000,- en is gebaseerd op de omvang in 2025. De totale verwachte geraamde waarde van de opdracht is daarmee gedurende de looptijd van de overeenkomst inclusief verlengingen € 3.500.000",
       "publication_date": "2026-10-14",
       "deadline": "2026-08-17T12:00:00+02:00",
       "budget_amount": null,
@@ -7584,7 +7686,7 @@
       "procedure_id": "TenderNed:592207",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/444298",
       "match_reasons": [
@@ -7614,7 +7716,7 @@
       "buyer": "Gemeente Haarlemmermeer",
       "country": "NL",
       "region": null,
-      "description": "Dit is de aanbestedingsleidraad warme en koude drankenautomaten. Met deze aanbestedingsprocedure is de gemeente Haarlemmermeer (hierna ook aangeduid met ‘aanbestedende dienst’) voornemens één partij te selecteren voor het verzorgen van de warme en koude drankenautomaten op basis van een full-service contract op de verschillende huisvestingslocaties van de gemeente. Het full-service contract omvat in ieder geval het leveren, plaatsen, aansluiten, in gebruik stellen, onderhouden en optimaal functionerend houden van de warme en koude drankenautomaten, alsmede het verwijderen van automaten bij einde van het contract.",
+      "description": "Dit is de aanbestedingsleidraad warme en koude drankenautomaten. Met deze aanbestedingsprocedure is de gemeente Haarlemmermeer (hierna ook aangeduid met ‘aanbestedende dienst’) voornemens één partij te selecteren voor het verzorgen van de warme en koude drankenautomaten op basis van een full-service contract op de verschillende huisvestingslocaties van de gemeente. Het full-service contract omvat in ieder geval het leveren, plaatsen, aansluiten, in gebruik stellen, onderhouden en optimaal functionerend houden van de warme en koude drankenautomaten, alsmede het verwijderen van automaten bij einde van het contract. 25 automaten",
       "publication_date": "2026-09-10",
       "deadline": "2026-09-11T12:00:00+02:00",
       "budget_amount": null,
@@ -7632,7 +7734,7 @@
       "procedure_id": "TenderNed:588047",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/439514",
       "match_reasons": [
@@ -7662,7 +7764,7 @@
       "buyer": "Gemeente Maastricht",
       "country": "NL",
       "region": null,
-      "description": "De opdracht betreft het sluiten van een Overeenkomst met één Opdrachtnemer voor de levering (in de vorm van lease) van warme drankenvoorzieningen, inclusief installatie, serviceverlening, levering van ingrediënten en het verzorgen van trainingen. De Opdrachtnemer is verantwoordelijk voor het realiseren van een integraal werkend systeem van warme drankenvoorzieningen op diverse locaties van de Gemeente Maastricht. Het dagelijks (eerstelijns) onderhoud wordt uitgevoerd door medewerkers van Opdrachtgever.",
+      "description": "De opdracht betreft het sluiten van een Overeenkomst met één Opdrachtnemer voor de levering (in de vorm van lease) van warme drankenvoorzieningen, inclusief installatie, serviceverlening, levering van ingrediënten en het verzorgen van trainingen. De Opdrachtnemer is verantwoordelijk voor het realiseren van een integraal werkend systeem van warme drankenvoorzieningen op diverse locaties van de Gemeente Maastricht. Het dagelijks (eerstelijns) onderhoud wordt uitgevoerd door medewerkers van Opdrachtgever. De omvang van de opdracht betreft de levering van warme drankenautomaten ten behoeve van in de huidige situatie circa 1.900 medewerkers op de locaties van Opdrachtgever.",
       "publication_date": "2026-11-06",
       "deadline": "2026-09-15T09:00:00+02:00",
       "budget_amount": null,
@@ -7680,7 +7782,7 @@
       "procedure_id": "TenderNed:602886",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/448072",
       "match_reasons": [
@@ -7710,7 +7812,7 @@
       "buyer": "Omgevingsdienst Drenthe",
       "country": "NL",
       "region": null,
-      "description": "Met deze aanbesteding wil OD Drenthe komen tot een veilige, toekomstbestendige en geïntegreerde IT-dienstverlening die aansluit bij de ambities van de organisatie. Hiervoor wordt één opdrachtnemer geselecteerd die integraal verantwoordelijk wordt voor de levering, het beheer, de ondersteuning, de doorontwikkeling en de transitie van de kantoorautomatisering.",
+      "description": "Met deze aanbesteding wil OD Drenthe komen tot een veilige, toekomstbestendige en geïntegreerde IT-dienstverlening die aansluit bij de ambities van de organisatie. Hiervoor wordt één opdrachtnemer geselecteerd die integraal verantwoordelijk wordt voor de levering, het beheer, de ondersteuning, de doorontwikkeling en de transitie van de kantoorautomatisering. De afgelopen jaren is er gemiddeld € 1.065.000 (excl. BTW) per jaar besteed aan de betreffende dienstverlening. Opdrachtgever maakt gebruik van een ophoging van de maximale waarde van de overeenkomst aangezien zij verwacht dat de afname zal toenemen en flexibel wil inspelen op toekomstige ontwikkelingen. De maximale waarde per jaar voor de overeenkomst wordt opgehoogd en komt daarmee uit op € 1.500.000,00 (excl. BTW).",
       "publication_date": "2026-08-19",
       "deadline": "2026-09-17T09:00:00+02:00",
       "budget_amount": null,
@@ -7728,7 +7830,7 @@
       "procedure_id": "TenderNed:606789",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/436462",
       "match_reasons": [
@@ -7758,7 +7860,7 @@
       "buyer": "Gemeente Emmen",
       "country": "NL",
       "region": null,
-      "description": "Levering Parkeerautomaten",
+      "description": "Levering Parkeerautomaten 36 parkeerautomaten",
       "publication_date": "2026-11-03",
       "deadline": "2026-09-18T12:00:00+02:00",
       "budget_amount": null,
@@ -7776,7 +7878,7 @@
       "procedure_id": "TenderNed:577122",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/447318",
       "match_reasons": [
@@ -7806,7 +7908,7 @@
       "buyer": "mboRijnland",
       "country": "NL",
       "region": null,
-      "description": "In de huidige situatie heeft opdrachtgever een overeenkomst met verschillende partijen voor automatische schuifdeuren, tourniquetdeuren en automatische drangers. Opdrachtgever heeft besloten om schuifdeuren, tourniquetdeuren en branddeuren Europees aan te besteden.\n\nMeer informatie vindt u in de aanbestedingsleidraad.",
+      "description": "In de huidige situatie heeft opdrachtgever een overeenkomst met verschillende partijen voor automatische schuifdeuren, tourniquetdeuren en automatische drangers. Opdrachtgever heeft besloten om schuifdeuren, tourniquetdeuren en branddeuren Europees aan te besteden.\n\nMeer informatie vindt u in de aanbestedingsleidraad. Informatie over de omvang vindt u in de aanbestedingsleidraad.",
       "publication_date": "2026-09-22",
       "deadline": "2026-09-21T09:00:00+02:00",
       "budget_amount": null,
@@ -7824,7 +7926,7 @@
       "procedure_id": "TenderNed:597884",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/441074",
       "match_reasons": [
@@ -7872,7 +7974,7 @@
       "procedure_id": "SIMAP:d63448ca-8ed7-4a62-9b52-84dae902e504:lot:77a8967f-7bb9-4654-9219-aca8ce9f096f",
       "procurement_reference": "39518",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/d63448ca-8ed7-4a62-9b52-84dae902e504",
       "match_reasons": [
@@ -7923,7 +8025,7 @@
       "procedure_id": "SIMAP:a12d681e-5b7c-4a48-9f36-09aeee831608",
       "procurement_reference": "42869",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/a12d681e-5b7c-4a48-9f36-09aeee831608",
       "match_reasons": [
@@ -7951,6 +8053,54 @@
       "phase": "history"
     },
     {
+      "id": "TENDERNED:438304",
+      "title": "Marktconsultatie t.b.v. digitale sleutelkluizen / elektronische sleutelkasten / geautomatiseerd sleutelbeheer gemeente Venlo",
+      "buyer": "Gemeente Venlo",
+      "country": "NL",
+      "region": null,
+      "description": "Het doel van deze marktconsultatie is het verkrijgen van inzicht in de mogelijkheden die de markt te bieden heeft op het gebied van digitale sleutelkluizen /elektronische sleutelkasten/geautomatiseerd sleutelbeheer. De gemeente Venlo beschikt over meerdere ambtelijke locaties met uiteenlopende beveiligings- en toegangsvoorzieningen. Veel deuren zijn, naast het geautomatiseerde toegangssysteem, voorzien van cilinders, waardoor er een grote hoeveelheid sleutels in omloop is. Niet iedere medewerker heeft toegang tot alle ruimtes; sleutels worden uitsluitend verstrekt op basis van toegekende autorisaties. \nFacility Management beheert deze autorisaties en is verantwoordelijk voor de uitgifte en inname van sleutels. Een deel van de sleutels is permanent toegewezen aan medewerkers op basis van hun functie of rol, terwijl andere sleutels tijdelijk worden uitgegeven voor specifieke werkzaamheden of reserveringen. Voor dit beheer beschikt Facility Management over een voorraad sleutels, inclusief reserves, die momenteel zijn opgeslagen in eenvoudige sleutelkluizen. \nNaast gebouwtoegang worden ook dienstfietsen en deelauto’s ter beschikking gesteld aan medewerkers. Ook hiervoor is een gecontroleerde uitgifte en inname van sleutels noodzakelijk.\nDe uitgifte, registratie en controle van sleutels vindt handmatig plaats, waardoor er beperkte zichtbaarheid is op:\n\n•\twie welke sleutel in bezit h",
+      "publication_date": "2026-09-02",
+      "deadline": "2026-09-23T23:59:59+02:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/438304",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
+      "status": "采购预告／意向；参与期限需核实",
+      "source": "TENDERNED",
+      "notice_id": "438304",
+      "procedure_id": "TenderNed:602587",
+      "procurement_reference": null,
+      "notice_stage": "planned",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/438304",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Marktconsultatie",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:438304"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/438304"
+      ],
+      "phase": "planned"
+    },
+    {
       "id": "BKMS:2191a1ee-69ba-45c4-921f-660438dd5369:3",
       "title": "Lutherstadt Wittenberg-Öffentliche Toilettenanlagen - Rahmenvereinbarung Schließdienst inkl. Leerung der Münzautomaten - Öffentliche Toilettenanlagen",
       "buyer": "Lutherstadt Wittenberg",
@@ -7974,7 +8124,7 @@
       "notice_version": "3",
       "procedure_id": "5697028e-63fc-412c-a577-ada6ab5efa62",
       "procurement_reference": "OB2-V-2026-23-D",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-09-28T10:00:00+02:00"
       ],
@@ -8012,7 +8162,7 @@
       "buyer": "Gemeente Woerden",
       "country": "NL",
       "region": null,
-      "description": "Warme Drankenautomaten Woerden en Oudewater",
+      "description": "Warme Drankenautomaten Woerden en Oudewater ZIe leidraad",
       "publication_date": "2026-09-18",
       "deadline": "2026-09-28T10:00:00+02:00",
       "budget_amount": null,
@@ -8030,7 +8180,7 @@
       "procedure_id": "TenderNed:595399",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/440580",
       "match_reasons": [
@@ -8057,12 +8207,60 @@
       "phase": "history"
     },
     {
+      "id": "TENDERNED:437069",
+      "title": "Automatisering verwerking inkoopfacturen",
+      "buyer": "Stichting Yuverta",
+      "country": "NL",
+      "region": null,
+      "description": "Yuverta is voornemens om een Meervoudig onderhandse/Europese (nader te bepalen) aanbesteding (hierna te noemen: aanbesteding) te starten voor Automatisering verwerking inkoopfacturen. Onder de mogelijke scope van de voorgenomen aanbesteding vallen onder andere (maar niet gelimiteerd tot) de volgende diensten en producten:\n1.\tLevering, implementatie en configuratie van een oplossing voor geautomatiseerde factuurverwerking.\n2.\tIntegratie met AFAS, inclusief de uitwisseling van relevante stam- en transactiedata\n3.\tAutomatische herkenning en extractie van factuurgegevens waaronder leverancier, factuurnummer, factuurdatum, vervaldatum, bedragen, btw-gegevens, boekingsomschrijving. \n4.\tAutomatische codering van facturen op grootboekrekening, waaronder kostenplaats, kostendrager, project, btw-code (evt. met ondersteuning van zelflerend functionaliteit)\n5.\tAutomatische matching met inkooporder en verplichting.\n6.\tBeheerfunctionaliteiten, waaronder gebruikers en rollenbeheer, rapportage/dashboard, alsmede opleiding van beheerders en key-users.\n7.\tAudittrail, logging, zodat alle handelingen en wijzigingen inzichtelijk zijn ten behoeve van interne beheersing en accountantscontrole.\n8.\tOndersteuning tijdens implementatie en nazorgperiode.\n9.\tLevering van gebruikersdocumentatie, handleidingen en instructiemateriaal.\n10.\tLevering van onderhoud, support en updates gedurende de contractperiode",
+      "publication_date": "2026-08-24",
+      "deadline": "2026-09-28T23:59:59+02:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/437069",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
+      "status": "采购预告／意向；参与期限需核实",
+      "source": "TENDERNED",
+      "notice_id": "437069",
+      "procedure_id": "TenderNed:607776",
+      "procurement_reference": null,
+      "notice_stage": "planned",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/437069",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Marktconsultatie",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:437069"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/437069"
+      ],
+      "phase": "planned"
+    },
+    {
       "id": "TENDERNED:444721",
       "title": "Warme drankenautomaten",
       "buyer": "Gemeente Almelo",
       "country": "NL",
       "region": null,
-      "description": "De Opdracht betreft:\n•\tHet verhuren van warme drankenautomaten middels operational lease;\n•\tHet plaatsen en installeren van automaten;\n•\tHet leveren van ingrediënten en disposables voor de automaten;\n•\tHet onderhouden (periodiek) en het verlenen van service (herstellen van storingen) van de door Opdrachtnemer geplaatste automaten.",
+      "description": "De Opdracht betreft:\n•\tHet verhuren van warme drankenautomaten middels operational lease;\n•\tHet plaatsen en installeren van automaten;\n•\tHet leveren van ingrediënten en disposables voor de automaten;\n•\tHet onderhouden (periodiek) en het verlenen van service (herstellen van storingen) van de door Opdrachtnemer geplaatste automaten. Zie aanbestedingsdocumenten",
       "publication_date": "2026-10-15",
       "deadline": "2026-10-13T12:00:00+02:00",
       "budget_amount": null,
@@ -8080,7 +8278,7 @@
       "procedure_id": "TenderNed:600349",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/444721",
       "match_reasons": [
@@ -8103,6 +8301,54 @@
         "https://www.tenderned.nl/aankondigingen/overzicht/444721"
       ],
       "phase": "history"
+    },
+    {
+      "id": "TENDERNED:441019",
+      "title": "Automatisering beoordeling uitgevallen kwijtscheldingsverzoeken",
+      "buyer": "GBLT",
+      "country": "NL",
+      "region": null,
+      "description": "GBLT behandelt jaarlijks een groot aantal verzoeken om kwijtschelding van lokale belastingen. Een deel van deze verzoeken kan via de reguliere geautomatiseerde toetsing door het Bureau Informatie Diensten Nederland (BIDN) worden afgehandeld. Jaarlijks vallen circa 40.000 verzoeken bij deze toetsing uit en is aanvullende beoordeling noodzakelijk. GBLT wil deze taak vanaf dat moment in belangrijke mate automatiseren. Doel is om de afhandeling efficiënter en consistenter te organiseren, de afhankelijkheid van externe capaciteit te verminderen en tegelijkertijd de kwaliteit, zorgvuldigheid en uitlegbaarheid van beoordelingen te waarborgen. Er is nog geen sprake van een vastgestelde hoeveelheid of omvang.",
+      "publication_date": "2026-09-22",
+      "deadline": "2026-10-14T23:59:59+02:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/441019",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
+      "status": "采购预告／意向；参与期限需核实",
+      "source": "TENDERNED",
+      "notice_id": "441019",
+      "procedure_id": "TenderNed:613811",
+      "procurement_reference": null,
+      "notice_stage": "planned",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/441019",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Marktconsultatie",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:441019"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/441019"
+      ],
+      "phase": "planned"
     },
     {
       "id": "USP:8df6b76b-a1c8-45a4-ab7b-3ff8676e4b04-961d2e8b-053c-456e-bc2d-b08b88c880b7",
@@ -8128,7 +8374,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://beschaffung.evn.at"
       ],
@@ -8179,7 +8425,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://ooeg.vemap.com/home/bekannt/anzeigen.html?annID=149"
       ],
@@ -8230,7 +8476,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-23T12:00:00+02:00"
       ],
@@ -8268,7 +8514,7 @@
       "buyer": "Spaarnelanden N.V.",
       "country": "NL",
       "region": null,
-      "description": "Spaarnelanden wenst de levering en bijbehorende dienstverlening van koffie, koffieautomaten en aanverwanten .",
+      "description": "Spaarnelanden wenst de levering en bijbehorende dienstverlening van koffie, koffieautomaten en aanverwanten . €300.000,-",
       "publication_date": "2026-08-30",
       "deadline": "2026-10-23T12:00:00+02:00",
       "budget_amount": null,
@@ -8286,7 +8532,7 @@
       "procedure_id": "TenderNed:602832",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/437802",
       "match_reasons": [
@@ -8309,6 +8555,56 @@
         "https://www.tenderned.nl/aankondigingen/overzicht/437802"
       ],
       "phase": "history"
+    },
+    {
+      "id": "TENDERNED:444424",
+      "title": "Uitnodiging verkenning verkeersregelautomaten en landschap",
+      "buyer": "De Minister van Infrastructuur en Waterstaat handelend als aankoopcentrale voor het samenwerkingsverband Nationale Databank Wegverkeersgegevens, hierna te noemen NDW",
+      "country": "NL",
+      "region": null,
+      "description": "Geachte,\n \nNamens het Directeurenoverleg van het Landelijk Verkeersmanagementberaad nodigt het Strategische Team VRI marktpartijen actief op het gebied van verkeersregelinstallaties uit deel te nemen aan een vrijblijvend verkennend gesprek over de toekomst van verkeersregelautomaten en landschap in Nederland. De bijeenkomst vindt plaats op donderdag 29 oktober in Utrecht (locatie CROW Leidseveer 2-10 Utrecht) en aanmelden kan via dit e-mail adres: lvmb@rws.nl De centrale vraag is wat op de korte en lange termijn nodig is voor leveringszekerheid en toekomstbestendigheid?\n \nLandelijk Verkeersmanagementberaad (LVMB)\nHet LVMB is een samenwerkingsverband van wegbeheerders (gemeenten, provincies, RWS en het ministerie van I&W) dat actuele kwesties op het gebied van verkeersmanagement agendeert en een stap verder brengt.  Een van de kwesties is de veranderde omstandigheden op de markt van verkeersregelautomatenproducenten. Het LVMB heeft zorgen geuit over leveringszekerheid, betaalbaarheid en (beperkte) marktomvang. Om deze en andere vragen te beantwoorden is een werkgroep ingericht onder leiding van Pieter Litjens (directeur CROW). De werkgroep zal uiteindelijk advies aanbrengen aan het Directeurenoverleg over governance en toekomstperspectief.\n \nVraagstelling\nDe bijeenkomst is een vrijblijvend en verkennend gesprek op uitnodiging van voorzitter Pieter Litjens. Hij wil zich graag ver",
+      "publication_date": "2026-10-13",
+      "deadline": "2026-10-24T23:59:59+02:00",
+      "budget_amount": null,
+      "budget_currency": null,
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/444424",
+      "priority": "P3",
+      "match_score": 20,
+      "matched_products": [],
+      "verification_status": "官方公开来源；技术规格待复核",
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-10",
+      "status": "采购预告／意向；参与期限需核实",
+      "source": "TENDERNED",
+      "notice_id": "444424",
+      "procedure_id": "TenderNed:618240",
+      "procurement_reference": null,
+      "notice_stage": "planned",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
+      "official_links": [],
+      "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/444424",
+      "match_reasons": [
+        "仅涉及自动化，需先确认是否包含机器人采购"
+      ],
+      "institution_type": "other",
+      "institution_label": "其他／待确认",
+      "education_research": false,
+      "institution_evidence": [],
+      "procurement_for_education": false,
+      "institution_relation": "未发现明确教育科研机构线索",
+      "lead_priority": "C",
+      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
+      "publication_type": "Marktconsultatie",
+      "source_unavailable": false,
+      "related_notice_ids": [
+        "TENDERNED:444336",
+        "TENDERNED:444424"
+      ],
+      "source_links": [
+        "https://www.tenderned.nl/aankondigingen/overzicht/444424",
+        "https://www.tenderned.nl/aankondigingen/overzicht/444336"
+      ],
+      "phase": "planned"
     },
     {
       "id": "BKMS:25920230:1",
@@ -8334,7 +8630,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-26T10:00:00+01:00"
       ],
@@ -8390,7 +8686,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-26T11:00:00+01:00"
       ],
@@ -8428,7 +8724,7 @@
       "buyer": "Gemeente Meppel",
       "country": "NL",
       "region": null,
-      "description": "De opdracht betreft de levering, installatie, inbedrijfstelling en het meerjarig onderhoud en beheer van circa 45 cashless, ticketloze en zonnestroom gedreven straatparkeerautomaten, met een optie tot uitbreiding van 15 automaten in het stationsgebied (totaal maximaal 60), onder gelijke condities. op locaties in de gemeente Meppel.",
+      "description": "De opdracht betreft de levering, installatie, inbedrijfstelling en het meerjarig onderhoud en beheer van circa 45 cashless, ticketloze en zonnestroom gedreven straatparkeerautomaten, met een optie tot uitbreiding van 15 automaten in het stationsgebied (totaal maximaal 60), onder gelijke condities. op locaties in de gemeente Meppel. 60",
       "publication_date": "2026-09-01",
       "deadline": "2026-10-28T10:00:00+01:00",
       "budget_amount": null,
@@ -8446,7 +8742,7 @@
       "procedure_id": "TenderNed:596015",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/437954",
       "match_reasons": [
@@ -8494,7 +8790,7 @@
       "procedure_id": "SIMAP:c27d0ad6-0c42-470e-96d3-62a661c0b9ae:lot:8b0c2812-3906-49df-987f-64014c07c4c3",
       "procurement_reference": "43882",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/c27d0ad6-0c42-470e-96d3-62a661c0b9ae",
       "match_reasons": [
@@ -8527,7 +8823,7 @@
       "buyer": "Gemeente Waadhoeke",
       "country": "NL",
       "region": null,
-      "description": "Het verbeteren van het parkeergemak in Franeker door plaatsing van nieuwe, duurzame, energiezuinige en toekomstbestendige parkeerautomaten met onder andere de functionaliteit van parkeren op kenteken.",
+      "description": "Het verbeteren van het parkeergemak in Franeker door plaatsing van nieuwe, duurzame, energiezuinige en toekomstbestendige parkeerautomaten met onder andere de functionaliteit van parkeren op kenteken. circa 20 parkeermeters",
       "publication_date": "2026-09-14",
       "deadline": "2026-10-28T12:30:00+01:00",
       "budget_amount": null,
@@ -8545,7 +8841,7 @@
       "procedure_id": "TenderNed:603583",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/439910",
       "match_reasons": [
@@ -8595,7 +8891,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-10-30T09:00:00+01:00"
       ],
@@ -8651,7 +8947,7 @@
       "procedure_id": "SIMAP:957049d7-a19e-4a68-83e3-eb4b13784f2c",
       "procurement_reference": "44556",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/957049d7-a19e-4a68-83e3-eb4b13784f2c",
       "match_reasons": [
@@ -8702,7 +8998,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-02T11:00:00+01:00"
       ],
@@ -8758,7 +9054,7 @@
       "notice_version": "01",
       "procedure_id": "e375350f-147e-4099-add7-c57b500bbd28",
       "procurement_reference": "2026-66-4678-EO",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-03T09:15:00+01:00"
       ],
@@ -8796,7 +9092,7 @@
       "buyer": "Gemeente Steenwijkerland",
       "country": "NL",
       "region": null,
-      "description": "De gemeente Steenwijkerland streeft naar een toekomstbestendige en duurzame warme drankenvoorziening voor medewerkers en bezoekers op haar locaties.  De gemeente wenst dat  één professionele opdrachtnemer verantwoordelijk is voor de levering en het onderhoud van 16 automaten en ingrediënten.  Het dagelijkse onderhoud, alsmede bijvullen valt niet onder de opdracht. De automaten mogen refurbished of tweedehands worden geleverd.",
+      "description": "De gemeente Steenwijkerland streeft naar een toekomstbestendige en duurzame warme drankenvoorziening voor medewerkers en bezoekers op haar locaties.  De gemeente wenst dat  één professionele opdrachtnemer verantwoordelijk is voor de levering en het onderhoud van 16 automaten en ingrediënten.  Het dagelijkse onderhoud, alsmede bijvullen valt niet onder de opdracht. De automaten mogen refurbished of tweedehands worden geleverd. Het betreft 16 automaten en levering ingredienten.",
       "publication_date": "2026-09-22",
       "deadline": "2026-11-03T10:00:00+01:00",
       "budget_amount": null,
@@ -8814,7 +9110,7 @@
       "procedure_id": "TenderNed:612942",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/440870",
       "match_reasons": [
@@ -8862,7 +9158,7 @@
       "notice_version": "01",
       "procedure_id": "f057eb62-7f26-466a-81ee-845786db2761",
       "procurement_reference": "2026/1Z/008-E",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-03T10:00:00+01:00"
       ],
@@ -8918,7 +9214,7 @@
       "notice_version": "01",
       "procedure_id": "704a61c3-94eb-4a70-9e3e-a0bc90f88c5b",
       "procurement_reference": "VSG-SEK-2026-73",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-04T08:00:00+01:00"
       ],
@@ -8974,7 +9270,7 @@
       "notice_version": "01",
       "procedure_id": "2210b288-c67a-4881-a302-df6c9ee5c921",
       "procurement_reference": "1483-0926",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-04T10:00:00+01:00"
       ],
@@ -9030,7 +9326,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-04T10:00:00+01:00"
       ],
@@ -9086,7 +9382,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-05T09:15:00+01:00"
       ],
@@ -9142,7 +9438,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-05T09:15:00+01:00"
       ],
@@ -9305,7 +9601,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-06T12:00:00+01:00"
       ],
@@ -9361,7 +9657,7 @@
       "notice_version": "01",
       "procedure_id": "f7ff2e94-1682-4fca-b068-72c2f1ee22ab",
       "procurement_reference": "26-006-O-EU",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-06T12:00:00+01:00"
       ],
@@ -9528,7 +9824,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-09T11:00:00+01:00"
       ],
@@ -9584,7 +9880,7 @@
       "procedure_id": "TenderNed:614739",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/446925",
       "match_reasons": [
@@ -9634,7 +9930,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-09T11:00:00+01:00"
       ],
@@ -9690,7 +9986,7 @@
       "notice_version": "01",
       "procedure_id": "fe881204-679a-4c7c-bc71-1b8fb084edbf",
       "procurement_reference": "2026/G3/0911",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-09T12:00:00+01:00"
       ],
@@ -9748,7 +10044,7 @@
       "notice_version": "01",
       "procedure_id": "ae9dc74e-d7fa-4d9f-98d8-513960fa6527",
       "procurement_reference": "UKSH-Föd-2026-0006",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-09T23:59:00+01:00"
       ],
@@ -9800,13 +10096,13 @@
       "verification_status": "德国官方 Open Data；技术规格待复核",
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-10",
-      "status": "投标中",
+      "status": "截止日期已过",
       "source": "BKMS",
       "notice_id": "25946200",
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-10T10:00:00+01:00"
       ],
@@ -9836,7 +10132,7 @@
       "source_links": [
         "https://oeffentlichevergabe.de/ui/de/notices/25946200"
       ],
-      "phase": "active"
+      "phase": "history"
     },
     {
       "id": "BKMS:25964234:1",
@@ -9856,13 +10152,13 @@
       "verification_status": "德国官方 Open Data；技术规格待复核",
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-10",
-      "status": "投标中",
+      "status": "截止日期已过",
       "source": "BKMS",
       "notice_id": "25964234",
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-10T10:30:00+01:00"
       ],
@@ -9892,7 +10188,7 @@
       "source_links": [
         "https://oeffentlichevergabe.de/ui/de/notices/25964234"
       ],
-      "phase": "active"
+      "phase": "history"
     },
     {
       "id": "BKMS:f35eede4-cace-486d-85d2-4bdaba9d0ced:01",
@@ -9912,13 +10208,13 @@
       "verification_status": "德国官方 Open Data；技术规格待复核",
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-10",
-      "status": "投标中",
+      "status": "截止日期已过",
       "source": "BKMS",
       "notice_id": "f35eede4-cace-486d-85d2-4bdaba9d0ced",
       "notice_version": "01",
       "procedure_id": "63fa48db-a440-46d1-9d2c-ece848c78186",
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-10T11:00:00+01:00"
       ],
@@ -9948,7 +10244,7 @@
       "source_links": [
         "https://oeffentlichevergabe.de/ui/de/notices/f35eede4-cace-486d-85d2-4bdaba9d0ced"
       ],
-      "phase": "active"
+      "phase": "history"
     },
     {
       "id": "BKMS:0f7628c4-091d-435f-a8d7-dad47888f857:01",
@@ -9968,13 +10264,13 @@
       "verification_status": "德国官方 Open Data；技术规格待复核",
       "first_seen": "2026-11-04",
       "last_seen": "2026-11-10",
-      "status": "投标中",
+      "status": "截止日期已过",
       "source": "BKMS",
       "notice_id": "0f7628c4-091d-435f-a8d7-dad47888f857",
       "notice_version": "01",
       "procedure_id": "6fa8b9b6-bbfe-4040-885a-8b26a97dcf01",
       "procurement_reference": "510-26 (CXP4Y6JMWR2)",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-10T11:00:00+01:00"
       ],
@@ -10006,7 +10302,7 @@
         "https://oeffentlichevergabe.de/ui/de/notices/dee01f00-699e-4f49-9a14-a22d5851db34",
         "https://oeffentlichevergabe.de/ui/de/notices/0f7628c4-091d-435f-a8d7-dad47888f857"
       ],
-      "phase": "active"
+      "phase": "history"
     },
     {
       "id": "DE_NRW:21d60e52-3c2f-4fc4-89b6-11b92912c8ff:01",
@@ -10032,7 +10328,7 @@
       "notice_version": "01",
       "procedure_id": "4fba5414-6251-47e1-8f73-2b6dd8a83a38",
       "procurement_reference": "Vergabe 0009/2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-10T15:00:00+01:00"
       ],
@@ -10090,7 +10386,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "751283-2026",
       "procedure_id": "d39e0fcd-5033-41dc-84e6-7c5f0d9192f4",
       "procurement_reference": null,
@@ -10131,7 +10427,7 @@
       "buyer": "Gemeente Bloemendaal",
       "country": "NL",
       "region": null,
-      "description": "Gemeenten hebben op basis van de Wet Maatschappelijke Ondersteuning (Wmo) tot taak aan inwoners, die belemmeringen ervaren bij hun zelfredzaamheid en hun participatie in de samenleving, voorzieningen te bieden waar nodig. Bij problemen in het gebruik van de woning kan het verstrekken van een automatische deuropener onderdeel uitmaken van de gekozen oplossing.\nDe opdracht omvat:\n•\thet leveren en installeren van automatische deuropeners;\n•\thet uitvoeren van een technische inventarisatie op locatie;\n•\thet adviseren over de meest passende en goedkoopste oplossing;\n•\thet uitvoeren van preventief en correctief onderhoud;\n•\thet verhelpen van storingen;\n•\thet demonteren en verwijderen van deuropeners wanneer deze niet langer noodzakelijk zijn;\n•\thet waar mogelijk reviseren en hergebruiken van automatische deuropeners;\n•\thet onderhouden van reeds geplaatste deuropeners die eigendom zijn van de gemeenten.",
+      "description": "Gemeenten hebben op basis van de Wet Maatschappelijke Ondersteuning (Wmo) tot taak aan inwoners, die belemmeringen ervaren bij hun zelfredzaamheid en hun participatie in de samenleving, voorzieningen te bieden waar nodig. Bij problemen in het gebruik van de woning kan het verstrekken van een automatische deuropener onderdeel uitmaken van de gekozen oplossing.\nDe opdracht omvat:\n•\thet leveren en installeren van automatische deuropeners;\n•\thet uitvoeren van een technische inventarisatie op locatie;\n•\thet adviseren over de meest passende en goedkoopste oplossing;\n•\thet uitvoeren van preventief en correctief onderhoud;\n•\thet verhelpen van storingen;\n•\thet demonteren en verwijderen van deuropeners wanneer deze niet langer noodzakelijk zijn;\n•\thet waar mogelijk reviseren en hergebruiken van automatische deuropeners;\n•\thet onderhouden van reeds geplaatste deuropeners die eigendom zijn van de gemeenten. zie programma van eisen",
       "publication_date": "2026-09-21",
       "deadline": "2026-11-12T10:00:00+01:00",
       "budget_amount": null,
@@ -10149,7 +10445,7 @@
       "procedure_id": "TenderNed:613138",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/440863",
       "match_reasons": [
@@ -10195,7 +10491,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "776217-2026",
       "procedure_id": "c336ca86-c3f0-41db-a3e8-50c8884dcd04",
       "procurement_reference": "PPP0HW-1067/6414/CUSL/2026-1067 Automatisation dépistage néonatal",
@@ -10255,7 +10551,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-13T12:00:00+01:00"
       ],
@@ -10311,7 +10607,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-13T13:00:00+01:00"
       ],
@@ -10367,7 +10663,7 @@
       "notice_version": "01",
       "procedure_id": "7033135a-0ea3-4182-a455-8c7a48cdc9d7",
       "procurement_reference": "26FEF89350",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T10:00:00+01:00"
       ],
@@ -10423,7 +10719,7 @@
       "notice_version": "01",
       "procedure_id": "a4a15137-4edb-4de5-b623-ce6f67b8cc1a",
       "procurement_reference": "25-88MSR",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T10:00:00+01:00"
       ],
@@ -10479,7 +10775,7 @@
       "procedure_id": "TenderNed:612703",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/445292",
       "match_reasons": [
@@ -10529,7 +10825,7 @@
       "notice_version": "01",
       "procedure_id": "504456ed-89a3-446d-b352-e231a48991c6",
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T11:30:00+01:00",
         "2026-11-16T11:30:00+02:00"
@@ -10586,7 +10882,7 @@
       "procedure_id": "TenderNed:607617",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/436948",
       "match_reasons": [
@@ -10681,7 +10977,7 @@
       "notice_version": "01",
       "procedure_id": "e6fb171c-d6ac-46c4-8d00-b66df8606e68",
       "procurement_reference": "FE3-914-20261015 TNW Vermietung/Bewirtschaftung von Heißgetränkeautomaten",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-16T12:00:00+01:00"
       ],
@@ -10737,7 +11033,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-17T10:00:00+01:00"
       ],
@@ -10840,7 +11136,7 @@
       "procedure_id": "TenderNed:613271",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/440618",
       "match_reasons": [
@@ -10888,7 +11184,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-18T11:00:00+01:00"
       ],
@@ -10944,7 +11240,7 @@
       "notice_version": "2",
       "procedure_id": "0b4dfd0d-c42d-45c0-8cc1-007226e04143",
       "procurement_reference": "BA077-26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-18T12:00:00+01:00"
       ],
@@ -11001,7 +11297,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-18T23:59:00+01:00"
       ],
@@ -11059,7 +11355,7 @@
       "notice_version": "01",
       "procedure_id": "d360d1f6-998a-4d12-8aa9-33eba5d5b276",
       "procurement_reference": "OBK_2026/10#239",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-19T09:00:00+01:00"
       ],
@@ -11111,7 +11407,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "664729-2026",
       "procedure_id": "b643acc1-79e2-48c5-8607-d50497d091e8",
       "procurement_reference": "ZV-L9-26-1034000-412 .05",
@@ -11169,7 +11465,7 @@
       "notice_version": "01",
       "procedure_id": "bb2a4072-3b01-43b4-9a2b-91ab89ea50c5",
       "procurement_reference": "10.4.0547.2026.06741",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-20T09:00:00+01:00"
       ],
@@ -11231,7 +11527,7 @@
       "notice_version": "01",
       "procedure_id": "cdb9c78e-e57d-42cc-a684-33ea466c53d8",
       "procurement_reference": "10/4.1-2026-0569",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-20T12:00:00+01:00"
       ],
@@ -11293,7 +11589,7 @@
       "notice_version": "01",
       "procedure_id": "395ad434-65df-4e8b-b493-292cfde4d4fc",
       "procurement_reference": "2026-064-App-O-EU",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-20T12:00:00+01:00"
       ],
@@ -11349,7 +11645,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-23T09:00:00+01:00"
       ],
@@ -11405,7 +11701,7 @@
       "notice_version": "01",
       "procedure_id": "778b153e-0c0c-44db-bc89-d19ede7f9a3b",
       "procurement_reference": "E21/2026/09",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-23T10:00:00+01:00"
       ],
@@ -11504,7 +11800,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "737366-2026",
       "procedure_id": "638e0aca-d9ed-41f9-8922-c8b65e6918b6",
       "procurement_reference": "TLS011-446-2026-11V-2-4",
@@ -11564,7 +11860,7 @@
       "notice_version": "01",
       "procedure_id": "0ea85c3d-aafd-4f2d-838a-f7dadc48f6ee",
       "procurement_reference": "Z-231-2026-L-00025",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-24T10:00:00+01:00"
       ],
@@ -11620,7 +11916,7 @@
       "notice_version": "01",
       "procedure_id": "121759a9-1703-4637-a68b-7da3c091d3dd",
       "procurement_reference": "EL 6/26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-24T10:00:00+01:00"
       ],
@@ -11672,7 +11968,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "713348-2026",
       "procedure_id": "3e53115c-e00d-41c7-835d-e199e40cd645",
       "procurement_reference": null,
@@ -11729,7 +12025,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-25T11:03:00+01:00"
       ],
@@ -11785,7 +12081,7 @@
       "notice_version": "01",
       "procedure_id": "9f436152-496e-46e2-a822-6ab8574a2c61",
       "procurement_reference": "111vb/032-0099#014",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-25T12:00:00+01:00"
       ],
@@ -11843,7 +12139,7 @@
       "notice_version": "1",
       "procedure_id": "14affd03-eeb4-4a54-8c4b-695df5f17546",
       "procurement_reference": "6003135319-BAPersBw I 1 5.2.3 Beschfg BFD ZAW",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-25T13:00:00+01:00"
       ],
@@ -11946,7 +12242,7 @@
       "notice_version": "01",
       "procedure_id": "c4c92e28-d8ff-44de-b039-098bd644a6b4",
       "procurement_reference": "2026 - ASG - FB5 - 17",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-27T12:00:00+01:00"
       ],
@@ -12002,7 +12298,7 @@
       "notice_version": "01",
       "procedure_id": "b0ac3edd-ad96-4c81-a008-2c2cdafa8119",
       "procurement_reference": "4700",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-27T12:00:00+01:00"
       ],
@@ -12056,7 +12352,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "697844-2026",
       "procedure_id": "feced4ba-82b3-4441-84ba-1c6b775eb171",
       "procurement_reference": null,
@@ -12109,7 +12405,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "737714-2026",
       "procedure_id": "6eddecb8-eee0-46f4-a703-0b5ba59cf2b7",
       "procurement_reference": "2026-ZVH-81",
@@ -12307,7 +12603,7 @@
       "notice_version": "1",
       "procedure_id": "28f23dc6-e6cb-4b40-b038-c5bddc0f06cc",
       "procurement_reference": "VPB/2BB/DN023",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-30T13:00:00+01:00"
       ],
@@ -12363,7 +12659,7 @@
       "notice_version": "1",
       "procedure_id": "7e85bc35-b2b8-4ec0-a78f-db360732884c",
       "procurement_reference": "VPB/2BB/DN021",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-11-30T13:00:00+01:00"
       ],
@@ -12417,7 +12713,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "739804-2026",
       "procedure_id": "761da713-b93c-405d-9444-660e90566b21",
       "procurement_reference": "1135-26",
@@ -12457,7 +12753,7 @@
       "buyer": "Gemeente Almelo",
       "country": "NL",
       "region": null,
-      "description": "De Opdracht betreft:\n•\tHet verhuren van warme drankenautomaten middels operational lease;\n•\tHet plaatsen en installeren van automaten;\n•\tHet leveren van ingrediënten en disposables voor de automaten;\n•\tHet onderhouden (periodiek) en het verlenen van service (herstellen van storingen) van de door Opdrachtnemer geplaatste automaten.",
+      "description": "De Opdracht betreft:\n•\tHet verhuren van warme drankenautomaten middels operational lease;\n•\tHet plaatsen en installeren van automaten;\n•\tHet leveren van ingrediënten en disposables voor de automaten;\n•\tHet onderhouden (periodiek) en het verlenen van service (herstellen van storingen) van de door Opdrachtnemer geplaatste automaten. Zie aanbestedingsdocumenten",
       "publication_date": "2026-10-18",
       "deadline": "2026-12-01T12:00:00+01:00",
       "budget_amount": null,
@@ -12475,7 +12771,7 @@
       "procedure_id": "TenderNed:618812",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/444920",
       "match_reasons": [
@@ -12523,7 +12819,7 @@
       "notice_version": "01",
       "procedure_id": "1ded3243-cfd5-4b19-ac45-e59b5e4507ec",
       "procurement_reference": "VV022-26",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-01T13:00:00+01:00"
       ],
@@ -12579,7 +12875,7 @@
       "procedure_id": "SIMAP:a5d3d611-dd22-4630-b2ef-48e3e9f36ad6",
       "procurement_reference": "45025",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/a5d3d611-dd22-4630-b2ef-48e3e9f36ad6",
       "match_reasons": [
@@ -12630,7 +12926,7 @@
       "procedure_id": "SIMAP:5cbbd72a-a9f2-4c15-9774-5f7b22c93819",
       "procurement_reference": "46595",
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.simap.ch/de/project-detail/5cbbd72a-a9f2-4c15-9774-5f7b22c93819",
       "match_reasons": [
@@ -12681,7 +12977,7 @@
       "procedure_id": "TenderNed:616709",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/443174",
       "match_reasons": [
@@ -12729,7 +13025,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-07T11:00:00+01:00"
       ],
@@ -12785,7 +13081,7 @@
       "notice_version": "01",
       "procedure_id": "90080b89-9695-4df2-8b9f-7bd1f0adc282",
       "procurement_reference": "#8181-701317",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-07T11:00:00+01:00"
       ],
@@ -12870,7 +13166,7 @@
       "buyer": "Gemeente Arnhem",
       "country": "NL",
       "region": null,
-      "description": "Gemeente Arnhem wil een raamovereenkomst sluiten met één ondernemer voor de levering van verkeersregelautomaten (de computerkasten) voor verkeerslichten voor de duur van twee jaar met een optie tot verlenging twee maal met twee jaar en voor het onderhoud van de geleverde verkeersregelautomaten voor de duur van vijftien jaar.",
+      "description": "Gemeente Arnhem wil een raamovereenkomst sluiten met één ondernemer voor de levering van verkeersregelautomaten (de computerkasten) voor verkeerslichten voor de duur van twee jaar met een optie tot verlenging twee maal met twee jaar en voor het onderhoud van de geleverde verkeersregelautomaten voor de duur van vijftien jaar. 2000000",
       "publication_date": "2026-10-28",
       "deadline": "2026-12-08T10:00:00+01:00",
       "budget_amount": null,
@@ -12888,7 +13184,7 @@
       "procedure_id": "TenderNed:619682",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/446380",
       "match_reasons": [
@@ -12932,7 +13228,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "707412-2026",
       "procedure_id": "ee2b9295-ddf0-41d0-80f6-41575b27de65",
       "procurement_reference": "PPP0DJ-536/6194/2026/11",
@@ -12986,7 +13282,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "776652-2026",
       "procedure_id": "bfad439f-1ad9-42c7-b6a9-433ef178948a",
       "procurement_reference": "5.02.02#00002#054_26_004_G2",
@@ -13040,7 +13336,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "767919-2026",
       "procedure_id": "4d1b599e-f163-4280-9a1e-9ff5456bf026",
       "procurement_reference": "2026-ZVH-88",
@@ -13097,7 +13393,7 @@
       "notice_version": "01",
       "procedure_id": "b43c78dc-f76d-4337-bc45-b6d06b9aaa9e",
       "procurement_reference": "2026-017",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [
         "2026-12-09T10:00:00+01:00"
       ],
@@ -13149,7 +13445,7 @@
       "last_seen": "2026-11-10",
       "status": "投标中",
       "source": "TED",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "notice_id": "750245-2026",
       "procedure_id": "b3fdd2ee-3db6-4c39-abfc-5f297bada40d",
       "procurement_reference": null,
@@ -13186,7 +13482,7 @@
       "buyer": "HEYDAY Facility Management B.V.",
       "country": "NL",
       "region": null,
-      "description": "De opdracht betreft het preventief en correctief onderhoud aan automatische deuren binnen de vastgoedportefeuille van gemeente Nijmegen. Goed onderhoud draagt bij aan het in goede conditie houden van alle liften en roltrappen.",
+      "description": "De opdracht betreft het preventief en correctief onderhoud aan automatische deuren binnen de vastgoedportefeuille van gemeente Nijmegen. Goed onderhoud draagt bij aan het in goede conditie houden van alle liften en roltrappen. De opdracht omvat 105 automatische deuren. De geraamde opdrachtwaarde bedraagt € 80.000 excl. btw per jaar.",
       "publication_date": "2026-11-08",
       "deadline": "2026-12-18T10:00:00+01:00",
       "budget_amount": null,
@@ -13204,7 +13500,7 @@
       "procedure_id": "TenderNed:618295",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/448214",
       "match_reasons": [
@@ -13234,7 +13530,7 @@
       "buyer": "Gemeente Vijfheerenlanden",
       "country": "NL",
       "region": null,
-      "description": "Deze aanbesteding heeft tot doel het selecteren van een leverancier voor de levering, installatie en het onderhoud van koffieautomaten, inclusief bijbehorende verbruiksartikelen. De levering betreft zowel de machines als de benodigde producten voor het zetten van koffie en thee, ten behoeve van het dagelijks gebruik binnen onze organisatie.",
+      "description": "Deze aanbesteding heeft tot doel het selecteren van een leverancier voor de levering, installatie en het onderhoud van koffieautomaten, inclusief bijbehorende verbruiksartikelen. De levering betreft zowel de machines als de benodigde producten voor het zetten van koffie en thee, ten behoeve van het dagelijks gebruik binnen onze organisatie. -",
       "publication_date": "2026-11-01",
       "deadline": "2027-01-08T10:00:00+01:00",
       "budget_amount": null,
@@ -13252,7 +13548,7 @@
       "procedure_id": "TenderNed:621605",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/447180",
       "match_reasons": [
@@ -13300,7 +13596,7 @@
       "procedure_id": "TenderNed:554912",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": "https://www.tenderned.nl/aankondigingen/overzicht/447558",
       "match_reasons": [
@@ -13377,7 +13673,7 @@
       "buyer": "Gemeente Leiden",
       "country": "NL",
       "region": null,
-      "description": "De opdracht betreft de vervanging van de huidige CCV OPP-C60-betaalterminals in de CWT-2120 parkeerautomaten van de gemeente Leiden door nieuwe CCV IM30-betaalterminals. Vervanging is noodzakelijk omdat de bestaande terminals op 30 april het einde van hun technische en gecertificeerde levensduur bereiken. Na deze datum kunnen de terminals geen betaaltransacties meer verwerken en voldoen zij niet langer aan de geldende beveiligingsstandaarden. De werkzaamheden omvatten levering, installatie, configuratie, testen, ingebruikname en onderhoud van de nieuwe terminals. De nieuwe betaalterminals moeten volledig compatibel zijn met de bestaande parkeerautomaten, software en betaalinfrastructuur van de gemeente.\n\nDE TERMIJN VOOR HET INDIENEN VAN BEZWAAR IS VERLENGD TOT EN MET 29 SEPTEMBER 2026, 10:00 UUR.",
+      "description": "De opdracht betreft de vervanging van de huidige CCV OPP-C60-betaalterminals in de CWT-2120 parkeerautomaten van de gemeente Leiden door nieuwe CCV IM30-betaalterminals. Vervanging is noodzakelijk omdat de bestaande terminals op 30 april het einde van hun technische en gecertificeerde levensduur bereiken. Na deze datum kunnen de terminals geen betaaltransacties meer verwerken en voldoen zij niet langer aan de geldende beveiligingsstandaarden. De werkzaamheden omvatten levering, installatie, configuratie, testen, ingebruikname en onderhoud van de nieuwe terminals. De nieuwe betaalterminals moeten volledig compatibel zijn met de bestaande parkeerautomaten, software en betaalinfrastructuur van de gemeente.\n\nDE TERMIJN VOOR HET INDIENEN VAN BEZWAAR IS VERLENGD TOT EN MET 29 SEPTEMBER 2026, 10:00 UUR. In totaal worden 182 betaalterminals vervangen, met een eventuele tweede batch van 23 betaalterminals.",
       "publication_date": "2026-09-01",
       "deadline": null,
       "budget_amount": null,
@@ -13395,7 +13691,7 @@
       "procedure_id": "TenderNed:606098",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -13427,7 +13723,7 @@
       "buyer": "Gemeente Leiden",
       "country": "NL",
       "region": null,
-      "description": "De opdracht betreft de vervanging van de huidige CCV OPP-C60-betaalterminals in de CWT-2120 parkeerautomaten van de gemeente Leiden door nieuwe CCV IM30-betaalterminals. Vervanging is noodzakelijk omdat de bestaande terminals op 30 april het einde van hun technische en gecertificeerde levensduur bereiken. Na deze datum kunnen de terminals geen betaaltransacties meer verwerken en voldoen zij niet langer aan de geldende beveiligingsstandaarden. De werkzaamheden omvatten levering, installatie, configuratie, testen, ingebruikname en onderhoud van de nieuwe terminals. De nieuwe betaalterminals moeten volledig compatibel zijn met de bestaande parkeerautomaten, software en betaalinfrastructuur van de gemeente.\n\nDE TERMIJN VOOR HET INDIENEN VAN BEZWAAR IS VERLENGD TOT EN MET 29 SEPTEMBER 2026, 10:00 UUR.",
+      "description": "De opdracht betreft de vervanging van de huidige CCV OPP-C60-betaalterminals in de CWT-2120 parkeerautomaten van de gemeente Leiden door nieuwe CCV IM30-betaalterminals. Vervanging is noodzakelijk omdat de bestaande terminals op 30 april het einde van hun technische en gecertificeerde levensduur bereiken. Na deze datum kunnen de terminals geen betaaltransacties meer verwerken en voldoen zij niet langer aan de geldende beveiligingsstandaarden. De werkzaamheden omvatten levering, installatie, configuratie, testen, ingebruikname en onderhoud van de nieuwe terminals. De nieuwe betaalterminals moeten volledig compatibel zijn met de bestaande parkeerautomaten, software en betaalinfrastructuur van de gemeente.\n\nDE TERMIJN VOOR HET INDIENEN VAN BEZWAAR IS VERLENGD TOT EN MET 29 SEPTEMBER 2026, 10:00 UUR. In totaal worden 182 betaalterminals vervangen, met een eventuele tweede batch van 23 betaalterminals.",
       "publication_date": "2026-09-01",
       "deadline": null,
       "budget_amount": null,
@@ -13445,7 +13741,7 @@
       "procedure_id": "TenderNed:608758",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -13477,7 +13773,7 @@
       "buyer": "Gemeente Amsterdam, Ingenieursbureau",
       "country": "NL",
       "region": null,
-      "description": "AI 2026-0165 -  Levensduur verlengend onderhoud verkeersregelautomaten",
+      "description": "AI 2026-0165 -  Levensduur verlengend onderhoud verkeersregelautomaten Indien een marktpartij rechtsmaatregelen wil treffen tegen deze aankondiging van vrijwillige transparantiegunningsbeslissing van de gemeente, dient de inschrijver uiterlijk op 05 oktober 2026, door betekening van een dagvaarding een kort geding bij de Rechtbank in Amsterdam aanhangig te hebben gemaakt. Een kopie van de dagvaarding dient zo snel mogelijk aan inkoopfysiek@amsterdam.nl te worden verstuurd. Indien niet uiterlijk op 05 oktober 2026 een kort geding aanhangig is gemaakt, kan de gemeente overgaan tot het sluiten van de overeenkomst.\n\nDe opdracht bestaat uit het uitvoeren van levensduur verlengend onderhoud aan bestaande verkeersregelautomaten van ViaMobility. Gezien het gaat om verkeersregelautomaten van ViaMobility en onderdelen niet onderling uitwisselbaar zijn, is ViaMobility de enige leverancier die dit levensduur verlengd onderhoud kan uitvoeren. Ook onderhoud (preventief en correctief) en wijzigingen voeren leveranciers van verkeersregelautomaten enkel aan hun eigen verkeersregelautomaat uit, waardoor ViaMobility de enige partij is die door het levensduur verlengend onderhoud het preventief en correctief onderhoud en de wijzingen aan de betreffende verkeersregelautomaten kan uitvoeren. Gemeente Amsterdam kan het levensduur verlengd onderhoud en preventief en correctief onderhoud en wijzigingen",
       "publication_date": "2026-09-17",
       "deadline": null,
       "budget_amount": null,
@@ -13495,7 +13791,7 @@
       "procedure_id": "TenderNed:607505",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -13545,7 +13841,7 @@
       "procedure_id": "TenderNed:623638",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -13593,7 +13889,7 @@
       "notice_version": "01",
       "procedure_id": "d6cca1d0-acb1-467b-807e-f57cbe97dfd6",
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-18T09:32:04Z",
       "official_links": [],
@@ -13622,102 +13918,6 @@
       "phase": "history"
     },
     {
-      "id": "TENDERNED:441019",
-      "title": "Automatisering beoordeling uitgevallen kwijtscheldingsverzoeken",
-      "buyer": "GBLT",
-      "country": "NL",
-      "region": null,
-      "description": "GBLT behandelt jaarlijks een groot aantal verzoeken om kwijtschelding van lokale belastingen. Een deel van deze verzoeken kan via de reguliere geautomatiseerde toetsing door het Bureau Informatie Diensten Nederland (BIDN) worden afgehandeld. Jaarlijks vallen circa 40.000 verzoeken bij deze toetsing uit en is aanvullende beoordeling noodzakelijk. GBLT wil deze taak vanaf dat moment in belangrijke mate automatiseren. Doel is om de afhandeling efficiënter en consistenter te organiseren, de afhankelijkheid van externe capaciteit te verminderen en tegelijkertijd de kwaliteit, zorgvuldigheid en uitlegbaarheid van beoordelingen te waarborgen.",
-      "publication_date": "2026-09-22",
-      "deadline": null,
-      "budget_amount": null,
-      "budget_currency": null,
-      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/441019",
-      "priority": "P3",
-      "match_score": 20,
-      "matched_products": [],
-      "verification_status": "官方公开来源；技术规格待复核",
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-10",
-      "status": "采购预告／意向；参与期限需核实",
-      "source": "TENDERNED",
-      "notice_id": "441019",
-      "procedure_id": "TenderNed:613811",
-      "procurement_reference": null,
-      "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
-      "official_links": [],
-      "deadline_source": null,
-      "match_reasons": [
-        "仅涉及自动化，需先确认是否包含机器人采购"
-      ],
-      "institution_type": "other",
-      "institution_label": "其他／待确认",
-      "education_research": false,
-      "institution_evidence": [],
-      "procurement_for_education": false,
-      "institution_relation": "未发现明确教育科研机构线索",
-      "lead_priority": "C",
-      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
-      "publication_type": "Marktconsultatie",
-      "source_unavailable": false,
-      "related_notice_ids": [
-        "TENDERNED:441019"
-      ],
-      "source_links": [
-        "https://www.tenderned.nl/aankondigingen/overzicht/441019"
-      ],
-      "phase": "planned"
-    },
-    {
-      "id": "TENDERNED:437069",
-      "title": "Automatisering verwerking inkoopfacturen",
-      "buyer": "Stichting Yuverta",
-      "country": "NL",
-      "region": null,
-      "description": "Yuverta is voornemens om een Meervoudig onderhandse/Europese (nader te bepalen) aanbesteding (hierna te noemen: aanbesteding) te starten voor Automatisering verwerking inkoopfacturen. Onder de mogelijke scope van de voorgenomen aanbesteding vallen onder andere (maar niet gelimiteerd tot) de volgende diensten en producten:\n1.\tLevering, implementatie en configuratie van een oplossing voor geautomatiseerde factuurverwerking.\n2.\tIntegratie met AFAS, inclusief de uitwisseling van relevante stam- en transactiedata\n3.\tAutomatische herkenning en extractie van factuurgegevens waaronder leverancier, factuurnummer, factuurdatum, vervaldatum, bedragen, btw-gegevens, boekingsomschrijving. \n4.\tAutomatische codering van facturen op grootboekrekening, waaronder kostenplaats, kostendrager, project, btw-code (evt. met ondersteuning van zelflerend functionaliteit)\n5.\tAutomatische matching met inkooporder en verplichting.\n6.\tBeheerfunctionaliteiten, waaronder gebruikers en rollenbeheer, rapportage/dashboard, alsmede opleiding van beheerders en key-users.\n7.\tAudittrail, logging, zodat alle handelingen en wijzigingen inzichtelijk zijn ten behoeve van interne beheersing en accountantscontrole.\n8.\tOndersteuning tijdens implementatie en nazorgperiode.\n9.\tLevering van gebruikersdocumentatie, handleidingen en instructiemateriaal.\n10.\tLevering van onderhoud, support en updates gedurende de contractperiode",
-      "publication_date": "2026-08-24",
-      "deadline": null,
-      "budget_amount": null,
-      "budget_currency": null,
-      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/437069",
-      "priority": "P3",
-      "match_score": 20,
-      "matched_products": [],
-      "verification_status": "官方公开来源；技术规格待复核",
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-10",
-      "status": "采购预告／意向；参与期限需核实",
-      "source": "TENDERNED",
-      "notice_id": "437069",
-      "procedure_id": "TenderNed:607776",
-      "procurement_reference": null,
-      "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
-      "official_links": [],
-      "deadline_source": null,
-      "match_reasons": [
-        "仅涉及自动化，需先确认是否包含机器人采购"
-      ],
-      "institution_type": "other",
-      "institution_label": "其他／待确认",
-      "education_research": false,
-      "institution_evidence": [],
-      "procurement_for_education": false,
-      "institution_relation": "未发现明确教育科研机构线索",
-      "lead_priority": "C",
-      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
-      "publication_type": "Marktconsultatie",
-      "source_unavailable": false,
-      "related_notice_ids": [
-        "TENDERNED:437069"
-      ],
-      "source_links": [
-        "https://www.tenderned.nl/aankondigingen/overzicht/437069"
-      ],
-      "phase": "planned"
-    },
-    {
       "id": "BKMS:9a23ca83-a71b-4881-9b79-ad4a1fa70eed:01",
       "title": "Automatisiertes Zellprozessierungssystem",
       "buyer": "Universitätsklinikum Heidelberg",
@@ -13741,7 +13941,7 @@
       "notice_version": "01",
       "procedure_id": "e2d65b65-4157-4ac3-ae80-e6a85e654808",
       "procurement_reference": "2026-249",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-28T03:22:33Z",
       "official_links": [],
@@ -13795,7 +13995,7 @@
       "notice_version": "01",
       "procedure_id": "9bb28335-4f86-40c5-964f-267c79761d76",
       "procurement_reference": "814-00-9499-101-30520",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -13853,7 +14053,7 @@
       "notice_version": "01",
       "procedure_id": "6d0888dc-104c-4202-8272-b6ee95318111",
       "procurement_reference": "A02",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-13T02:24:26Z",
       "official_links": [],
@@ -13905,7 +14105,7 @@
       "procedure_id": "SIMAP:eaecccfc-c553-447d-b351-3c6dff2e9b19",
       "procurement_reference": "45310",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -13956,7 +14156,7 @@
       "notice_version": "01",
       "procedure_id": "53d585ea-c5f6-4ec1-a5cd-c698b4031940",
       "procurement_reference": "2026-008",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -14012,7 +14212,7 @@
       "notice_version": "01",
       "procedure_id": "c4847381-6151-4d04-a1e9-345ae8a355bf",
       "procurement_reference": "186/663/2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -14070,7 +14270,7 @@
       "procedure_id": "SIMAP:aac83e51-b535-46de-aeec-9b2a6663a43b",
       "procurement_reference": "45422",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14122,7 +14322,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-06T07:01:13Z",
       "official_links": [
@@ -14176,7 +14376,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-20T19:00:03Z",
       "official_links": [],
@@ -14228,7 +14428,7 @@
       "notice_version": "01",
       "procedure_id": "b51c4487-211f-4140-8e0b-09baa6bc160e",
       "procurement_reference": "30-ZV-0079/25",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-06T03:22:37Z",
       "official_links": [],
@@ -14280,7 +14480,7 @@
       "procedure_id": "SIMAP:b4db7624-30bd-4330-8b44-b63e90423631",
       "procurement_reference": "44684",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14331,7 +14531,7 @@
       "notice_version": "01",
       "procedure_id": "85d98836-b852-442d-abdb-e2232235d399",
       "procurement_reference": "Ex-Post LGM-2026-21",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-09T02:09:03Z",
       "official_links": [],
@@ -14383,7 +14583,7 @@
       "notice_version": "01",
       "procedure_id": "417585c7-68ee-4724-8e6b-e5709b5437a4",
       "procurement_reference": "26-010 OV",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -14439,7 +14639,7 @@
       "procedure_id": "49940d43-3cca-48ea-a455-96a7f20c8cad",
       "procurement_reference": "159198",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14488,7 +14688,7 @@
       "procedure_id": null,
       "procurement_reference": "2026-0197-JB",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14538,7 +14738,7 @@
       "notice_version": "01",
       "procedure_id": "0632747a-7976-416a-be81-1a49d0e1ef8c",
       "procurement_reference": "12-23012_480-00",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-05T03:22:43Z",
       "official_links": [],
@@ -14590,7 +14790,7 @@
       "notice_version": "01",
       "procedure_id": "16cd040f-d619-48fe-a217-868e4da78753",
       "procurement_reference": "BW 05/25",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-07T02:10:04Z",
       "official_links": [],
@@ -14642,7 +14842,7 @@
       "procedure_id": "SIMAP:50742101-5173-4b6e-b887-229f3fee6597",
       "procurement_reference": "39919",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14693,7 +14893,7 @@
       "procedure_id": "TenderNed:611559",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14741,7 +14941,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-09T07:02:32Z",
       "official_links": [
@@ -14795,7 +14995,7 @@
       "notice_version": "01",
       "procedure_id": "9fab9aa8-1010-4b5b-8bca-b1fab9c81860",
       "procurement_reference": "EVL-0039-2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-02T02:08:31Z",
       "official_links": [],
@@ -14829,7 +15029,7 @@
       "buyer": "Leids Universitair Medisch Centrum (LUMC)",
       "country": "NL",
       "region": null,
-      "description": "See Documentation",
+      "description": "See Documentation One Callisto™ Sample Prep System (catalogue no. C0001) including installation and training, 5 to 10 years of maintenance and service, and 5 to 10 years of supply of the Volta application kits and cartridges required to run the system.",
       "publication_date": "2026-10-08",
       "deadline": null,
       "budget_amount": null,
@@ -14847,7 +15047,7 @@
       "procedure_id": "TenderNed:616857",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -14895,7 +15095,7 @@
       "notice_version": "01",
       "procedure_id": "c5116527-50ce-4294-a304-85fac6eddccc",
       "procurement_reference": "26-117 E",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -14951,7 +15151,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-30T07:01:17Z",
       "official_links": [
@@ -15005,7 +15205,7 @@
       "notice_version": "01",
       "procedure_id": "ccdf03a0-6233-462e-9c77-e75e3572c502",
       "procurement_reference": "30-02-07",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-21T02:08:53Z",
       "official_links": [],
@@ -15099,7 +15299,7 @@
       "buyer": "Enexis Netbeheer BV/Enexis Personeel BV",
       "country": "NL",
       "region": null,
-      "description": "Enexis verwijst u door naar de Offerteaanvraag en bijbehorende bijlagen voor informatie over de uitvraag.",
+      "description": "Enexis verwijst u door naar de Offerteaanvraag en bijbehorende bijlagen voor informatie over de uitvraag. €800.000,-, gerekend over 8 jaar. €400.000,-, gerekend over 4 jaar.",
       "publication_date": "2026-10-07",
       "deadline": null,
       "budget_amount": null,
@@ -15117,7 +15317,7 @@
       "procedure_id": "TenderNed:581745",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15165,7 +15365,7 @@
       "procedure_id": "TenderNed:619524",
       "procurement_reference": null,
       "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15213,7 +15413,7 @@
       "procedure_id": "TenderNed:618895",
       "procurement_reference": null,
       "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15243,7 +15443,7 @@
       "buyer": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
       "country": "NL",
       "region": null,
-      "description": "De Nederlandse autoriteit politieke partijen (Napp) is op zoek naar een IT-dienstverlener die een IT-oplossing kan bieden waarmee haar processen ondersteund worden. Het gaat om: het ontwerpen, bouwen, testen, doorontwikkelen en het applicatief- en technisch beheren van een applicatie waarmee de Napp haar processen kan ondersteunen.\nHet doel van de marktconsultatie is inzicht krijgen in:\n\n- welke oplossingen er op de markt beschikbaar zijn;\n- wie interessante IT-leveranciers zouden kunnen zijn;\n- of de IT-leveranciers tips hebben;\n- en of de digitaliseringsvraag van de Napp voldoende duidelijk is.\n\nKortom: versnelling in het verkrijgen van inzicht in digitaliseringsmogelijkheden, kosten, planning en voorbereidende werkzaamheden voor aanbesteding.",
+      "description": "De Nederlandse autoriteit politieke partijen (Napp) is op zoek naar een IT-dienstverlener die een IT-oplossing kan bieden waarmee haar processen ondersteund worden. Het gaat om: het ontwerpen, bouwen, testen, doorontwikkelen en het applicatief- en technisch beheren van een applicatie waarmee de Napp haar processen kan ondersteunen.\nHet doel van de marktconsultatie is inzicht krijgen in:\n\n- welke oplossingen er op de markt beschikbaar zijn;\n- wie interessante IT-leveranciers zouden kunnen zijn;\n- of de IT-leveranciers tips hebben;\n- en of de digitaliseringsvraag van de Napp voldoende duidelijk is.\n\nKortom: versnelling in het verkrijgen van inzicht in digitaliseringsmogelijkheden, kosten, planning en voorbereidende werkzaamheden voor aanbesteding. nvt",
       "publication_date": "2026-10-05",
       "deadline": null,
       "budget_amount": null,
@@ -15261,7 +15461,7 @@
       "procedure_id": "TenderNed:606348",
       "procurement_reference": null,
       "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15290,54 +15490,6 @@
       "phase": "planned"
     },
     {
-      "id": "TENDERNED:438304",
-      "title": "Marktconsultatie t.b.v. digitale sleutelkluizen / elektronische sleutelkasten / geautomatiseerd sleutelbeheer gemeente Venlo",
-      "buyer": "Gemeente Venlo",
-      "country": "NL",
-      "region": null,
-      "description": "Het doel van deze marktconsultatie is het verkrijgen van inzicht in de mogelijkheden die de markt te bieden heeft op het gebied van digitale sleutelkluizen /elektronische sleutelkasten/geautomatiseerd sleutelbeheer.",
-      "publication_date": "2026-09-02",
-      "deadline": null,
-      "budget_amount": null,
-      "budget_currency": null,
-      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/438304",
-      "priority": "P3",
-      "match_score": 20,
-      "matched_products": [],
-      "verification_status": "官方公开来源；技术规格待复核",
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-10",
-      "status": "采购预告／意向；参与期限需核实",
-      "source": "TENDERNED",
-      "notice_id": "438304",
-      "procedure_id": "TenderNed:602587",
-      "procurement_reference": null,
-      "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
-      "official_links": [],
-      "deadline_source": null,
-      "match_reasons": [
-        "仅涉及自动化，需先确认是否包含机器人采购"
-      ],
-      "institution_type": "other",
-      "institution_label": "其他／待确认",
-      "education_research": false,
-      "institution_evidence": [],
-      "procurement_for_education": false,
-      "institution_relation": "未发现明确教育科研机构线索",
-      "lead_priority": "C",
-      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
-      "publication_type": "Marktconsultatie",
-      "source_unavailable": false,
-      "related_notice_ids": [
-        "TENDERNED:438304"
-      ],
-      "source_links": [
-        "https://www.tenderned.nl/aankondigingen/overzicht/438304"
-      ],
-      "phase": "planned"
-    },
-    {
       "id": "BKMS:44dcdcbf-e685-4f89-9dab-3768a8d86964:01",
       "title": "Markterkundung für ein Komplettsystem für die automatische Präparation von Probenflaschen für Wasseruntersuchungen",
       "buyer": "Hamburger Wasserwerke GmbH",
@@ -15361,7 +15513,7 @@
       "notice_version": "01",
       "procedure_id": null,
       "procurement_reference": "HWW-BEK-2026-212-0008",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-06T02:28:11Z",
       "official_links": [],
@@ -15413,7 +15565,7 @@
       "procedure_id": null,
       "procurement_reference": "GBBM20261103SY",
       "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15440,30 +15592,30 @@
       "phase": "planned"
     },
     {
-      "id": "TENDERNED:436458",
+      "id": "TENDERNED:448441",
       "title": "Microscoop plastische chirurgie",
       "buyer": "Maastricht UMC+",
       "country": "NL",
       "region": null,
-      "description": "Maastricht UMC+ is voornemens één RoboticScope aan te schaffen voor de afdeling Plastische Chirurgie. De opdracht omvat de levering en complete samenstelling van het systeem, installatie, implementatie, acceptatie, gebruikers- en technische scholing, meerjarig onderhoud en support en de levering van bijbehorende verbruiksartikelen. De leverancier wordt verzocht hiervoor een complete Best and Final Offer in te dienen, waarin alle eenmalige, periodieke en gebruiksafhankelijke kosten zijn opgenomen. De uitvraag vindt plaats binnen een onderhandelingsprocedure zonder voorafgaande oproep tot mededinging en is gericht op een voorgenomen directe gunning en meerjarige samenwerking.",
-      "publication_date": "2026-08-19",
+      "description": "Maastricht UMC+ is voornemens één RoboticScope aan te schaffen voor de afdeling Plastische Chirurgie. De opdracht omvat de levering en complete samenstelling van het systeem, installatie, implementatie, acceptatie, gebruikers- en technische scholing, meerjarig onderhoud en support en de levering van bijbehorende verbruiksartikelen. De leverancier wordt verzocht hiervoor een complete Best and Final Offer in te dienen, waarin alle eenmalige, periodieke en gebruiksafhankelijke kosten zijn opgenomen. De uitvraag vindt plaats binnen een onderhandelingsprocedure zonder voorafgaande oproep tot mededinging en is gericht op een voorgenomen directe gunning en meerjarige samenwerking. De opdracht omvat de aanschaf van één compleet en gebruiksklaar RoboticScope-systeem, inclusief alle benodigde hardware, software, accessoires, installatie, implementatie, acceptatie en scholing. Daarnaast omvat de opdracht het onderhoud en de support gedurende de overeengekomen looptijd en de levering op afroep van de noodzakelijke verbruiksartikelen, waaronder steriele afdekhoezen. Het jaarvolume van de verbruiksartikelen is niet bekend.",
+      "publication_date": "2026-11-10",
       "deadline": null,
       "budget_amount": null,
       "budget_currency": null,
-      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/436458",
+      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/448441",
       "priority": "P3",
       "match_score": 20,
       "matched_products": [],
       "verification_status": "官方公开来源；技术规格待复核",
-      "first_seen": "2026-11-04",
+      "first_seen": "2026-11-10",
       "last_seen": "2026-11-10",
       "status": "已公布结果／授标",
       "source": "TENDERNED",
-      "notice_id": "436458",
+      "notice_id": "448441",
       "procedure_id": "TenderNed:603519",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15480,10 +15632,12 @@
       "publication_type": "Aankondiging gegunde opdracht",
       "source_unavailable": false,
       "related_notice_ids": [
-        "TENDERNED:436458"
+        "TENDERNED:436458",
+        "TENDERNED:448441"
       ],
       "source_links": [
-        "https://www.tenderned.nl/aankondigingen/overzicht/436458"
+        "https://www.tenderned.nl/aankondigingen/overzicht/436458",
+        "https://www.tenderned.nl/aankondigingen/overzicht/448441"
       ],
       "phase": "history"
     },
@@ -15511,7 +15665,7 @@
       "notice_version": "01",
       "procedure_id": "776bee34-6810-474e-a518-95a6edb0d86e",
       "procurement_reference": "2026_11_0533",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-06T03:22:55Z",
       "official_links": [],
@@ -15563,7 +15717,7 @@
       "procedure_id": "TenderNed:621295",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15611,7 +15765,7 @@
       "notice_version": "01",
       "procedure_id": "21d5a98e-0145-43c6-bafd-d18f4f6e74e2",
       "procurement_reference": "NFW_405.0",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-01T08:54:05Z",
       "official_links": [],
@@ -15663,7 +15817,7 @@
       "procedure_id": "SIMAP:a9bacd72-1d13-4c2a-9468-b19d87ad01f4",
       "procurement_reference": "32921",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15714,7 +15868,7 @@
       "notice_version": "01",
       "procedure_id": "2dc0d226-6aa3-4da7-837a-b45c45ccd378",
       "procurement_reference": "03-2026",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-04T13:24:04Z",
       "official_links": [],
@@ -15766,7 +15920,7 @@
       "procedure_id": null,
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15815,7 +15969,7 @@
       "notice_version": "01",
       "procedure_id": "ffc76e3d-7ec2-4972-a5d3-176fe34acab5",
       "procurement_reference": "HAL_UK_2026_25",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-08T02:23:29Z",
       "official_links": [],
@@ -15867,7 +16021,7 @@
       "procedure_id": "TenderNed:611364",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -15915,7 +16069,7 @@
       "notice_version": "01",
       "procedure_id": "59cace02-2e29-4eb8-8d0b-e3af68e36c56",
       "procurement_reference": "Z42-2026-0018 Los 2",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-01T15:08:04Z",
       "official_links": [],
@@ -15967,7 +16121,7 @@
       "procedure_id": "TenderNed:614031",
       "procurement_reference": null,
       "notice_stage": "notice",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16017,7 +16171,7 @@
       "procedure_id": "ab734d6a-5484-4dc5-9a0a-ac7abbc5cc42",
       "procurement_reference": "E-2023-10",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://svdgmbh.vemap.com",
         "https://www.vemap.com"
@@ -16069,7 +16223,7 @@
       "notice_version": "01",
       "procedure_id": "65add452-64d1-4817-9257-6fba7c7551b8",
       "procurement_reference": "HG-2026-0045",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-07T02:10:24Z",
       "official_links": [],
@@ -16121,7 +16275,7 @@
       "procedure_id": null,
       "procurement_reference": "SBO 2026 175",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16171,7 +16325,7 @@
       "procedure_id": "e2694bc8-c7fb-4470-a362-87585a01d026",
       "procurement_reference": "EK-2026/090",
       "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [
         "https://kabeg.vemap.com",
         "https://www.vemap.com"
@@ -16223,7 +16377,7 @@
       "notice_version": "01",
       "procedure_id": "032589c2-44ad-4cb3-b9ca-f4754ef445c8",
       "procurement_reference": "20261036",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-30T03:24:43Z",
       "official_links": [],
@@ -16275,7 +16429,7 @@
       "procedure_id": "SIMAP:df7ac44b-f1b5-41a3-827b-efbbec232353",
       "procurement_reference": "44932",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16326,7 +16480,7 @@
       "notice_version": "01",
       "procedure_id": "457707b6-d42c-4504-ae87-81a6ffb607c1",
       "procurement_reference": "100010291",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-09",
       "official_links": [],
@@ -16382,7 +16536,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-29T07:01:17Z",
       "official_links": [
@@ -16436,7 +16590,7 @@
       "procedure_id": "TenderNed:611781",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16459,56 +16613,6 @@
         "https://www.tenderned.nl/aankondigingen/overzicht/439636"
       ],
       "phase": "history"
-    },
-    {
-      "id": "TENDERNED:444424",
-      "title": "Uitnodiging verkenning verkeersregelautomaten en landschap",
-      "buyer": "De Minister van Infrastructuur en Waterstaat handelend als aankoopcentrale voor het samenwerkingsverband Nationale Databank Wegverkeersgegevens, hierna te noemen NDW",
-      "country": "NL",
-      "region": null,
-      "description": "Geachte,\n \nNamens het Directeurenoverleg van het Landelijk Verkeersmanagementberaad nodigt het Strategische Team VRI marktpartijen actief op het gebied van verkeersregelinstallaties uit deel te nemen aan een vrijblijvend verkennend gesprek over de toekomst van verkeersregelautomaten en landschap in Nederland. De bijeenkomst vindt plaats op donderdag 29 oktober in Utrecht (locatie CROW Leidseveer 2-10 Utrecht) en aanmelden kan via dit e-mail adres: lvmb@rws.nl De centrale vraag is wat op de korte en lange termijn nodig is voor leveringszekerheid en toekomstbestendigheid?\n \nLandelijk Verkeersmanagementberaad (LVMB)\nHet LVMB is een samenwerkingsverband van wegbeheerders (gemeenten, provincies, RWS en het ministerie van I&W) dat actuele kwesties op het gebied van verkeersmanagement agendeert en een stap verder brengt.  Een van de kwesties is de veranderde omstandigheden op de markt van verkeersregelautomatenproducenten. Het LVMB heeft zorgen geuit over leveringszekerheid, betaalbaarheid en (beperkte) marktomvang. Om deze en andere vragen te beantwoorden is een werkgroep ingericht onder leiding van Pieter Litjens (directeur CROW). De werkgroep zal uiteindelijk advies aanbrengen aan het Directeurenoverleg over governance en toekomstperspectief.\n \nVraagstelling\nDe bijeenkomst is een vrijblijvend en verkennend gesprek op uitnodiging van voorzitter Pieter Litjens. Hij wil zich graag ver",
-      "publication_date": "2026-10-13",
-      "deadline": null,
-      "budget_amount": null,
-      "budget_currency": null,
-      "source_url": "https://www.tenderned.nl/aankondigingen/overzicht/444424",
-      "priority": "P3",
-      "match_score": 20,
-      "matched_products": [],
-      "verification_status": "官方公开来源；技术规格待复核",
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-10",
-      "status": "采购预告／意向；参与期限需核实",
-      "source": "TENDERNED",
-      "notice_id": "444424",
-      "procedure_id": "TenderNed:618240",
-      "procurement_reference": null,
-      "notice_stage": "planned",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
-      "official_links": [],
-      "deadline_source": null,
-      "match_reasons": [
-        "仅涉及自动化，需先确认是否包含机器人采购"
-      ],
-      "institution_type": "other",
-      "institution_label": "其他／待确认",
-      "education_research": false,
-      "institution_evidence": [],
-      "procurement_for_education": false,
-      "institution_relation": "未发现明确教育科研机构线索",
-      "lead_priority": "C",
-      "lead_reason": "暂未识别目标机构；不代表没有采购能力",
-      "publication_type": "Marktconsultatie",
-      "source_unavailable": false,
-      "related_notice_ids": [
-        "TENDERNED:444336",
-        "TENDERNED:444424"
-      ],
-      "source_links": [
-        "https://www.tenderned.nl/aankondigingen/overzicht/444424",
-        "https://www.tenderned.nl/aankondigingen/overzicht/444336"
-      ],
-      "phase": "planned"
     },
     {
       "id": "SIMAP:006651dd-ddb5-4db6-8369-19c64741ac7e",
@@ -16534,7 +16638,7 @@
       "procedure_id": "SIMAP:0298a610-641f-4fb4-96f2-db0cfb951ed7",
       "procurement_reference": "43696",
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16585,7 +16689,7 @@
       "procedure_id": "TenderNed:622830",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16633,7 +16737,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-06T07:00:30Z",
       "official_links": [
@@ -16669,7 +16773,7 @@
       "buyer": "Leids Universitair Medisch Centrum (LUMC)",
       "country": "NL",
       "region": null,
-      "description": "opdracht voor levering, installatie, implementatie en onderhoud van een volledig geautomatiseerde chemiluminescente analyzer en reagentia ten behoeve van de afdeling Klinische Chemie en Laboratoriumgeneeskunde (KCL)",
+      "description": "opdracht voor levering, installatie, implementatie en onderhoud van een volledig geautomatiseerde chemiluminescente analyzer en reagentia ten behoeve van de afdeling Klinische Chemie en Laboratoriumgeneeskunde (KCL) 1 apparaat met installatie, implementatie en onderhoud en levering reagentia",
       "publication_date": "2026-09-26",
       "deadline": null,
       "budget_amount": null,
@@ -16687,7 +16791,7 @@
       "procedure_id": "TenderNed:614584",
       "procurement_reference": null,
       "notice_stage": "result",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "official_links": [],
       "deadline_source": null,
       "match_reasons": [
@@ -16735,7 +16839,7 @@
       "notice_version": "01",
       "procedure_id": "0a33a734-f91a-4439-94e0-d26a13514787",
       "procurement_reference": "1200-0452-2026/001073",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-18T08:02:04Z",
       "official_links": [],
@@ -16787,7 +16891,7 @@
       "notice_version": "01",
       "procedure_id": "6cc75b21-4f67-444b-8d0b-18d8d3bda3f2",
       "procurement_reference": "2026-561",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-14T02:26:16Z",
       "official_links": [],
@@ -16839,7 +16943,7 @@
       "notice_version": "1",
       "procedure_id": null,
       "procurement_reference": null,
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-11-03T07:01:23Z",
       "official_links": [
@@ -16893,7 +16997,7 @@
       "notice_version": "01",
       "procedure_id": "6b4683a5-5c91-4917-a556-5ba45710c971",
       "procurement_reference": "ZR3-16120-2026-036-16-DE2",
-      "collected_at": "2026-11-10T00:28:20.996849+00:00",
+      "collected_at": "2026-11-10T13:05:25.175865+00:00",
       "deadlines": [],
       "publication_timestamp": "2026-10-18T04:52:04Z",
       "official_links": [],

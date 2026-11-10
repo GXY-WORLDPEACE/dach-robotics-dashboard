@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-10T00:28:20.996849+00:00",
+  "checked_at": "2026-11-10T13:05:25.175865+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 65,
-      "education_active_count": 20,
+      "active_count": 60,
+      "education_active_count": 19,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -245,22 +245,14 @@
       ],
       "scanned_hits": 107,
       "unique_publications": 75,
-      "accepted_notices": 26,
+      "accepted_notices": 25,
       "detail_errors": [
         {
           "publication_id": "2092b96c-7b05-4803-b150-2a12751218cb",
           "error": "URLError"
         },
         {
-          "publication_id": "e5f4d72b-fd92-41f0-9c51-1038f0ab2698",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "11ad4516-9868-4c5a-b795-c9aa5a5aa9e6",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "63f7db0e-a6f5-40cd-a7d4-64eff90aed2b",
+          "publication_id": "51cd7829-0822-4912-b1ec-73b2340c27cb",
           "error": "URLError"
         },
         {
@@ -268,7 +260,7 @@
           "error": "URLError"
         },
         {
-          "publication_id": "24ac61ce-b783-426d-9c5f-bea946f9ca08",
+          "publication_id": "6b1b33bd-04aa-4431-9792-5767e94f3247",
           "error": "URLError"
         }
       ],
@@ -305,8 +297,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-12",
-      "scanned_notices": 6840,
-      "accepted_notices": 71,
+      "scanned_notices": 6911,
+      "accepted_notices": 75,
       "license": "CC0"
     },
     {
