@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-10T13:05:25.175865+00:00",
+  "checked_at": "2026-11-10T21:59:59.447334+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 60,
+      "active_count": 59,
       "education_active_count": 19,
       "connected_sources": [
         "DE_NRW",
@@ -52,7 +52,7 @@
     {
       "code": "NL",
       "name": "荷兰",
-      "active_count": 9,
+      "active_count": 10,
       "education_active_count": 0,
       "connected_sources": [
         "TED",
@@ -245,22 +245,18 @@
       ],
       "scanned_hits": 107,
       "unique_publications": 75,
-      "accepted_notices": 25,
+      "accepted_notices": 26,
       "detail_errors": [
         {
-          "publication_id": "2092b96c-7b05-4803-b150-2a12751218cb",
+          "publication_id": "40b3a470-360f-4db4-89bc-6f07ae62a378",
           "error": "URLError"
         },
         {
-          "publication_id": "51cd7829-0822-4912-b1ec-73b2340c27cb",
+          "publication_id": "8ac7ba52-840c-4155-b1fa-caf69974f5de",
           "error": "URLError"
         },
         {
-          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "6b1b33bd-04aa-4431-9792-5767e94f3247",
+          "publication_id": "ba1feb3a-34ef-4d15-b93e-535da3ccfcca",
           "error": "URLError"
         }
       ],
@@ -283,7 +279,7 @@
         "automation"
       ],
       "window_start": "2026-08-12",
-      "scanned_hits": 63,
+      "scanned_hits": 65,
       "unique_detail_pages": 16,
       "accepted_notices": 15,
       "detail_errors": []
@@ -297,8 +293,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-12",
-      "scanned_notices": 6911,
-      "accepted_notices": 75,
+      "scanned_notices": 6929,
+      "accepted_notices": 76,
       "license": "CC0"
     },
     {
