@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-10T21:59:59.447334+00:00",
+  "checked_at": "2026-11-11T12:15:05.880719+00:00",
   "cases": [
     {
       "sample": "BAM",
       "title": "BAM：柔性协作机器人上下料系统",
       "found": true,
       "reason": "国家级 UVgO 公告；旧系统仅接入 TED，缺少国家级数据源。",
-      "phase": "active",
+      "phase": "history",
       "deadline": "2026-11-11T11:00:00+01:00",
       "source_url": "https://oeffentlichevergabe.de/ui/de/notices/d5ac23cd-3a48-4fa8-87eb-1b17e694c480",
       "deadline_source": "https://oeffentlichevergabe.de/ui/de/notices/d5ac23cd-3a48-4fa8-87eb-1b17e694c480",
