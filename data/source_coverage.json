@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-11T23:09:12.098053+00:00",
+  "checked_at": "2026-11-12T13:20:55.666294+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 62,
-      "education_active_count": 21,
+      "active_count": 64,
+      "education_active_count": 22,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -188,8 +188,8 @@
       "scope": "欧盟级公开公告；不能替代国家／地方未上报公告",
       "status": "connected",
       "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261112 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 53,
-      "accepted": 21,
+      "api_results": 55,
+      "accepted": 23,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     {
@@ -217,7 +217,7 @@
       "scope": "DFG 当前公开列表及截止核验",
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 20,
+      "scanned_rows": 19,
       "accepted_notices": 3,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
@@ -229,7 +229,7 @@
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-13",
+      "window_start": "2026-08-14",
       "search_terms": [
         "robot",
         "cobot",
@@ -252,23 +252,23 @@
           "error": "URLError"
         },
         {
-          "publication_id": "c062fd2b-1711-40f9-99fb-e792d08a7a05",
+          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
           "error": "URLError"
         },
         {
-          "publication_id": "f8f87b1e-4106-4e78-bf85-3a08a4f804e1",
+          "publication_id": "f90453d4-0b06-443f-82b0-1fac3599a352",
           "error": "URLError"
         },
         {
-          "publication_id": "2d3100e2-16bd-4cc1-8622-a15faa9a0085",
+          "publication_id": "1eb99e5a-94e5-47e7-9326-afd0a46bc03d",
           "error": "URLError"
         },
         {
-          "publication_id": "2deba281-9dd0-47bd-8ce4-3acb0c205fd7",
+          "publication_id": "f9d19b60-9d3a-4066-904c-e4b817a744b2",
           "error": "URLError"
         },
         {
-          "publication_id": "ba1feb3a-34ef-4d15-b93e-535da3ccfcca",
+          "publication_id": "3c783e77-da9f-45e7-81b5-43b9a907069f",
           "error": "URLError"
         }
       ],
@@ -290,10 +290,10 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-13",
-      "scanned_hits": 63,
-      "unique_detail_pages": 16,
-      "accepted_notices": 15,
+      "window_start": "2026-08-14",
+      "scanned_hits": 65,
+      "unique_detail_pages": 18,
+      "accepted_notices": 17,
       "detail_errors": []
     },
     {
@@ -304,9 +304,9 @@
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购",
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-13",
-      "scanned_notices": 6983,
-      "accepted_notices": 76,
+      "window_start": "2026-08-14",
+      "scanned_notices": 7006,
+      "accepted_notices": 75,
       "license": "CC0"
     },
     {

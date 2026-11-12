@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-11T23:09:12.098053+00:00",
+  "scanned_at": "2026-11-12T13:20:55.666294+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -12,33 +12,28 @@
     "DFG": {
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 20,
+      "scanned_rows": 19,
       "accepted_notices": 3,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
     "TED": {
       "status": "connected",
       "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261112 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 53,
-      "accepted": 21,
+      "api_results": 55,
+      "accepted": 23,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
-    "USP": {
+    "BKMS": {
       "status": "connected",
-      "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
-      "search_terms": [
-        "robot",
-        "cobot",
-        "manipulator",
-        "automatisierung",
-        "automation"
+      "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
+      "months": [
+        "2026-10",
+        "2026-11"
       ],
-      "window_start": "2026-08-13",
-      "scanned_hits": 63,
-      "unique_detail_pages": 16,
-      "accepted_notices": 15,
-      "detail_errors": [],
-      "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
+      "scanned_notices": 32837,
+      "accepted_notices": 184,
+      "license": "CC0",
+      "export_available_through": "previous day Europe/Berlin"
     },
     "DE_NRW": {
       "status": "connected",
@@ -85,18 +80,6 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
-    "BKMS": {
-      "status": "connected",
-      "endpoint": "https://oeffentlichevergabe.de/api/notice-exports",
-      "months": [
-        "2026-10",
-        "2026-11"
-      ],
-      "scanned_notices": 32837,
-      "accepted_notices": 184,
-      "license": "CC0",
-      "export_available_through": "previous day Europe/Berlin"
-    },
     "DE_AACHEN": {
       "status": "connected",
       "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
@@ -106,19 +89,36 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
+    "USP": {
+      "status": "connected",
+      "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
+      "search_terms": [
+        "robot",
+        "cobot",
+        "manipulator",
+        "automatisierung",
+        "automation"
+      ],
+      "window_start": "2026-08-14",
+      "scanned_hits": 65,
+      "unique_detail_pages": 18,
+      "accepted_notices": 17,
+      "detail_errors": [],
+      "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
+    },
     "TENDERNED": {
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-13",
-      "scanned_notices": 6983,
-      "accepted_notices": 76,
+      "window_start": "2026-08-14",
+      "scanned_notices": 7006,
+      "accepted_notices": 75,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     },
     "SIMAP": {
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-13",
+      "window_start": "2026-08-14",
       "search_terms": [
         "robot",
         "cobot",
@@ -141,23 +141,23 @@
           "error": "URLError"
         },
         {
-          "publication_id": "c062fd2b-1711-40f9-99fb-e792d08a7a05",
+          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
           "error": "URLError"
         },
         {
-          "publication_id": "f8f87b1e-4106-4e78-bf85-3a08a4f804e1",
+          "publication_id": "f90453d4-0b06-443f-82b0-1fac3599a352",
           "error": "URLError"
         },
         {
-          "publication_id": "2d3100e2-16bd-4cc1-8622-a15faa9a0085",
+          "publication_id": "1eb99e5a-94e5-47e7-9326-afd0a46bc03d",
           "error": "URLError"
         },
         {
-          "publication_id": "2deba281-9dd0-47bd-8ce4-3acb0c205fd7",
+          "publication_id": "f9d19b60-9d3a-4066-904c-e4b817a744b2",
           "error": "URLError"
         },
         {
-          "publication_id": "ba1feb3a-34ef-4d15-b93e-535da3ccfcca",
+          "publication_id": "3c783e77-da9f-45e7-81b5-43b9a907069f",
           "error": "URLError"
         }
       ],
@@ -167,20 +167,20 @@
     }
   },
   "errors": [],
-  "new_items_fetched": 353,
-  "active_count": 84,
-  "history_count": 387,
-  "project_count": 331,
+  "new_items_fetched": 356,
+  "active_count": 86,
+  "history_count": 392,
+  "project_count": 336,
   "phase_counts": {
-    "history": 214,
-    "active": 84,
+    "history": 218,
+    "active": 86,
     "planned": 15,
-    "unknown": 18
+    "unknown": 17
   },
-  "education_active_count": 22,
+  "education_active_count": 23,
   "feeds_enabled": 12,
   "country_counts": {
-    "DE": 62,
+    "DE": 64,
     "AT": 3,
     "CH": 6,
     "BE": 3,
