@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-12T22:28:23.748592+00:00",
+  "scanned_at": "2026-11-13T12:41:08.976394+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -13,14 +13,14 @@
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
       "scanned_rows": 19,
-      "accepted_notices": 3,
+      "accepted_notices": 2,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
     "TED": {
       "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261112 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 55,
-      "accepted": 21,
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261113 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 54,
+      "accepted": 22,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     "BKMS": {
@@ -30,8 +30,8 @@
         "2026-10",
         "2026-11"
       ],
-      "scanned_notices": 32837,
-      "accepted_notices": 184,
+      "scanned_notices": 33986,
+      "accepted_notices": 191,
       "license": "CC0",
       "export_available_through": "previous day Europe/Berlin"
     },
@@ -99,7 +99,7 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-14",
+      "window_start": "2026-08-15",
       "scanned_hits": 67,
       "unique_detail_pages": 18,
       "accepted_notices": 17,
@@ -109,8 +109,8 @@
     "TENDERNED": {
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-14",
-      "scanned_notices": 7023,
+      "window_start": "2026-08-15",
+      "scanned_notices": 7058,
       "accepted_notices": 75,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
@@ -118,7 +118,7 @@
     "SIMAP": {
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-14",
+      "window_start": "2026-08-15",
       "search_terms": [
         "robot",
         "cobot",
@@ -132,32 +132,12 @@
         "automatisation",
         "automazione"
       ],
-      "scanned_hits": 108,
-      "unique_publications": 77,
-      "accepted_notices": 27,
+      "scanned_hits": 109,
+      "unique_publications": 78,
+      "accepted_notices": 29,
       "detail_errors": [
         {
-          "publication_id": "d4b566d6-2c59-48ec-be71-bd0acd8777a2",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "0375ee9d-e860-4ea2-9e95-f4faca7f7c59",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "424e874f-a1ac-4817-b469-67521343d890",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "2d3100e2-16bd-4cc1-8622-a15faa9a0085",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "0ef8ce45-ef11-4337-af3c-8003af2961e6",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "ba1feb3a-34ef-4d15-b93e-535da3ccfcca",
+          "publication_id": "fd510695-6f2e-4888-b30b-f06cea586725",
           "error": "URLError"
         }
       ],
@@ -167,20 +147,20 @@
     }
   },
   "errors": [],
-  "new_items_fetched": 357,
-  "active_count": 86,
-  "history_count": 394,
-  "project_count": 338,
+  "new_items_fetched": 366,
+  "active_count": 88,
+  "history_count": 404,
+  "project_count": 347,
   "phase_counts": {
-    "history": 219,
-    "active": 86,
-    "planned": 15,
-    "unknown": 18
+    "history": 226,
+    "active": 88,
+    "planned": 16,
+    "unknown": 17
   },
   "education_active_count": 23,
   "feeds_enabled": 12,
   "country_counts": {
-    "DE": 65,
+    "DE": 67,
     "AT": 3,
     "CH": 6,
     "BE": 2,

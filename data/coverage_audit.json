@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T22:28:23.748592+00:00",
+  "checked_at": "2026-11-13T12:41:08.976394+00:00",
   "cases": [
     {
       "sample": "BAM",
@@ -28,10 +28,10 @@
       "title": "DFG：移动串联机器人",
       "found": true,
       "reason": "TED 原公告截止字段为 11 月 2 日；DFG 当前官方列表为 11 月 13 日，旧过滤会漏掉延期项目。",
-      "phase": "active",
-      "deadline": "2026-11-13T12:00:00+01:00",
+      "phase": "history",
+      "deadline": "2026-11-02T12:00:00+01:00",
       "source_url": "https://oeffentlichevergabe.de/ui/de/notices/189c4f73-c043-4559-ba5e-cf558fc28aae",
-      "deadline_source": "https://bieterportal.dfg.de/?l=1",
+      "deadline_source": "https://oeffentlichevergabe.de/ui/de/notices/189c4f73-c043-4559-ba5e-cf558fc28aae",
       "project_id": "BKMS:189c4f73-c043-4559-ba5e-cf558fc28aae:01"
     },
     {
