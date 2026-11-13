@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-13T12:41:08.976394+00:00",
+  "scanned_at": "2026-11-13T22:15:40.763327+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -38,7 +38,7 @@
     "DE_NRW": {
       "status": "connected",
       "endpoint": "https://www.evergabe.nrw.de/VMPSatellite/opendata?id=0bb4c8bc-514f-49bf-a490-d93103c377f0",
-      "scanned_notices": 1209,
+      "scanned_notices": 1202,
       "accepted_notices": 20,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -47,7 +47,7 @@
     "DE_RUHR": {
       "status": "connected",
       "endpoint": "https://www.vergabe.metropoleruhr.de/VMPSatellite/opendata?id=4985b1a5-d2e8-4611-a4c6-20694a130bb3",
-      "scanned_notices": 831,
+      "scanned_notices": 823,
       "accepted_notices": 5,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -56,7 +56,7 @@
     "DE_BLB": {
       "status": "connected",
       "endpoint": "https://evergabe.blb.nrw.de/Vergabe/opendata?id=f33b7b4a-082d-4bbb-b176-d8b4ebf75a51",
-      "scanned_notices": 544,
+      "scanned_notices": 545,
       "accepted_notices": 0,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -65,7 +65,7 @@
     "DE_WESTFALEN": {
       "status": "connected",
       "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
-      "scanned_notices": 1043,
+      "scanned_notices": 1041,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -83,7 +83,7 @@
     "DE_AACHEN": {
       "status": "connected",
       "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
-      "scanned_notices": 310,
+      "scanned_notices": 311,
       "accepted_notices": 2,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
@@ -100,7 +100,7 @@
         "automation"
       ],
       "window_start": "2026-08-15",
-      "scanned_hits": 67,
+      "scanned_hits": 69,
       "unique_detail_pages": 18,
       "accepted_notices": 17,
       "detail_errors": [],
@@ -110,7 +110,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-15",
-      "scanned_notices": 7058,
+      "scanned_notices": 7071,
       "accepted_notices": 75,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
@@ -137,7 +137,27 @@
       "accepted_notices": 29,
       "detail_errors": [
         {
-          "publication_id": "fd510695-6f2e-4888-b30b-f06cea586725",
+          "publication_id": "735d6f94-a94b-4093-a875-0a3ed2820d29",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "2ba649bb-65ec-460e-b96d-52a791cfa87b",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "e5f4d72b-fd92-41f0-9c51-1038f0ab2698",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "34b84774-db4d-4818-8cb2-fb4681dda679",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "63f7db0e-a6f5-40cd-a7d4-64eff90aed2b",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "24ac61ce-b783-426d-9c5f-bea946f9ca08",
           "error": "URLError"
         }
       ],
