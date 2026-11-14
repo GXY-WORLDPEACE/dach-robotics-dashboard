@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T11:48:29.079586+00:00",
+  "checked_at": "2026-11-14T20:59:33.651939+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -227,7 +227,7 @@
       "country": "CH",
       "enabled": true,
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
-      "status": "connected",
+      "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
       "window_start": "2026-08-16",
       "search_terms": [
@@ -246,7 +246,12 @@
       "scanned_hits": 109,
       "unique_publications": 78,
       "accepted_notices": 29,
-      "detail_errors": [],
+      "detail_errors": [
+        {
+          "publication_id": "8ac7ba52-840c-4155-b1fa-caf69974f5de",
+          "error": "URLError"
+        }
+      ],
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
     },
@@ -280,7 +285,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-16",
-      "scanned_notices": 7058,
+      "scanned_notices": 7083,
       "accepted_notices": 75,
       "license": "CC0"
     },

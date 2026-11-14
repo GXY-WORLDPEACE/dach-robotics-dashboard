@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-14T11:48:29.079586+00:00",
+  "scanned_at": "2026-11-14T20:59:33.651939+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -9,19 +9,19 @@
       "status": "blocked",
       "note": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制"
     },
-    "DFG": {
-      "status": "connected",
-      "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 19,
-      "accepted_notices": 2,
-      "note": "当前公开列表；发布时间如未公开则留空"
-    },
     "TED": {
       "status": "connected",
       "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261114 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
       "api_results": 53,
       "accepted": 22,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
+    },
+    "DFG": {
+      "status": "connected",
+      "endpoint": "https://bieterportal.dfg.de/?l=1",
+      "scanned_rows": 19,
+      "accepted_notices": 2,
+      "note": "当前公开列表；发布时间如未公开则留空"
     },
     "BKMS": {
       "status": "connected",
@@ -110,13 +110,13 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-16",
-      "scanned_notices": 7058,
+      "scanned_notices": 7083,
       "accepted_notices": 75,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     },
     "SIMAP": {
-      "status": "connected",
+      "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
       "window_start": "2026-08-16",
       "search_terms": [
@@ -135,7 +135,12 @@
       "scanned_hits": 109,
       "unique_publications": 78,
       "accepted_notices": 29,
-      "detail_errors": [],
+      "detail_errors": [
+        {
+          "publication_id": "8ac7ba52-840c-4155-b1fa-caf69974f5de",
+          "error": "URLError"
+        }
+      ],
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
