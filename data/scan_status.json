@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-15T12:19:59.042625+00:00",
+  "scanned_at": "2026-11-15T21:23:30.733639+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -80,6 +80,15 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
+    "DE_AACHEN": {
+      "status": "connected",
+      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
+      "scanned_notices": 310,
+      "accepted_notices": 2,
+      "unsupported_schema_notices": 0,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
     "USP": {
       "status": "connected",
       "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
@@ -97,14 +106,14 @@
       "detail_errors": [],
       "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
     },
-    "DE_AACHEN": {
+    "TENDERNED": {
       "status": "connected",
-      "endpoint": "https://www.vergaben-wirtschaftsregion-aachen.de/VMPSatellite/opendata?id=1ec5f6d2-e483-4de9-9d24-6517b091abb1",
-      "scanned_notices": 310,
-      "accepted_notices": 2,
-      "unsupported_schema_notices": 0,
-      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
-      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+      "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
+      "window_start": "2026-08-17",
+      "scanned_notices": 7100,
+      "accepted_notices": 75,
+      "license": "CC0",
+      "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     },
     "SIMAP": {
       "status": "connected",
@@ -130,15 +139,6 @@
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
-    },
-    "TENDERNED": {
-      "status": "connected",
-      "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-17",
-      "scanned_notices": 7074,
-      "accepted_notices": 75,
-      "license": "CC0",
-      "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     }
   },
   "errors": [],

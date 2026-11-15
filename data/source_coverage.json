@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T12:19:59.042625+00:00",
+  "checked_at": "2026-11-15T21:23:30.733639+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -280,7 +280,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-17",
-      "scanned_notices": 7074,
+      "scanned_notices": 7100,
       "accepted_notices": 75,
       "license": "CC0"
     },
