@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-17T00:32:20.028679+00:00",
+  "scanned_at": "2026-11-17T13:55:29.610781+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -9,19 +9,19 @@
       "status": "blocked",
       "note": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制"
     },
+    "TED": {
+      "status": "connected",
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261117 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 50,
+      "accepted": 20,
+      "endpoint": "https://api.ted.europa.eu/v3/notices/search"
+    },
     "DFG": {
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
       "scanned_rows": 20,
       "accepted_notices": 2,
       "note": "当前公开列表；发布时间如未公开则留空"
-    },
-    "TED": {
-      "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261117 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 50,
-      "accepted": 21,
-      "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     "BKMS": {
       "status": "connected",
@@ -101,8 +101,8 @@
       ],
       "window_start": "2026-08-19",
       "scanned_hits": 64,
-      "unique_detail_pages": 17,
-      "accepted_notices": 17,
+      "unique_detail_pages": 16,
+      "accepted_notices": 16,
       "detail_errors": [],
       "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
     },
@@ -110,7 +110,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-19",
-      "scanned_notices": 7059,
+      "scanned_notices": 7134,
       "accepted_notices": 75,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
@@ -137,7 +137,19 @@
       "accepted_notices": 30,
       "detail_errors": [
         {
-          "publication_id": "2df6d708-884d-4fe4-ae57-39eb9cb1e2f5",
+          "publication_id": "e7f2c706-775b-4512-9ba6-4bb8ec1a7817",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "87791d29-3d9f-4618-b53e-b81f0a632bee",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "bf395566-982e-4c7f-8cfd-32f8e46deef2",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "34b84774-db4d-4818-8cb2-fb4681dda679",
           "error": "URLError"
         }
       ],
@@ -147,21 +159,21 @@
     }
   },
   "errors": [],
-  "new_items_fetched": 380,
-  "active_count": 85,
+  "new_items_fetched": 378,
+  "active_count": 81,
   "history_count": 421,
   "project_count": 359,
   "phase_counts": {
-    "history": 242,
-    "active": 85,
+    "history": 246,
+    "active": 81,
     "planned": 16,
     "unknown": 16
   },
-  "education_active_count": 23,
+  "education_active_count": 22,
   "feeds_enabled": 12,
   "country_counts": {
-    "DE": 66,
-    "AT": 2,
+    "DE": 63,
+    "AT": 1,
     "CH": 7,
     "BE": 2,
     "NL": 8
