@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-18T23:11:26.003710+00:00",
+  "checked_at": "2026-11-19T13:58:26.803700+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 65,
-      "education_active_count": 22,
+      "active_count": 63,
+      "education_active_count": 21,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -217,8 +217,8 @@
       "scope": "DFG 当前公开列表及截止核验",
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 20,
-      "accepted_notices": 2,
+      "scanned_rows": 17,
+      "accepted_notices": 1,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
     {
@@ -229,7 +229,7 @@
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-20",
+      "window_start": "2026-08-21",
       "search_terms": [
         "robot",
         "cobot",
@@ -243,24 +243,28 @@
         "automatisation",
         "automazione"
       ],
-      "scanned_hits": 108,
-      "unique_publications": 78,
-      "accepted_notices": 29,
+      "scanned_hits": 107,
+      "unique_publications": 77,
+      "accepted_notices": 30,
       "detail_errors": [
         {
-          "publication_id": "006651dd-ddb5-4db6-8369-19c64741ac7e",
+          "publication_id": "a035bf07-327b-495f-b99c-0c55bfb6664e",
           "error": "URLError"
         },
         {
-          "publication_id": "9793128d-b7a2-40fb-af93-c5b440ce32a5",
+          "publication_id": "3c783e77-da9f-45e7-81b5-43b9a907069f",
           "error": "URLError"
         },
         {
-          "publication_id": "ba1feb3a-34ef-4d15-b93e-535da3ccfcca",
+          "publication_id": "8b19c026-d645-468e-b4c2-6a1bb52848d0",
           "error": "URLError"
         },
         {
-          "publication_id": "fa861b68-026f-4fa4-9f55-00ac6af947ca",
+          "publication_id": "3903f35b-fe8d-4e9e-bcc9-baa393215da5",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "2deba281-9dd0-47bd-8ce4-3acb0c205fd7",
           "error": "URLError"
         }
       ],
@@ -282,8 +286,8 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-20",
-      "scanned_hits": 64,
+      "window_start": "2026-08-21",
+      "scanned_hits": 61,
       "unique_detail_pages": 15,
       "accepted_notices": 15,
       "detail_errors": []
@@ -296,8 +300,8 @@
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购",
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-20",
-      "scanned_notices": 7166,
+      "window_start": "2026-08-21",
+      "scanned_notices": 7170,
       "accepted_notices": 73,
       "license": "CC0"
     },
