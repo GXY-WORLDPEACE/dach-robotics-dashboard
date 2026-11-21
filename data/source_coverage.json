@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-20T22:51:26.480588+00:00",
+  "checked_at": "2026-11-21T13:05:57.124843+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 61,
-      "education_active_count": 21,
+      "active_count": 66,
+      "education_active_count": 23,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -187,8 +187,8 @@
       "enabled": true,
       "scope": "欧盟级公开公告；不能替代国家／地方未上报公告",
       "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261120 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 54,
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261121 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 52,
       "accepted": 24,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
@@ -204,8 +204,8 @@
         "2026-10",
         "2026-11"
       ],
-      "scanned_notices": 39450,
-      "accepted_notices": 219,
+      "scanned_notices": 40510,
+      "accepted_notices": 231,
       "license": "CC0",
       "export_available_through": "previous day Europe/Berlin"
     },
@@ -227,9 +227,9 @@
       "country": "CH",
       "enabled": true,
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
-      "status": "connected",
+      "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-22",
+      "window_start": "2026-08-23",
       "search_terms": [
         "robot",
         "cobot",
@@ -244,9 +244,22 @@
         "automazione"
       ],
       "scanned_hits": 107,
-      "unique_publications": 77,
-      "accepted_notices": 30,
-      "detail_errors": [],
+      "unique_publications": 78,
+      "accepted_notices": 29,
+      "detail_errors": [
+        {
+          "publication_id": "006651dd-ddb5-4db6-8369-19c64741ac7e",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "26063a16-b304-4c13-bfab-02c9efb7bada",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "e7f2c706-775b-4512-9ba6-4bb8ec1a7817",
+          "error": "URLError"
+        }
+      ],
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
     },
@@ -265,7 +278,7 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-22",
+      "window_start": "2026-08-23",
       "scanned_hits": 63,
       "unique_detail_pages": 15,
       "accepted_notices": 15,
@@ -279,8 +292,8 @@
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购",
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-22",
-      "scanned_notices": 7227,
+      "window_start": "2026-08-23",
+      "scanned_notices": 7208,
       "accepted_notices": 74,
       "license": "CC0"
     },

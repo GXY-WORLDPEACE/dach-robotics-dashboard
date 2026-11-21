@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-20T22:51:26.480588+00:00",
+  "scanned_at": "2026-11-21T13:05:57.124843+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -9,19 +9,19 @@
       "status": "blocked",
       "note": "已识别公开站点搜索接口；匿名请求返回 HTTP 403，未使用凭证或绕过限制"
     },
-    "TED": {
-      "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261120 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 54,
-      "accepted": 24,
-      "endpoint": "https://api.ted.europa.eu/v3/notices/search"
-    },
     "DFG": {
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
       "scanned_rows": 14,
       "accepted_notices": 1,
       "note": "当前公开列表；发布时间如未公开则留空"
+    },
+    "TED": {
+      "status": "connected",
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261121 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "api_results": 52,
+      "accepted": 24,
+      "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     "BKMS": {
       "status": "connected",
@@ -30,8 +30,8 @@
         "2026-10",
         "2026-11"
       ],
-      "scanned_notices": 39450,
-      "accepted_notices": 219,
+      "scanned_notices": 40510,
+      "accepted_notices": 231,
       "license": "CC0",
       "export_available_through": "previous day Europe/Berlin"
     },
@@ -72,27 +72,27 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-22",
+      "window_start": "2026-08-23",
       "scanned_hits": 63,
       "unique_detail_pages": 15,
       "accepted_notices": 15,
       "detail_errors": [],
       "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
     },
-    "DE_KOELN": {
-      "status": "connected",
-      "endpoint": "https://vergabe.stadt-koeln.de/VMPSatellite/opendata?id=f8f65333-9078-451c-8628-09376a7fbfcb",
-      "scanned_notices": 0,
-      "accepted_notices": 0,
-      "unsupported_schema_notices": 0,
-      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
-      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
-    },
     "DE_WESTFALEN": {
       "status": "connected",
       "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
       "scanned_notices": 1043,
       "accepted_notices": 2,
+      "unsupported_schema_notices": 0,
+      "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
+      "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
+    },
+    "DE_KOELN": {
+      "status": "connected",
+      "endpoint": "https://vergabe.stadt-koeln.de/VMPSatellite/opendata?id=f8f65333-9078-451c-8628-09376a7fbfcb",
+      "scanned_notices": 0,
+      "accepted_notices": 0,
       "unsupported_schema_notices": 0,
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
@@ -106,10 +106,19 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
-    "SIMAP": {
+    "TENDERNED": {
       "status": "connected",
+      "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
+      "window_start": "2026-08-23",
+      "scanned_notices": 7208,
+      "accepted_notices": 74,
+      "license": "CC0",
+      "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
+    },
+    "SIMAP": {
+      "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-22",
+      "window_start": "2026-08-23",
       "search_terms": [
         "robot",
         "cobot",
@@ -124,38 +133,42 @@
         "automazione"
       ],
       "scanned_hits": 107,
-      "unique_publications": 77,
-      "accepted_notices": 30,
-      "detail_errors": [],
+      "unique_publications": 78,
+      "accepted_notices": 29,
+      "detail_errors": [
+        {
+          "publication_id": "006651dd-ddb5-4db6-8369-19c64741ac7e",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "26063a16-b304-4c13-bfab-02c9efb7bada",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "e7f2c706-775b-4512-9ba6-4bb8ec1a7817",
+          "error": "URLError"
+        }
+      ],
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
-    },
-    "TENDERNED": {
-      "status": "connected",
-      "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-22",
-      "scanned_notices": 7227,
-      "accepted_notices": 74,
-      "license": "CC0",
-      "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     }
   },
   "errors": [],
-  "new_items_fetched": 393,
-  "active_count": 79,
-  "history_count": 446,
-  "project_count": 378,
+  "new_items_fetched": 404,
+  "active_count": 84,
+  "history_count": 458,
+  "project_count": 386,
   "phase_counts": {
-    "history": 267,
-    "active": 79,
+    "history": 270,
+    "active": 84,
     "planned": 17,
     "unknown": 15
   },
-  "education_active_count": 24,
+  "education_active_count": 26,
   "feeds_enabled": 12,
   "country_counts": {
-    "DE": 61,
+    "DE": 66,
     "AT": 1,
     "CH": 8,
     "BE": 2,
