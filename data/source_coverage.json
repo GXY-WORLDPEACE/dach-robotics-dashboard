@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T13:05:57.124843+00:00",
+  "checked_at": "2026-11-21T21:56:30.493193+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -245,18 +245,18 @@
       ],
       "scanned_hits": 107,
       "unique_publications": 78,
-      "accepted_notices": 29,
+      "accepted_notices": 30,
       "detail_errors": [
         {
-          "publication_id": "006651dd-ddb5-4db6-8369-19c64741ac7e",
+          "publication_id": "0375ee9d-e860-4ea2-9e95-f4faca7f7c59",
           "error": "URLError"
         },
         {
-          "publication_id": "26063a16-b304-4c13-bfab-02c9efb7bada",
+          "publication_id": "e94bae48-a957-4d7a-9880-b687e06b747e",
           "error": "URLError"
         },
         {
-          "publication_id": "e7f2c706-775b-4512-9ba6-4bb8ec1a7817",
+          "publication_id": "21c9dae0-ccde-4859-872a-396985e4f083",
           "error": "URLError"
         }
       ],
@@ -293,7 +293,7 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-23",
-      "scanned_notices": 7208,
+      "scanned_notices": 7225,
       "accepted_notices": 74,
       "license": "CC0"
     },

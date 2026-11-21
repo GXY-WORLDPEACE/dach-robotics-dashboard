@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-21T13:05:57.124843+00:00",
+  "scanned_at": "2026-11-21T21:56:30.493193+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -62,23 +62,6 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
-    "USP": {
-      "status": "connected",
-      "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
-      "search_terms": [
-        "robot",
-        "cobot",
-        "manipulator",
-        "automatisierung",
-        "automation"
-      ],
-      "window_start": "2026-08-23",
-      "scanned_hits": 63,
-      "unique_detail_pages": 15,
-      "accepted_notices": 15,
-      "detail_errors": [],
-      "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
-    },
     "DE_WESTFALEN": {
       "status": "connected",
       "endpoint": "https://www.vergabe-westfalen.de/VMPSatellite/opendata?id=d5a5e23b-5059-4a2d-9c2f-409de53790f6",
@@ -106,11 +89,28 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw"
     },
+    "USP": {
+      "status": "connected",
+      "endpoint": "https://ausschreibungen.usp.gv.at/at.gv.bmdw.eproc-p/public/tenderlist",
+      "search_terms": [
+        "robot",
+        "cobot",
+        "manipulator",
+        "automatisierung",
+        "automation"
+      ],
+      "window_start": "2026-08-23",
+      "scanned_hits": 63,
+      "unique_detail_pages": 15,
+      "accepted_notices": 15,
+      "detail_errors": [],
+      "scope": "USP 公开汇总最近 90 天；以各发布单位申报内容为准，非未公开采购"
+    },
     "TENDERNED": {
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-23",
-      "scanned_notices": 7208,
+      "scanned_notices": 7225,
       "accepted_notices": 74,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
@@ -134,18 +134,18 @@
       ],
       "scanned_hits": 107,
       "unique_publications": 78,
-      "accepted_notices": 29,
+      "accepted_notices": 30,
       "detail_errors": [
         {
-          "publication_id": "006651dd-ddb5-4db6-8369-19c64741ac7e",
+          "publication_id": "0375ee9d-e860-4ea2-9e95-f4faca7f7c59",
           "error": "URLError"
         },
         {
-          "publication_id": "26063a16-b304-4c13-bfab-02c9efb7bada",
+          "publication_id": "e94bae48-a957-4d7a-9880-b687e06b747e",
           "error": "URLError"
         },
         {
-          "publication_id": "e7f2c706-775b-4512-9ba6-4bb8ec1a7817",
+          "publication_id": "21c9dae0-ccde-4859-872a-396985e4f083",
           "error": "URLError"
         }
       ],
@@ -155,7 +155,7 @@
     }
   },
   "errors": [],
-  "new_items_fetched": 404,
+  "new_items_fetched": 405,
   "active_count": 84,
   "history_count": 458,
   "project_count": 386,
