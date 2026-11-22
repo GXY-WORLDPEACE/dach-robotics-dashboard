@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T12:54:14.151608+00:00",
+  "checked_at": "2026-11-22T22:11:38.157009+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
@@ -101,7 +101,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 816,
+      "scanned_notices": 817,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0
     },
@@ -142,7 +142,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1040,
+      "scanned_notices": 1039,
       "accepted_notices": 2,
       "unsupported_schema_notices": 0
     },
@@ -170,7 +170,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 304,
+      "scanned_notices": 302,
       "accepted_notices": 2,
       "unsupported_schema_notices": 0
     },
@@ -227,7 +227,7 @@
       "country": "CH",
       "enabled": true,
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
-      "status": "partial",
+      "status": "connected",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
       "window_start": "2026-08-24",
       "search_terms": [
@@ -246,12 +246,7 @@
       "scanned_hits": 107,
       "unique_publications": 78,
       "accepted_notices": 30,
-      "detail_errors": [
-        {
-          "publication_id": "fd510695-6f2e-4888-b30b-f06cea586725",
-          "error": "URLError"
-        }
-      ],
+      "detail_errors": [],
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
     },
@@ -271,9 +266,9 @@
         "automation"
       ],
       "window_start": "2026-08-24",
-      "scanned_hits": 61,
-      "unique_detail_pages": 14,
-      "accepted_notices": 14,
+      "scanned_hits": 62,
+      "unique_detail_pages": 15,
+      "accepted_notices": 15,
       "detail_errors": []
     },
     {
@@ -285,8 +280,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-24",
-      "scanned_notices": 7205,
-      "accepted_notices": 73,
+      "scanned_notices": 7223,
+      "accepted_notices": 74,
       "license": "CC0"
     },
     {
