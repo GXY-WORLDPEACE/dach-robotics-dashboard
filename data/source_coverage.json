@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-24T03:05:00.674891+00:00",
+  "checked_at": "2026-11-24T15:22:18.510181+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 69,
-      "education_active_count": 22,
+      "active_count": 67,
+      "education_active_count": 21,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -189,7 +189,7 @@
       "status": "connected",
       "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261124 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
       "api_results": 54,
-      "accepted": 24,
+      "accepted": 22,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     {
@@ -217,7 +217,7 @@
       "scope": "DFG 当前公开列表及截止核验",
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 16,
+      "scanned_rows": 17,
       "accepted_notices": 1,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
@@ -248,23 +248,19 @@
       "accepted_notices": 30,
       "detail_errors": [
         {
-          "publication_id": "a035bf07-327b-495f-b99c-0c55bfb6664e",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "dbabd7f3-ce2c-49d2-a116-c33fa7cb8167",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "26063a16-b304-4c13-bfab-02c9efb7bada",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "e7f2c706-775b-4512-9ba6-4bb8ec1a7817",
+          "publication_id": "9793128d-b7a2-40fb-af93-c5b440ce32a5",
           "error": "URLError"
         },
         {
           "publication_id": "bf395566-982e-4c7f-8cfd-32f8e46deef2",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "11ad4516-9868-4c5a-b795-c9aa5a5aa9e6",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
           "error": "URLError"
         }
       ],
@@ -287,7 +283,7 @@
         "automation"
       ],
       "window_start": "2026-08-26",
-      "scanned_hits": 60,
+      "scanned_hits": 61,
       "unique_detail_pages": 15,
       "accepted_notices": 15,
       "detail_errors": []
@@ -301,8 +297,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-26",
-      "scanned_notices": 7139,
-      "accepted_notices": 73,
+      "scanned_notices": 7203,
+      "accepted_notices": 75,
       "license": "CC0"
     },
     {
