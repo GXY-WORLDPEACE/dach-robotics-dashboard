@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-25T01:08:40.177685+00:00",
+  "checked_at": "2026-11-25T15:03:36.171613+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 68,
+      "active_count": 64,
       "education_active_count": 22,
       "connected_sources": [
         "DE_NRW",
@@ -217,7 +217,7 @@
       "scope": "DFG 当前公开列表及截止核验",
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 17,
+      "scanned_rows": 16,
       "accepted_notices": 1,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
@@ -245,14 +245,18 @@
       ],
       "scanned_hits": 107,
       "unique_publications": 80,
-      "accepted_notices": 30,
+      "accepted_notices": 29,
       "detail_errors": [
         {
-          "publication_id": "40b3a470-360f-4db4-89bc-6f07ae62a378",
+          "publication_id": "006651dd-ddb5-4db6-8369-19c64741ac7e",
           "error": "URLError"
         },
         {
-          "publication_id": "8ac7ba52-840c-4155-b1fa-caf69974f5de",
+          "publication_id": "282632f7-b227-4d45-a3ee-e3633ab6b603",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "87791d29-3d9f-4618-b53e-b81f0a632bee",
           "error": "URLError"
         }
       ],
@@ -289,8 +293,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-27",
-      "scanned_notices": 7110,
-      "accepted_notices": 72,
+      "scanned_notices": 7199,
+      "accepted_notices": 73,
       "license": "CC0"
     },
     {
