@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-24T15:22:18.510181+00:00",
+  "checked_at": "2026-11-25T01:08:40.177685+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 67,
-      "education_active_count": 21,
+      "active_count": 68,
+      "education_active_count": 22,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -39,7 +39,7 @@
     {
       "code": "CH",
       "name": "瑞士",
-      "active_count": 7,
+      "active_count": 6,
       "education_active_count": 2,
       "connected_sources": [
         "TED",
@@ -87,8 +87,8 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1219,
-      "accepted_notices": 23,
+      "scanned_notices": 1206,
+      "accepted_notices": 21,
       "unsupported_schema_notices": 0
     },
     {
@@ -101,7 +101,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 815,
+      "scanned_notices": 811,
       "accepted_notices": 3,
       "unsupported_schema_notices": 0
     },
@@ -128,7 +128,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 533,
+      "scanned_notices": 535,
       "accepted_notices": 0,
       "unsupported_schema_notices": 0
     },
@@ -142,7 +142,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 1030,
+      "scanned_notices": 1016,
       "accepted_notices": 2,
       "unsupported_schema_notices": 0
     },
@@ -170,7 +170,7 @@
       "scope": "该平台公开导出的州／市采购公告；非该地区全部采购",
       "documentation": "https://data.gov.de/suche/daten/ausschreibungen-vergabemarktplatz-nrw",
       "status": "connected",
-      "scanned_notices": 297,
+      "scanned_notices": 292,
       "accepted_notices": 2,
       "unsupported_schema_notices": 0
     },
@@ -187,9 +187,9 @@
       "enabled": true,
       "scope": "欧盟级公开公告；不能替代国家／地方未上报公告",
       "status": "connected",
-      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261124 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
+      "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261125 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
       "api_results": 54,
-      "accepted": 22,
+      "accepted": 23,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     {
@@ -204,8 +204,8 @@
         "2026-10",
         "2026-11"
       ],
-      "scanned_notices": 41625,
-      "accepted_notices": 243,
+      "scanned_notices": 42562,
+      "accepted_notices": 244,
       "license": "CC0",
       "export_available_through": "previous day Europe/Berlin"
     },
@@ -229,7 +229,7 @@
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
-      "window_start": "2026-08-26",
+      "window_start": "2026-08-27",
       "search_terms": [
         "robot",
         "cobot",
@@ -243,24 +243,16 @@
         "automatisation",
         "automazione"
       ],
-      "scanned_hits": 108,
-      "unique_publications": 81,
+      "scanned_hits": 107,
+      "unique_publications": 80,
       "accepted_notices": 30,
       "detail_errors": [
         {
-          "publication_id": "9793128d-b7a2-40fb-af93-c5b440ce32a5",
+          "publication_id": "40b3a470-360f-4db4-89bc-6f07ae62a378",
           "error": "URLError"
         },
         {
-          "publication_id": "bf395566-982e-4c7f-8cfd-32f8e46deef2",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "11ad4516-9868-4c5a-b795-c9aa5a5aa9e6",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
+          "publication_id": "8ac7ba52-840c-4155-b1fa-caf69974f5de",
           "error": "URLError"
         }
       ],
@@ -282,10 +274,10 @@
         "automatisierung",
         "automation"
       ],
-      "window_start": "2026-08-26",
+      "window_start": "2026-08-27",
       "scanned_hits": 61,
-      "unique_detail_pages": 15,
-      "accepted_notices": 15,
+      "unique_detail_pages": 14,
+      "accepted_notices": 14,
       "detail_errors": []
     },
     {
@@ -296,9 +288,9 @@
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购",
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
-      "window_start": "2026-08-26",
-      "scanned_notices": 7203,
-      "accepted_notices": 75,
+      "window_start": "2026-08-27",
+      "scanned_notices": 7110,
+      "accepted_notices": 72,
       "license": "CC0"
     },
     {
