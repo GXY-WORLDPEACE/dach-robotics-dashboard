@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-26T00:44:30.893212+00:00",
+  "checked_at": "2026-11-26T14:33:13.707617+00:00",
   "coverage_complete": false,
   "coverage_claim": "部分覆盖；不代表已覆盖全部地方平台或未公开采购",
   "countries": [
     {
       "code": "DE",
       "name": "德国",
-      "active_count": 65,
-      "education_active_count": 23,
+      "active_count": 64,
+      "education_active_count": 22,
       "connected_sources": [
         "DE_NRW",
         "DE_RUHR",
@@ -227,7 +227,7 @@
       "country": "CH",
       "enabled": true,
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
-      "status": "connected",
+      "status": "partial",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
       "window_start": "2026-08-28",
       "search_terms": [
@@ -246,7 +246,28 @@
       "scanned_hits": 109,
       "unique_publications": 82,
       "accepted_notices": 32,
-      "detail_errors": [],
+      "detail_errors": [
+        {
+          "publication_id": "bf395566-982e-4c7f-8cfd-32f8e46deef2",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "34b84774-db4d-4818-8cb2-fb4681dda679",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "11ad4516-9868-4c5a-b795-c9aa5a5aa9e6",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "63f7db0e-a6f5-40cd-a7d4-64eff90aed2b",
+          "error": "URLError"
+        },
+        {
+          "publication_id": "c9824f94-3c35-484c-87e1-e02c5ffa424a",
+          "error": "URLError"
+        }
+      ],
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
     },
@@ -266,9 +287,9 @@
         "automation"
       ],
       "window_start": "2026-08-28",
-      "scanned_hits": 61,
-      "unique_detail_pages": 14,
-      "accepted_notices": 14,
+      "scanned_hits": 59,
+      "unique_detail_pages": 15,
+      "accepted_notices": 15,
       "detail_errors": []
     },
     {
@@ -280,8 +301,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-28",
-      "scanned_notices": 7109,
-      "accepted_notices": 73,
+      "scanned_notices": 7228,
+      "accepted_notices": 74,
       "license": "CC0"
     },
     {
