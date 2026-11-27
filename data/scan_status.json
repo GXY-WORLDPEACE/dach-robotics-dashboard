@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-27T00:51:10.358171+00:00",
+  "scanned_at": "2026-11-27T14:27:50.521365+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -12,15 +12,15 @@
     "DFG": {
       "status": "connected",
       "endpoint": "https://bieterportal.dfg.de/?l=1",
-      "scanned_rows": 16,
+      "scanned_rows": 17,
       "accepted_notices": 1,
       "note": "当前公开列表；发布时间如未公开则留空"
     },
     "TED": {
       "status": "connected",
       "query": "buyer-country IN (DEU AUT CHE NLD BEL) AND form-type = competition AND deadline-receipt-tender-date-lot >= 20261127 AND (title-proc ~ robot* OR title-proc ~ cobot* OR title-proc ~ manipulator* OR title-proc ~ humanoid* OR title-proc ~ automatisierung* OR title-proc ~ automation* OR title-proc ~ automatisering* OR title-proc ~ automatisation* OR title-proc ~ teleoper* OR title-proc ~ quadrup* OR description-proc ~ robot* OR description-proc ~ cobot* OR description-proc ~ manipulator* OR description-proc ~ humanoid* OR description-proc ~ automatisierung* OR description-proc ~ automation* OR description-proc ~ automatisering* OR description-proc ~ automatisation* OR description-proc ~ teleoper* OR description-proc ~ quadrup*)",
-      "api_results": 54,
-      "accepted": 24,
+      "api_results": 56,
+      "accepted": 23,
       "endpoint": "https://api.ted.europa.eu/v3/notices/search"
     },
     "BKMS": {
@@ -110,8 +110,8 @@
       "status": "connected",
       "endpoint": "https://www.tenderned.nl/papi/tenderned-rs-tns/v2/publicaties",
       "window_start": "2026-08-29",
-      "scanned_notices": 7142,
-      "accepted_notices": 73,
+      "scanned_notices": 7248,
+      "accepted_notices": 74,
       "license": "CC0",
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     },
@@ -137,7 +137,7 @@
       "accepted_notices": 32,
       "detail_errors": [
         {
-          "publication_id": "e94bae48-a957-4d7a-9880-b687e06b747e",
+          "publication_id": "2c98eb1b-1426-4c7f-937e-bba708a2b697",
           "error": "URLError"
         }
       ],
@@ -148,21 +148,21 @@
   },
   "errors": [],
   "new_items_fetched": 430,
-  "active_count": 85,
-  "history_count": 502,
-  "project_count": 417,
+  "active_count": 80,
+  "history_count": 504,
+  "project_count": 419,
   "phase_counts": {
-    "history": 301,
-    "active": 85,
+    "history": 308,
+    "active": 80,
     "planned": 17,
     "unknown": 14
   },
-  "education_active_count": 26,
+  "education_active_count": 27,
   "feeds_enabled": 12,
   "country_counts": {
-    "DE": 68,
+    "DE": 64,
     "AT": 1,
-    "CH": 7,
+    "CH": 6,
     "BE": 2,
     "NL": 7
   }
