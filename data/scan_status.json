@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-28T00:16:33.105151+00:00",
+  "scanned_at": "2026-11-28T13:43:46.703245+00:00",
   "sources": {
     "DE_RHEINLAND": {
       "status": "blocked",
@@ -116,7 +116,7 @@
       "scope": "公开 TNS 最近 90 天；不等于所有未公开或历史采购"
     },
     "SIMAP": {
-      "status": "partial",
+      "status": "connected",
       "endpoint": "https://www.simap.ch/api/publications/v2/project/project-search",
       "window_start": "2026-08-30",
       "search_terms": [
@@ -134,24 +134,15 @@
       ],
       "scanned_hits": 108,
       "unique_publications": 79,
-      "accepted_notices": 31,
-      "detail_errors": [
-        {
-          "publication_id": "3fb4da60-b10d-42d9-be45-849b4946335f",
-          "error": "URLError"
-        },
-        {
-          "publication_id": "eebea46a-e499-4806-ad2b-2f8d7acaacbb",
-          "error": "URLError"
-        }
-      ],
+      "accepted_notices": 32,
+      "detail_errors": [],
       "scope": "SIMAP 公开公告，覆盖申报的联邦／州／市项目；不含未公开采购",
       "detail_time_budget_seconds": 600,
       "reuse": "遵循 SIMAP 使用条件；不保存联系人及投标文件"
     }
   },
   "errors": [],
-  "new_items_fetched": 439,
+  "new_items_fetched": 440,
   "active_count": 86,
   "history_count": 515,
   "project_count": 430,
